@@ -1,0 +1,252 @@
+---
+import { t } from "i18n:astro";
+
+interface Props {
+  namespace: string;
+}
+
+const { namespace } = Astro.props;
+---
+
+<section id="reviews-2247">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">{t(`${namespace}:reviews.topper`)}</span>
+            <h2 class="cs-title">{t(`${namespace}:reviews.title`)}</h2>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <img class="cs-image" loading="lazy" decoding="async" 
+                        src={t(`${namespace}:reviews.items.0.image`)} 
+                        alt={t(`${namespace}:reviews.items.0.imageAlt`)} 
+                        width="64" height="64">
+                </picture>
+                <div class="cs-wrapper">
+                    <img class="cs-quote" aria-hidden="true" loading="lazy" decoding="async" 
+                        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/quote-gold.svg" 
+                        alt="quote" width="48" height="40">
+                    <p class="cs-item-text">
+                        {t(`${namespace}:reviews.items.0.text`)}
+                    </p>
+                    <span class="cs-name">
+                        {t(`${namespace}:reviews.items.0.name`)}
+                        <span class="cs-desc">{t(`${namespace}:reviews.items.0.title`)}</span>
+                    </span>
+                </div>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <img class="cs-image" loading="lazy" decoding="async" 
+                        src={t(`${namespace}:reviews.items.1.image`)} 
+                        alt={t(`${namespace}:reviews.items.1.imageAlt`)} 
+                        width="64" height="64">
+                </picture>
+                <div class="cs-wrapper">
+                    <img class="cs-quote" aria-hidden="true" loading="lazy" decoding="async" 
+                        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/quote-gold.svg" 
+                        alt="quote" width="48" height="40">
+                    <p class="cs-item-text">
+                        {t(`${namespace}:reviews.items.1.text`)}
+                    </p>
+                    <span class="cs-name">
+                        {t(`${namespace}:reviews.items.1.name`)}
+                        <span class="cs-desc">{t(`${namespace}:reviews.items.1.title`)}</span>
+                    </span>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<style lang="less">
+
+/*-- -------------------------- -->
+<---          Reviews           -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    #reviews-2247 {
+        /* Centers the button */
+        text-align: center;
+        padding: var(--sectionPadding);
+        background-color: var(--sectionColor);
+
+        .cs-container {
+            width: 100%;
+            /* changes to 1280px at tablet */
+            max-width: (550/16rem);
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            /* 48px - 64px */
+            gap: clamp(3rem, 6vw, 4rem);
+        }
+
+        .cs-content {
+            /* set text align to left if content needs to be left aligned */
+            text-align: center;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            /* centers content horizontally, set to flex-start to left align */
+            align-items: center;
+        }
+
+        .cs-title {
+            margin-bottom: 0;
+        }
+
+        .cs-card-group {
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            /* 16px - 20px */
+            row-gap: clamp(1rem, 2.5vw, 1.25rem);
+        }
+
+        .cs-item {
+            text-align: left;
+            list-style: none;
+            /* 32px - 40px top & bottom */
+            /* 16px - 32px left & right */
+            padding: clamp(2rem, 5vw, 2.5rem) clamp(1rem, 4vw, 2rem);
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            grid-column: span 12;
+            /* 16px - 40px */
+            gap: clamp(1rem, 4vw, 2.5rem);
+            position: relative;
+            z-index: 1;
+
+        }
+
+        .cs-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: (24/16rem);
+        }
+
+        .cs-picture {
+            width: (64/16rem);
+            height: (64/16rem);
+            display: block;
+            flex: none;
+            position: relative;
+            z-index: 1;
+
+            
+        }
+
+        .cs-image {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .cs-quote {
+            width: (48/16rem);
+            height: auto;
+            margin-top: (-8/16rem);
+            display: block;
+        }
+
+        .cs-item-text {
+            font-size: (16/16rem);
+            text-align: inherit;
+            line-height: 1.5em;
+            margin: 0;
+            color: var(--bodyTextColor);
+        }
+
+        .cs-name {
+            font-size: (20/16rem);
+            line-height: 1.2em;
+            font-weight: 700;
+            margin: 0;
+            color: var(--headerColor);
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .cs-desc {
+            /* 14px - 16px */
+            font-size: clamp(.875rem, 1.5vw, 1rem);
+            font-weight: 400;
+            line-height: 1.5em;
+            margin: 0;
+            color: var(--bodyTextColor);
+        }
+    }
+}
+
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+    #reviews-2247 {
+        .cs-container {
+            max-width: (1280/16rem);
+        }
+
+        .cs-content {
+            display: flex;
+        }
+
+        .cs-card-group {
+            flex-direction: row;
+            /* 16px - 20px */
+            column-gap: clamp(1rem, 2.5vw, 1.25rem);
+        }
+
+        .cs-picture {
+            width: (96/16rem);
+            height: (96/16rem);
+        }
+
+        .cs-item {
+            grid-column: span 6;
+        }
+    }
+}
+
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+    body.dark-mode {
+        #reviews-2247 {
+            background-color: rgba(0, 0, 0, .2);
+            .cs-title, .cs-item-text, .cs-name, .cs-desc {
+                color: var(--bodyTextColorWhite);
+            }
+
+            .cs-item {
+                &:before {
+                    background-color: #000;
+                    opacity: .2;
+                }
+            }
+
+            .cs-picture {
+                &:before {
+                    opacity: .5;
+                }
+            }
+
+            .cs-desc {
+                opacity: .8;
+            }
+        }
+    }
+}
+
+</style>

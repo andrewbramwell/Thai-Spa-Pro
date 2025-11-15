@@ -1,0 +1,68 @@
+{
+  "layout": {
+    "title": "เรื่องราวความสำเร็จ | ผลลัพธ์จริงจากธุรกิจนวดไทย",
+    "description": "ดูว่า VoucherStore ได้เปลี่ยนแปลงธุรกิจนวดไทยและสปาทั่วสหราชอาณาจักรอย่างไร เรื่องราวจริง ผลลัพธ์จริงจากเจ้าของธุรกิจเหมือนคุณ"
+  },
+  "landing": {
+    "title": "เรื่องราวความสำเร็จ"
+  },
+  "section": {
+    "topper": "เรื่องราวความสำเร็จ",
+    "title": "ผลลัพธ์จริงจากธุรกิจจริง",
+    "text": "อย่าเพิ่งเชื่อคำพูดของเรา - ฟังโดยตรงจากเจ้าของธุรกิจนวดไทยและสปาที่ได้เปลี่ยนแปลงธุรกิจของพวกเขาด้วยโซลูชันดิจิทัลของเรา เหล่านี้คือเรื่องราวจริงจากคนจริงที่เคยอยู่ในจุดเดียวกับคุณ"
+  },
+  "viewWebsite": "ดูเว็บไซต์",
+  "stories": [
+    {
+      "title": "จาก 5 การจองเป็น 40+ การจองต่อสัปดาห์",
+      "text": "เมื่อน้องเปิดธุรกิจนวดไทยของเธอในเอดินเบิร์ก เธอกำลังดิ้นรนเพื่อรับการจอง การพึ่งพาลูกค้าเดินเข้ามาและการบอกต่อไม่เพียงพอ ภายใน 3 เดือนหลังจากเปิดตัวเว็บไซต์และระบบจองใหม่ เธอเพิ่มจาก 5 การจองต่อสัปดาห์เป็นมากกว่า 40",
+      "points": [
+        "เว็บไซต์ตอนนี้จัดอันดับ #1 บน Google Maps สำหรับ 'Thai massage Edinburgh'",
+        "การจองออนไลน์เพิ่มรายได้ 300% ใน 6 เดือนแรก"
+      ],
+      "customer": {
+        "image": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/profile1.jpg",
+        "name": "น้อง มิตเชลล์",
+        "business": "Thai Serenity Spa, เอดินเบิร์ก"
+      },
+      "videoUrl": "#",
+      "videoThumbnail": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/people3.jpg",
+      "videoAlt": "คำรับรองจาก Thai Serenity Spa",
+      "website": "https://example.com"
+    },
+    {
+      "title": "บัตรกำนัลกลายเป็นแหล่งรายได้ที่ใหญ่ที่สุดของเรา",
+      "text": "ส้มสงสัยเกี่ยวกับการขายบัตรกำนัลออนไลน์ แต่ผลลัพธ์พูดแทนตัวเอง ระบบบัตรกำนัลอัตโนมัติตอนนี้สร้างรายได้มากกว่า £3,000 ต่อเดือน - รายได้แบบพาสซีฟที่ไม่ต้องทำงานจากทีมของเธอเลย",
+      "points": [
+        "ยอดขายบัตรกำนัลเพิ่มขึ้น 400% ในปีแรก",
+        "บัตรกำนัลตอนนี้คิดเป็น 30% ของรายได้รายเดือนทั้งหมด"
+      ],
+      "customer": {
+        "image": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/profile1.jpg",
+        "name": "ส้ม จอห์นสัน",
+        "business": "Lotus Thai Massage, แมนเชสเตอร์"
+      },
+      "videoUrl": "#",
+      "videoThumbnail": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/people3.jpg",
+      "videoAlt": "คำรับรองจาก Lotus Thai Massage",
+      "website": "https://example.com"
+    },
+    {
+      "title": "ไม่พลาดสายหรือลูกค้าไม่มาอีกต่อไป",
+      "text": "ก่อนที่จะใช้พนักงานต้อนรับ AI และระบบจองของเรา พลอยเสียสาย 20-30 สายต่อสัปดาห์และต้องจัดการกับลูกค้าที่ไม่มาตามนัดอย่างต่อเนื่อง ตอนนี้ทุกสายได้รับการตอบทันที นัดหมายได้รับการยืนยันโดยอัตโนมัติ และลูกค้าที่ไม่มาลดลง 80%",
+      "points": [
+        "พนักงานต้อนรับ AI รับ 100% ของสายทั้งภาษาอังกฤษและไทย",
+        "การเตือนอัตโนมัติลดลูกค้าที่ไม่มาจาก 25% เหลือเพียง 5%"
+      ],
+      "customer": {
+        "image": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/profile1.jpg",
+        "name": "พลอย วิลเลียมส์",
+        "business": "Bliss Thai Spa, ลอนดอน"
+      },
+      "videoUrl": "#",
+      "videoThumbnail": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/people3.jpg",
+      "videoAlt": "คำรับรองจาก Bliss Thai Spa",
+      "website": "https://example.com"
+    }
+  ]
+}

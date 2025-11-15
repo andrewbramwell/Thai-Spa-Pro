@@ -1,26 +1,42 @@
 const navData = [
   {
-    key: "home",
-    url: "/",
-    children: []
-  },
-  {
-    key: "about",
-    url: "/about",
-    children: []
-  },
-  {
-    key: "projects",
+    key: "Services",
     children: [
       {
-        key: "project-1",
-        url: "/projects/project-1/"
+        key: "Websites",
+        url: "/services/websites"
       },
       {
-        key: "project-2",
-        url: "/projects/project-2/"
+        key: "Online Booking",
+        url: "/services/booking"
+      },
+      {
+        key: "Gift Vouchers",
+        url: "/services/vouchers"
+      },
+      {
+        key: "AI Receptionist",
+        url: "/services/ai-receptionist"
+      },
+      {
+        key: "Reputation Management",
+        url: "/services/reputation"
+      },
+      {
+        key: "Local SEO",
+        url: "/services/local-seo"
       }
     ]
+  },
+  {
+    key: "Pricing & FAQ",
+    url: "/pricing",
+    children: []
+  },
+  {
+    key: "Testimonials",
+    url: "/testimonials",
+    children: []
   },
   {
     key: "blog",

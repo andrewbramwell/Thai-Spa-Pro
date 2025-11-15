@@ -1,51 +1,158 @@
 {
-	"layout": {
-		"title": "Sites Internet au pixel près !",
-		"description": "Meta description pour la page"
-	},
-	"hero": {
-		"topper": "Kit Avancé",
-		"title": {
-			"1": "Kit Avancé Astro v5",
-			"2": "i18n"
-		},
-		"p1": "Ce kit avancé comprend un environnement Astro préconfiguré qui permet de réutiliser des composants, de centraliser les données et d'évoluer en fonction de la croissance de vos clients. Ce kit est spécialement conçu pour les clients souhaitant un site multi-langues et est donc configuré avec les outils d'internationalisation (i18n) d'Astro pour deux langues: anglais et français",
-		"p2": "Ce kit utilise astrolicious/i18n, qui n'est plus maintenu. Le package, ainsi que ce kit, devraient toujours fonctionner, mais soyez particulièrement prudent lors de la mise à jour des versions d'Astro.",
-		"cta1": "En savoir plus",
-		"cta2": "Écrivez-nous"
-	},
-	"services": [
-		{
-			"heading": "Service 1",
-			"p": "Parlez du service à l'aide de mots-clés que les gens rechercheront. Faites 1 à 2 phrases."
-		},
-		{
-			"heading": "Service 2",
-			"p": "Parlez du service à l'aide de mots-clés que les gens rechercheront. Faites 1 à 2 phrases."
-		},
-		{
-			"heading": "Service 3",
-			"p": "Parlez du service à l'aide de mots-clés que les gens rechercheront. Faites 1 à 2 phrases."
-		}
-	],
-	"about": {
-		"topper": "À propos",
-		"title": "À propos de Nom de la société",
-		"p1": "Notre société a été In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.",
-		"p2": "Nous croyons fermement que In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.",
-		"p3": "Il est vital de In consequat tincidunt turpis sit amet imperdiet.",
-		"rank": "PDG",
-		"cta": "En savoir plus sur Nom de la Société"
-	},
-	"extra": {
-		"topper": "SEO Ranking",
-		"title": "Parler d'un mot-clé de service principal",
-		"p1": "Nom de la société est spécialisée en In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.",
-		"p2": "Les statistiques montrent que In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per."
-	},
-	"portfolio": {
-		"topper": "Notre Portfolio",
-		"title": "In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet",
-		"cta": "Voir tous nos projets"
-	}
+  "layout": {
+    "title": "โซลูชันดิจิทัลสำหรับธุรกิจนวดไทยและสปา | VoucherStore",
+    "description": "โซลูชันดิจิทัลครบวงจรสำหรับธุรกิจนวดไทยและสปา เว็บไซต์ ระบบจองออนไลน์ บัตรกำนัล พนักงานต้อนรับ AI และการจัดการชื่อเสียง - ทุกอย่างในที่เดียว"
+  },
+  "hero": {
+    "accent": "มืออาชีพ",
+    "title": "โซลูชันดิจิทัลสำหรับธุรกิจนวดไทยและสปาของคุณ",
+    "text": "เราให้บริการโซลูชันดิจิทัลครบวงจรสำหรับธุรกิจนวดไทยและสปาทั่วสหราชอาณาจักรและยุโรป ตั้งแต่เว็บไซต์ไปจนถึงระบบจอง เราจัดการทุกอย่างเพื่อให้คุณโฟกัสที่ลูกค้าของคุณ",
+    "cta1": "เริ่มต้นใช้งาน",
+    "cta1Link": "/contact",
+    "cta2": "ดูบริการ",
+    "cta2Link": "/services/websites"
+  },
+  "logos": {
+    "heading": "ได้รับความไว้วางใจจากธุรกิจนวดไทยและสปามากกว่า 100 แห่ง"
+  },
+  "services": {
+    "topper": "บริการของเรา",
+    "title": "โซลูชันดิจิทัลครบวงจรสำหรับธุรกิจของคุณ",
+    "text": "ตั้งแต่เว็บไซต์สวยงามไปจนถึงระบบจองอัตโนมัติ เราให้บริการทุกอย่างที่ธุรกิจนวดไทยหรือสปาของคุณต้องการเพื่อเติบโตออนไลน์ จัดการครบวงจร เพื่อให้คุณโฟกัสที่สิ่งที่คุณทำได้ดีที่สุด",
+    "readMore": "อ่านเพิ่มเติม",
+    "items": [
+      {
+        "icon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/alloy-wheel%201.svg",
+        "title": "เว็บไซต์แบบกำหนดเอง",
+        "text": "เว็บไซต์ที่เร็วสุดๆ เพิ่มประสิทธิภาพ SEO ที่ติดอันดับบน Google และแปลงผู้เยี่ยมชมเป็นการจอง รองรับมือถือและแก้ไขได้ไม่จำกัด",
+        "link": "/services/websites"
+      },
+      {
+        "icon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/electric%201.svg",
+        "title": "ระบบจองออนไลน์",
+        "text": "ให้ลูกค้าจองนัดหมายได้ตลอด 24/7 จากอุปกรณ์ใดก็ได้ การเตือนอัตโนมัติลดการไม่มาตามนัดได้ 80% รวมเข้ากับเว็บไซต์ของคุณอย่างสมบูรณ์",
+        "link": "/services/booking"
+      },
+      {
+        "icon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-engine.svg",
+        "title": "การจัดการบัตรกำนัล",
+        "text": "ขายบัตรกำนัลดิจิทัลตลอด 24/7 ด้วยการส่งอัตโนมัติ ติดตามการใช้งานและเพิ่มรายได้โดยไม่ต้องทำงานด้วยตนเอง",
+        "link": "/services/vouchers"
+      },
+      {
+        "icon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/alloy-wheel%201.svg",
+        "title": "พนักงานต้อนรับ AI",
+        "text": "ไม่พลาดสายอีกต่อไป AI ของเรารับทุกสายทันที จองนัดหมาย และเสียงเหมือนคนจริง ทำงานตลอด 24/7",
+        "link": "/services/ai-receptionist"
+      },
+      {
+        "icon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/electric%201.svg",
+        "title": "การจัดการชื่อเสียง",
+        "text": "รับรีวิว 5 ดาวมากขึ้นโดยอัตโนมัติและตอบกลับทุกความคิดเห็นอย่างมืออาชีพ สร้างความไว้วางใจและดึงดูดลูกค้ามากขึ้น",
+        "link": "/services/reputation"
+      },
+      {
+        "icon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-engine.svg",
+        "title": "Local SEO",
+        "text": "จัดอันดับ #1 บน Google Maps สำหรับการค้นหา 'Thai massage near me' ครองการค้นหาในท้องถิ่นและรับลูกค้าใหม่อย่างต่อเนื่อง",
+        "link": "/services/local-seo"
+      }
+    ],
+    "bottomHeading": "ทั้งหมดนี้ จัดการครบวงจรให้คุณ",
+    "bottomText": "เราตั้งค่าทุกอย่าง ฝึกอบรมทีมของคุณ และให้การสนับสนุนอย่างต่อเนื่อง คุณโฟกัสที่ลูกค้า",
+    "portfolioButton": "ดูผลงานของเรา",
+    "portfolioLink": "/portfolio"
+  },
+  "whoWeAre": {
+    "header": "เราเข้าใจความท้าทายที่ไม่เหมือนใครของการดำเนินธุรกิจนวดไทยหรือสปาในสหราชอาณาจักร นั่นคือเหตุผลที่เราสร้างโซลูชันดิจิทัลแบบครบวงจรที่ออกแบบมาโดยเฉพาะสำหรับธุรกิจเช่นคุณ - ไม่ต้องการความรู้ทางเทคนิค",
+    "imageMobile": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/therapist1.png",
+    "imageDesktop": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/therapist1.png",
+    "imageFallback": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/therapist1.png",
+    "imageAlt": "นักบำบัดนวดไทย",
+    "topper": "เราคือใคร",
+    "title": "โซลูชันดิจิทัลที่สร้างขึ้นสำหรับธุรกิจนวดไทย",
+    "text": "เราไม่ใช่แค่บริษัทเทคโนโลยีอีกหนึ่งแห่ง - เราเป็นผู้เชี่ยวชาญในอุตสาหกรรมนวดไทยและสปา เราเข้าใจลูกค้าของคุณ ความท้าทายของคุณ และสิ่งที่ต้องทำเพื่อขยายธุรกิจของคุณออนไลน์ ตั้งแต่เว็บไซต์ไปจนถึงระบบจองไปจนถึงการจัดการชื่อเสียง ทุกอย่างที่เราสร้างได้รับการออกแบบมาโดยเฉพาะสำหรับธุรกิจเช่นคุณ",
+    "list": [
+      "เว็บไซต์และระบบจองครบวงจร",
+      "การขายบัตรกำนัลอัตโนมัติ",
+      "พนักงานต้อนรับ AI ตลอด 24/7 และการจัดการชื่อเสียง"
+    ]
+  },
+  "cta": {
+    "title": "พร้อมที่จะเปลี่ยนแปลงธุรกิจของคุณออนไลน์หรือยัง?",
+    "button": "ติดต่อเรา",
+    "link": "/contact"
+  },
+  "reviews": {
+    "topper": "คำรับรองจากลูกค้า",
+    "title": "ลูกค้าของเราพูดถึงเรา",
+    "items": [
+      {
+        "image": "https://csimages2.nyc3.digitaloceanspaces.com/Reviews/profile5.jpg",
+        "imageAlt": "รูปโปรไฟล์ของลูกค้าที่พึงพอใจ",
+        "text": "VoucherStore เปลี่ยนแปลงธุรกิจของเราอย่างสมบูรณ์ เว็บไซต์ใหม่ของเราดูน่าทึ่ง การจองเพิ่มขึ้นสามเท่า และระบบบัตรกำนัลกลายเป็นแหล่งรายได้หลัก ทุกอย่างเป็นแบบอัตโนมัติ - ตอนนี้เราแค่โฟกัสที่ลูกค้าของเรา",
+        "name": "น้อง สมิธ",
+        "title": "เจ้าของ Thai Serenity Spa, ลอนดอน"
+      },
+      {
+        "image": "https://csimages2.nyc3.digitaloceanspaces.com/Reviews/profile5.jpg",
+        "imageAlt": "รูปโปรไฟล์ของลูกค้าที่พึงพอใจ",
+        "text": "พนักงานต้อนรับ AI น่าทึ่งมาก - มันตอบทุกสายอย่างสมบูรณ์แบบทั้งภาษาอังกฤษและไทย ตอนนี้เราจัดอันดับ #1 บน Google Maps และได้รับ 40+ การจองต่อสัปดาห์จากออนไลน์เท่านั้น การลงทุนที่ดีที่สุดที่เราเคยทำ",
+        "name": "ส้ม จอห์นสัน",
+        "title": "ผู้จัดการ Lotus Thai Massage, แมนเชสเตอร์"
+      }
+    ]
+  },
+  "pricing": {
+    "topper": "ราคา",
+    "title": "เริ่มต้นง่ายมาก",
+    "text": "เลือกแพ็คเกจที่เหมาะกับธุรกิจของคุณ แผนทั้งหมดรวมการสนับสนุนไม่จำกัด การอัปเดตปกติ และทุกสิ่งที่คุณต้องการเพื่อขยายธุรกิจของคุณออนไลน์",
+    "perMonth": "/เดือน",
+    "packageIncludes": "แพ็คเกจรวม",
+    "getStarted": "เริ่มต้นใช้งาน",
+    "plans": [
+      {
+        "name": "Essential",
+        "description": "เหมาะสำหรับธุรกิจใหม่",
+        "price": "£150",
+        "link": "/contact",
+        "features": [
+          "เว็บไซต์มืออาชีพ",
+          "ระบบจองออนไลน์",
+          "รองรับมือถือ",
+          "การตั้งค่า SEO",
+          "การสนับสนุนรายเดือน",
+          "แก้ไขไม่จำกัด"
+        ]
+      },
+      {
+        "name": "Professional",
+        "description": "ตัวเลือกยอดนิยม",
+        "price": "£250",
+        "link": "/contact",
+        "features": [
+          "ทุกอย่างใน Essential",
+          "ระบบบัตรกำนัล",
+          "การจัดการชื่อเสียง",
+          "เพิ่มประสิทธิภาพ Google Maps",
+          "การสนับสนุนลำดับความสำคัญ",
+          "การวิเคราะห์ขั้นสูง"
+        ]
+      },
+      {
+        "name": "Complete",
+        "description": "สำหรับธุรกิจที่จัดตั้งขึ้นแล้ว",
+        "price": "£350",
+        "link": "/contact",
+        "features": [
+          "ทุกอย่างใน Professional",
+          "พนักงานต้อนรับ AI (24/7)",
+          "Local SEO ขั้นสูง",
+          "รองรับหลายสถานที่",
+          "ผู้จัดการบัญชีเฉพาะ",
+          "การรวมแบบกำหนดเอง"
+        ]
+      }
+    ]
+  }
 }

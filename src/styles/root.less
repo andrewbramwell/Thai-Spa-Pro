@@ -7,19 +7,20 @@
 /* CodeStitch Root and Helpers */
 @media only screen and (min-width: 0em) {
   :root {
-    --primary: #c00065;
-    --primaryLight: #8c5363;
-    --secondary: #302321;
-    --secondaryLight: #423432;
-    --headerColor: #1a1a1a;
+    --primary: #2CB6CE;
+    --primaryLight: #2CB6CE;
+    --secondary: #9B86FE;
+    --secondaryLight: #2CB6CE;
+    --headerColor: #11142A;
     --bodyTextColor: #4e4b66;
     --bodyTextColorWhite: #fafbfc;
+    --sectionColor: #F6F5F9;
 
     /* dark mode colors */
-    --primaryDark: #fab0c6;
-    --dark: #1d1715;
-    --medium: #1d1715;
-    --accent: #460b05;
+    --primaryDark: #2CB6CE;
+    --dark: #11142A;      /* Your deep indigo as the darkest */
+    --medium: #1a1f3a;    /* Lightened indigo */
+    --accent: #252b4a;    /* Even lighter for accent */
     --grey: hsl(224, 14%, 16%);
     --light: hsl(230, 20%, 94%);
 
@@ -38,11 +39,32 @@
     font-size: var(--topperFontSize);
     font-weight: 700;
     line-height: 1.2em;
+    text-align: inherit;
     text-transform: uppercase;
-    letter-spacing: 0.1em;
-    color: var(--primaryLight);
+    letter-spacing: .1em;
+    max-width: fit-content;
+    margin-bottom: (4/16rem);
+    padding: (4/16rem) (12/16rem);
+    color: var(--secondary);
     display: block;
-  }
+    position: relative;
+    z-index: 1;
+
+    &:before {
+        content: '';
+        width: 100%;
+        height: 100%;
+        background-color: var(--secondary);
+        opacity: 0.1;
+        border-radius: (4/16rem);
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+}
+                                
 
   .cs-title {
     font-size: var(--headerFontSize);
@@ -63,47 +85,41 @@
 
   // Button - can be replaced using CodeStitch's "Button" Stitches
   .cs-button-solid {
-    font-size: (16/16rem);
-    font-weight: bold;
-    line-height: (50/16em);
-    text-align: center;
-    text-transform: uppercase;
-    text-decoration: none;
-    width: auto;
-    height: (50/16rem);
-    padding: 0 (30/16rem);
-
-    // Transition Properties
-    color: var(--light);
-    background-color: var(--primary);
-    display: inline-block;
-    position: relative;
-    z-index: 1;
-    transition: color 0.3s;
-    transition-delay: 0.1s;
-
-    &:hover {
+      font-size: (16/16rem);
+      line-height: (56/16rem);
+      text-decoration: none;
+      font-weight: 700;
+      overflow: hidden;
+      margin: 0;
       color: #fff;
+      padding: 0 (48/16rem);
+      border-radius: (30/16rem);
+      background-color: var(--primary);
+      display: inline-block;
+      position: relative;
+      z-index: 1;
+      transition: color 0.3s;
+
       &:before {
-        width: 100%;
+          content: "";
+          position: absolute;
+          display: block;
+          height: 100%;
+          width: 0%;
+          background: #1a1a1a;
+          opacity: 1;
+          top: 0;
+          left: 0;
+          z-index: -1;
+          transition: width 0.3s;
       }
-    }
 
-    &:before {
-      content: "";
-
-      //Transition properties
-      width: 0;
-      height: 100%;
-      background-color: #000;
-      opacity: 1;
-      display: block;
-      position: absolute;
-      top: 0;
-      left: 0;
-      z-index: -1;
-      transition: width 0.3s;
-    }
+      &:hover {
+          color: var(--primary);
+          &:before {
+              width: 100%;
+          }
+      }
   }
 }
 
@@ -139,43 +155,26 @@
 @media only screen and (min-width: 0em) {
   // Grab your fonts to locally host from https://google-webfonts-helper.herokuapp.com/fonts
 
-  /* roboto-regular - latin */
-  @font-face {
-    font-style: normal;
-    font-family: "Roboto";
-    font-weight: 400;
-    font-display: swap;
-    src: local(""),
-      url("/assets/fonts/roboto-v29-latin-regular.woff2") format("woff2"),
-      /* Chrome 26+, Opera 23+, Firefox 39+ */
-        url("/assets/fonts/roboto-v29-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
-  /* roboto-700 - latin */
-  @font-face {
-    font-style: normal;
-    font-family: "Roboto";
-    font-weight: 700;
-    font-display: swap;
-    src: local(""),
-      url("/assets/fonts/roboto-v29-latin-700.woff2") format("woff2"),
-      /* Chrome 26+, Opera 23+, Firefox 39+ */
-        url("/assets/fonts/roboto-v29-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
-  /* roboto-900 - latin */
-  @font-face {
-    font-style: normal;
-    font-family: "Roboto";
-    font-weight: 900;
-    font-display: swap;
-    src: local(""),
-      url("/assets/fonts/roboto-v29-latin-900.woff2") format("woff2"),
-      /* Chrome 26+, Opera 23+, Firefox 39+ */
-        url("/assets/fonts/roboto-v29-latin-900.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
+  /* dm-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/fonts/dm-sans-v17-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* dm-sans-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/assets/fonts/dm-sans-v17-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
 
   body,
   html {
-    font-family: "Roboto", Arial, sans-serif;
+    font-family: "DM Sans", Arial, sans-serif;
     font-size: 100%;
     margin: 0;
     padding: 0;

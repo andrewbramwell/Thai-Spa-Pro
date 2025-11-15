@@ -1,0 +1,98 @@
+{
+  "layout": {
+    "title": "Online Booking System | 24/7 Appointment Scheduling",
+    "description": "Complete online booking system for spas and massage businesses. Let customers book appointments 24/7, reduce no-shows, and free up your staff from phone calls."
+  },
+  "hero": {
+    "topper": "Online Booking System",
+    "title": "Let Customers Book Anytime, Anywhere",
+    "text": "Give your customers the freedom to book appointments 24/7 from any device. Our online booking system works while you sleep, reduces no-shows with automatic reminders, and frees your staff from endless phone calls.",
+    "cta1": "Get Started",
+    "cta1Link": "/contact",
+    "cta2": "View Demo",
+    "cta2Link": "/demo",
+    "imageMobileWebp": "/assets/images/booking-mobile.webp",
+    "imageDesktopWebp": "/assets/images/booking-desktop.webp",
+    "imageFallbackJpg": "/assets/images/booking-desktop.jpg",
+    "imageAlt": "Woman booking spa appointment on mobile phone"
+  },
+  "services": {
+    "topper": "Why Online Booking",
+    "title": "Stop Losing Bookings to Phone Tag",
+    "text": "How many potential customers have you lost because they called after hours? Or gave up when your line was busy? Online booking means you never miss another opportunity, and your customers get instant confirmation.",
+    "items": [
+      {
+        "icon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/alloy-wheel%201.svg",
+        "title": "Book 24/7, Even When You're Closed",
+        "text": "Customers can book appointments at 11pm on a Sunday or 6am on Monday morning. Your calendar fills up automatically while you focus on providing great treatments."
+      },
+      {
+        "icon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/electric%201.svg",
+        "title": "Automatic Reminders Reduce No-Shows",
+        "text": "SMS and email reminders sent automatically before appointments. Customers can confirm or reschedule with one click. Reduce no-shows by up to 80%."
+      },
+      {
+        "icon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-engine.svg",
+        "title": "Free Your Staff from Phone Calls",
+        "text": "Stop interrupting treatments to answer booking calls. Your team can focus on the customers in front of them while new bookings come in automatically online."
+      }
+    ]
+  },
+  "reviews": {
+    "topper": "Client Results",
+    "title": "How Online Booking Transformed These Businesses",
+    "items": [
+      {
+        "image": "https://csimages2.nyc3.digitaloceanspaces.com/Reviews/profile5.jpg",
+        "imageAlt": "Profile picture of satisfied client",
+        "text": "We were losing so many bookings because we couldn't answer the phone during treatments. Now we get bookings 24/7 and our no-show rate dropped from 25% to less than 5%. It's paid for itself ten times over.",
+        "name": "Lisa Anderson",
+        "title": "Owner, Tranquil Touch Spa"
+      },
+      {
+        "image": "https://csimages2.nyc3.digitaloceanspaces.com/Reviews/profile5.jpg",
+        "imageAlt": "Profile picture of satisfied client",
+        "text": "Our customers love the convenience of booking online. We've seen a 35% increase in bookings since launching, and my staff are so much happier not being tied to the phone all day. Best decision we ever made.",
+        "name": "Michael Brown",
+        "title": "Manager, Thai Harmony Wellness"
+      }
+    ]
+  },
+  "features": {
+    "imageMobile": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/people10.jpg",
+    "imageDesktop": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/people10.jpg",
+    "imageFallback": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/people10.jpg",
+    "imageAlt": "Online booking system dashboard",
+    "boxIcon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/gear-white.svg",
+    "boxText": "Processing 50,000+ Bookings Monthly",
+    "topper": "Powerful Features",
+    "title": "Everything You Need for Seamless Booking",
+    "text": "Our booking system isn't just a calendar - it's a complete appointment management solution that makes your life easier and your customers happier.",
+    "items": [
+      {
+        "title": "Real-Time Availability",
+        "text": "Customers see your actual availability in real-time. No double bookings, no confusion. What they see is what they get."
+      },
+      {
+        "title": "Mobile-Friendly Booking",
+        "text": "Over 80% of bookings happen on mobile. Our system is designed mobile-first, making it effortless for customers to book on any device."
+      },
+      {
+        "title": "Automatic Confirmations & Reminders",
+        "text": "Instant booking confirmations via email and SMS. Automatic reminders 24 hours before appointments. Customers can confirm or reschedule with one click."
+      },
+      {
+        "title": "Multiple Therapists & Services",
+        "text": "Manage multiple team members, treatment rooms, and services. Customers can choose their preferred therapist or let you assign automatically."
+      },
+      {
+        "title": "Cancellation & Rescheduling",
+        "text": "Customers can cancel or reschedule online within your policy rules. Cancelled slots automatically become available for other customers."
+      },
+      {
+        "title": "Integrated with Your Website",
+        "text": "Seamlessly embedded in your website design. Customers never leave your site to book - it's all branded and professional."
+      }
+    ]
+  }
+}

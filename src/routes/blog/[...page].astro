@@ -5,7 +5,7 @@ import { getCollection } from "astro:content";
 import { collectionFilters } from "@astrolicious/i18n/content-collections";
 import { getLocalePlaceholder, t } from "i18n:astro";
 import BaseLayout from "@layouts/BaseLayout.astro";
-import CTA from "@components/CTA.astro";
+import CTASection from "@components/CTASection.astro";
 import Landing from "@components/Landing.astro";
 import BlogPreview from "@components/BlogPreview.astro";
 import Pagination from "@components/TemplateComponents/Pagination.astro";
@@ -59,7 +59,7 @@ const { page } = Astro.props as { page: Page };
 		</div>
 	</section>
 
-	<CTA />
+	<CTASection />
 </BaseLayout>
 
 <style lang="less">

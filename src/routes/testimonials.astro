@@ -1,0 +1,537 @@
+---
+import BaseLayout from "@layouts/BaseLayout.astro";
+import Landing from "@components/Landing.astro";
+import CTASection from "@components/CTASection.astro";
+import { t, getLocalePath } from "i18n:astro";
+---
+
+<BaseLayout
+  title={t("testimonials:layout.title")}
+  description={t("testimonials:layout.description")}
+  preloadedImage=""
+>
+  <!-- ============================================ -->
+  <!--                    LANDING                   -->
+  <!-- ============================================ -->
+
+<Landing title={t("testimonials:landing.title")} />
+
+  <!-- ============================================ -->
+  <!--                 Testimonials                 -->
+  <!-- ============================================ -->
+
+  <section id="sbs-2373">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">{t("testimonials:section.topper")}</span>
+            <h2 class="cs-title">{t("testimonials:section.title")}</h2>
+            <p class="cs-text">
+                {t("testimonials:section.text")}
+            </p>
+        </div>
+
+        {/* Story 1 */}
+        <div class="cs-flex">
+            <div class="cs-content2">
+                <h3 class="cs-h3">{t("testimonials:stories.0.title")}</h3>
+                <p class="cs-text">
+                    {t("testimonials:stories.0.text")}
+                </p>
+                <ul class="cs-ul">
+                    <li class="cs-li">
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/tick-small.svg" alt="checkmark" width="24" height="24">
+                        {t("testimonials:stories.0.points.0")}
+                    </li>
+                    <li class="cs-li">
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/tick-small.svg" alt="checkmark" width="24" height="24">
+                        {t("testimonials:stories.0.points.1")}
+                    </li>
+                </ul>
+                <!-- Customer Avatar & Website Link -->
+                <div class="cs-button-box">
+                    <div class="cs-customer-info">
+                        <picture class="cs-img-wrapper">
+                            <img class="cs-img" loading="lazy" decoding="async" src={t("testimonials:stories.0.customer.image")} alt={t("testimonials:stories.0.customer.name")} width="52" height="52">
+                        </picture>
+                        <div class="cs-info">
+                            <span class="cs-phone">{t("testimonials:stories.0.customer.name")}</span>
+                            <span class="cs-job">{t("testimonials:stories.0.customer.business")}</span>
+                        </div>
+                    </div>
+                    <a class="cs-box-link" href={t("testimonials:stories.0.customer.website")} target="_blank" rel="noopener noreferrer">
+                        <div class="cs-info">
+                            <span class="cs-link-content">{t("testimonials:viewWebsite")}</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <a href={t("testimonials:stories.0.videoUrl")} class="cs-video-link">
+                <!--BG Image-->
+                <img class="cs-video-bg" loading="lazy" decoding="async" src={t("testimonials:stories.0.videoThumbnail")} alt={t("testimonials:stories.0.videoAlt")} width="528" height="378" aria-hidden="true">
+                <!--Play Icon-->
+                <picture class="cs-wrapper">
+                    <img class="cs-link-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/play-sharp2.svg" alt="play video" width="24" height="24" aria-hidden="true">
+                </picture>
+            </a>
+        </div>
+
+        {/* Story 2 */}
+        <div class="cs-flex">
+            <div class="cs-content2">
+                <h3 class="cs-h3">{t("testimonials:stories.1.title")}</h3>
+                <p class="cs-text">
+                    {t("testimonials:stories.1.text")}
+                </p>
+                <ul class="cs-ul">
+                    <li class="cs-li">
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/tick-small.svg" alt="checkmark" width="24" height="24">
+                        {t("testimonials:stories.1.points.0")}
+                    </li>
+                    <li class="cs-li">
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/tick-small.svg" alt="checkmark" width="24" height="24">
+                        {t("testimonials:stories.1.points.1")}
+                    </li>
+                </ul>
+                <!-- Customer Avatar & Website Link -->
+                <div class="cs-button-box">
+                    <div class="cs-customer-info">
+                        <picture class="cs-img-wrapper">
+                            <img class="cs-img" loading="lazy" decoding="async" src={t("testimonials:stories.1.customer.image")} alt={t("testimonials:stories.1.customer.name")} width="52" height="52">
+                        </picture>
+                        <div class="cs-info">
+                            <span class="cs-phone">{t("testimonials:stories.1.customer.name")}</span>
+                            <span class="cs-job">{t("testimonials:stories.1.customer.business")}</span>
+                        </div>
+                    </div>
+                    <a class="cs-box-link" href={t("testimonials:stories.1.customer.website")} target="_blank" rel="noopener noreferrer">
+                        <div class="cs-info">
+                            <span class="cs-link-content">{t("testimonials:viewWebsite")}</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <a href={t("testimonials:stories.1.videoUrl")} class="cs-video-link">
+                <!--BG Image-->
+                <img class="cs-video-bg" loading="lazy" decoding="async" src={t("testimonials:stories.1.videoThumbnail")} alt={t("testimonials:stories.1.videoAlt")} width="528" height="378" aria-hidden="true">
+                <!--Play Icon-->
+                <picture class="cs-wrapper">
+                    <img class="cs-link-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/play-sharp2.svg" alt="play video" width="24" height="24" aria-hidden="true">
+                </picture>
+            </a>
+        </div>
+
+        {/* Story 3 */}
+        <div class="cs-flex">
+            <div class="cs-content2">
+                <h3 class="cs-h3">{t("testimonials:stories.2.title")}</h3>
+                <p class="cs-text">
+                    {t("testimonials:stories.2.text")}
+                </p>
+                <ul class="cs-ul">
+                    <li class="cs-li">
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/tick-small.svg" alt="checkmark" width="24" height="24">
+                        {t("testimonials:stories.2.points.0")}
+                    </li>
+                    <li class="cs-li">
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/tick-small.svg" alt="checkmark" width="24" height="24">
+                        {t("testimonials:stories.2.points.1")}
+                    </li>
+                </ul>
+                <!-- Customer Avatar & Website Link -->
+                <div class="cs-button-box">
+                    <div class="cs-customer-info">
+                        <picture class="cs-img-wrapper">
+                            <img class="cs-img" loading="lazy" decoding="async" src={t("testimonials:stories.2.customer.image")} alt={t("testimonials:stories.2.customer.name")} width="52" height="52">
+                        </picture>
+                        <div class="cs-info">
+                            <span class="cs-phone">{t("testimonials:stories.2.customer.name")}</span>
+                            <span class="cs-job">{t("testimonials:stories.2.customer.business")}</span>
+                        </div>
+                    </div>
+                    <a class="cs-box-link" href={t("testimonials:stories.2.customer.website")} target="_blank" rel="noopener noreferrer">
+                        <div class="cs-info">
+                            <span class="cs-link-content">{t("testimonials:viewWebsite")}</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <a href={t("testimonials:stories.2.videoUrl")} class="cs-video-link">
+                <!--BG Image-->
+                <img class="cs-video-bg" loading="lazy" decoding="async" src={t("testimonials:stories.2.videoThumbnail")} alt={t("testimonials:stories.2.videoAlt")} width="528" height="378" aria-hidden="true">
+                <!--Play Icon-->
+                <picture class="cs-wrapper">
+                    <img class="cs-link-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/play-sharp2.svg" alt="play video" width="24" height="24" aria-hidden="true">
+                </picture>
+            </a>
+        </div>
+    </div>
+  </section>
+
+<!-- ============================================ -->
+<!--                     CTA                      -->
+<!-- ============================================ -->
+
+<CTASection />
+
+</BaseLayout>
+
+<style lang="less">
+  
+  /* Mobile */
+@media only screen and (min-width: 0rem) {
+    #sbs-2373 {
+        padding: var(--sectionPadding);
+        box-sizing: border-box;
+
+
+        .cs-container {
+            width: 100%;
+            max-width: (1280/16rem);
+            margin: auto;
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: clamp(2.5rem, 5vw, 3rem);
+        }
+
+        .cs-content {
+            text-align: center;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .cs-text {
+            max-width: (992/16rem);
+        }
+
+        .cs-content2 {
+            .cs-text {
+                margin-bottom: (16/16rem);
+
+                &:last-of-type {
+                    margin-bottom: (32/16rem);
+                }
+            }
+        }
+
+        .cs-flex {
+            width: 100%;
+            padding: clamp(1.5rem, 4vw, 2rem) clamp(1rem, 3vw, 2rem);
+            box-sizing: border-box;
+            background-color: var(--sectionColor);
+            border-radius: (16/16rem);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: clamp(1rem, 4vw, 2rem);
+        }
+
+        .cs-h3 {
+            font-size: (25/16rem);
+            line-height: 1.2em;
+            font-weight: 700;
+            margin: 0 0 clamp(1rem, 3vw, 2rem);
+            padding-bottom: (32/16rem);
+            border-bottom: 1px solid #D2D8DF;
+            color: var(--headerColor);
+        }
+
+        .cs-ul {
+            width: 100%;
+            margin: 0 0 (32/16rem);
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: (12/16rem);
+        }
+
+        .cs-li {
+            font-size: var(--bodyFontSize);
+            list-style: none;
+            line-height: 1.5em;
+            width: 100%;
+            color: var(--bodyTextColor);
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            gap: (8/16rem);
+        }
+
+        .cs-icon {
+            width: (19/16rem);
+            height: auto;
+            margin-top: 3px;
+            display: block;
+            flex: none;
+        }
+
+        .cs-link {
+            font-size: var(--bodyFontSize);
+            text-decoration: none;
+            line-height: 1.5em;
+            font-weight: 700;
+            margin: 0;
+            color: var(--secondary);
+            position: relative;
+            z-index: 1;
+
+            &:before {
+                content: '';
+                width: 100%;
+                height: 1px;
+                background: currentColor;
+                opacity: 1;
+                display: block;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+            }
+        }
+
+        // New video link styles
+        .cs-video-link {
+            width: 100%;
+            height: 75vw;
+            max-height: (350/16rem);
+            background-color: #000;
+            border-radius: (16/16rem);
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            order: -1;
+            position: relative;
+            z-index: 1;
+
+            &:hover {
+                .cs-video-bg {
+                    transform: scale(1.2);
+                    opacity: 0.5;
+                }
+                .cs-wrapper {
+                    transform: scale(1.2);
+                }
+            }
+        }
+
+        .cs-video-bg {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            transition:
+                transform 0.6s,
+                opacity 0.3s;
+        }
+
+        .cs-wrapper {
+            width: (60/16rem);
+            height: (60/16rem);
+            border-radius: 50%;
+            border: 2px solid #e8e8e8;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: transform 0.75s;
+        }
+
+        .cs-link-icon {
+            width: (24/16rem);
+            height: auto;
+        }
+
+        // New avatar & link styles
+
+        .cs-button-box {
+            width: 100%;
+            max-width: (630/16rem);
+            margin-top: (24/16rem);
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: (24/16rem);
+        }
+
+        .cs-customer-info {
+            padding-right: (40/16rem);
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: (16/16rem);
+            position: relative;
+        }
+
+        .cs-box-link {
+            text-decoration: none;
+            padding-right: (40/16rem);
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: (16/16rem);
+            position: relative;
+
+            &:hover {
+                .cs-icon-wrapper {
+                    transform: scale(1.2);
+                }
+            }
+        }
+
+        .cs-icon-wrapper {
+            width: (52/16rem);
+            height: (52/16rem);
+            border: 1px solid var(--primary);
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex: none;
+            transition: transform 0.3s;
+        }
+
+        .cs-img {
+            width: (52/16rem);
+            height: (52/16rem);
+            border: 2px solid #BABABA;
+            border-radius: 50%;
+            box-sizing: border-box;
+            object-fit: cover;
+        }
+
+        .cs-box-icon {
+            width: (24/16rem);
+            height: auto;
+            display: block;
+        }
+
+        .cs-info {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: (4/16rem);
+        }
+
+        .cs-header {
+            font-size: (25/16rem);
+            line-height: 1.2em;
+            font-weight: 700;
+            margin: 0;
+            color: var(--headerColor);
+            display: block;
+        }
+
+        .cs-phone {
+            font-size: (20/16rem);
+            line-height: 1.2em;
+            font-weight: 700;
+            margin: 0;
+            color: var(--headerColor);
+            display: block;
+        }
+
+        .cs-job {
+            font-size: (16/16rem);
+            line-height: 1.2em;
+            font-weight: 700;
+            margin: 0;
+            color: var(--secondary);
+            display: block;
+        }
+
+        .cs-link-content {
+            font-size: (16/16rem);
+            line-height: 1.2em;
+            font-weight: 700;
+            margin: 0;
+            color: var(--primary);
+            display: block;
+        }
+    }
+}
+
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+    #sbs-2373 {
+        .cs-flex {
+            flex-direction: row;
+            align-items: stretch;
+        }
+
+        .cs-h3 {
+            min-height: clamp(6.75rem, 12vw, 8.875rem);
+        }
+
+        .cs-video-link {
+            width: 70vw;
+            max-width: (528/16rem);
+            height: auto;
+            max-height: 100%;
+        }
+
+        .cs-customer-info {
+            border-right: 1px solid #E8E8E8;
+        }
+    }
+}
+
+/* Dark Mode */
+@media only screen and (min-width: 0em) {
+    body.dark-mode {
+        #sbs-2373 {
+            background-color: var(--dark);
+
+            
+
+            .cs-flex {
+                background-color: var(--medium);
+                overflow: hidden;
+                position: relative;
+                z-index: 1;
+
+                &:before {
+                    content: '';
+                    width: 100%;
+                    height: 100%;
+                    background: var(--medium);
+                    opacity: .2;
+                    display: block;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                }
+            }
+
+            .cs-h3 {
+                border-color: rgba(255, 255, 255, .2);
+            }
+
+            .cs-h3, .cs-li, .cs-phone {
+                color: var(--bodyTextColorWhite);
+            }
+
+            .cs-wrapper {
+                border-color: rgba(232, 232, 232, 0.8);
+            }
+
+            .cs-header {
+                color: var(--bodyTextColorWhite);
+            }
+
+            .cs-img {
+                border-color: rgba(255, 255, 255, 0.3);
+            }
+        }
+    }
+}
+                                
+</style>

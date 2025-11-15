@@ -1,0 +1,189 @@
+---
+import { t } from "i18n:astro";
+---
+
+<!-- ============================================ -->
+<!--                   CTA                        -->
+<!-- ============================================ -->
+
+<section id="subscribe-2143">
+    <div class="cs-container">
+        <div class="cs-image-group">
+            <!--Main Image-->
+            <picture class="cs-picture">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/bride.png">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/bride.png">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/bride.png" alt="wedding bride" width="396" height="570">
+            </picture>
+            <!--Color Wheel-->
+            <img class="cs-wheel" loading="lazy" decoding="async" src="/assets/svgs/color-wheel.svg" alt="color wheel" width="542" height="542" aria-hidden="true">
+        </div>
+        <div class="cs-content">
+            <span class="cs-topper">{t("cta.topper")}</span>
+            <h2 class="cs-title">{t("cta.title")}</h2>
+            <p class="cs-text">
+                {t("cta.text")}
+            </p>
+            <button class="cs-button-solid cs-submit" type="submit">{t("cta.buttonText")}</button>
+        </div>
+    </div>
+</section>
+
+<style lang="less">
+
+/*-- -------------------------- -->
+<---          Subscribe         -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    #subscribe-2143 {
+        padding: var(--sectionPadding);
+        padding-bottom: 0;
+        background-color: var(--sectionColor);
+        /* clips anything overflowing */
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+        
+        .cs-container {
+            width: 100%;
+            /* changes to 1280px at desktop */
+            max-width: (544/16rem);
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: (48/16rem);
+        }
+
+        .cs-content {
+            /* set text align to left if content needs to be left aligned */
+            text-align: center;
+            width: 100%;
+            max-width: (630/16rem);
+            display: flex;
+            flex-direction: column;
+            /* centers content horizontally, set to flex-start to left align */
+            align-items: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        .cs-title {
+            /* 31px - 49px */
+            font-size: clamp(1.9375rem, 3.3vw, 3.0625rem);
+            max-width: 30ch;
+        }
+
+        .cs-text {
+            margin-bottom: (16/16rem);
+
+            &:last-of-type {
+                margin-bottom: (32/16rem);
+            }
+        }
+
+        .cs-submit {
+            width: 100%;
+            color: var(--bodyTextColorWhite);
+            border: none;
+        }
+
+        .cs-image-group {
+            /* scales the whole section down and ties the font size to the vw and stops at 75% of the vale of 1em, changes at desktop */
+            font-size:~"min(2.7vw, .7rem)";
+            /* everything inside this box is in ems so we can scale it all down proportionally with a font size */
+            width: (542/16em);
+            height: (570/16em);
+            order: 2;
+            position: relative;
+            z-index: 1;
+        }
+
+        .cs-picture {
+            width: (431/16em);
+            height: (570/16em);
+            display: block;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+
+            img {
+                width: auto;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+
+        .cs-wheel {
+            width: (542/16em);
+            height: (542/16em);
+            object-fit: cover;
+            position: absolute;
+            top: (55/16em);
+            right: 0;
+            z-index: -2;
+        }
+    }
+}
+
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+    #subscribe-2143 {
+        .cs-image-group {
+            /* set to inherit at Large Desktop */
+            font-size:~"min(1.32vw, 1rem)";
+        }
+
+        .cs-button-solid {
+            width: auto;
+        }
+    }
+}
+
+/* Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+    #subscribe-2143 {
+        .cs-container {
+            max-width: (1280/16rem);
+            flex-direction: row;
+            justify-content: center;
+            gap: (100/16rem);
+        }
+
+        .cs-content {
+            text-align: left;
+            max-width: 45%;
+            align-items: flex-start;
+        }
+    }
+}
+
+/* Large Desktop - 1440px */
+@media only screen and (min-width: 90rem) {
+    #subscribe-2143 {
+    }
+}
+
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+    body.dark-mode {
+        #subscribe-2143 {
+            background-color: rgba(0, 0, 0, .2);
+
+            .cs-title,
+            .cs-text {
+                color: var(--bodyTextColorWhite);
+            }
+
+            .cs-text {
+                opacity: .8;
+            }
+        }
+    }
+}             
+                
+</style>

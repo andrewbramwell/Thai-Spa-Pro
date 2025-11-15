@@ -1,8 +1,8 @@
 {
     "home": "Home",
     "about": "About",
-    "projects": "Projects",
-    "project-1": "Project 1",
+    "services": "Services",
+    "project-1": "Websites",
     "project-2": "Project 2",
     "blog": "Blog",
     "contact": "Contact",
@@ -36,6 +36,12 @@
         "p-3": "It's important In consequat tincidunt turpis sit amet imperdiet.",
         "rank": "CEO-Founder",
         "cta": "Our projects"
+    },
+    "cta": {
+        "topper": "Subscribe Us",
+        "title": "Subscribe Your Email for Newsletter & Promotion",
+        "text": "We're not just photographers, we're dream weavers, transforming your visions into tangible memories you'll cherish forever.",
+        "buttonText": "Subscribe"
     },
     "footer": {
         "information": "Information",

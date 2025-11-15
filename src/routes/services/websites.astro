@@ -1,0 +1,46 @@
+---
+import BaseLayout from "@layouts/BaseLayout.astro";
+import HeroSection from "@components/HeroSection.astro";
+import BenefitsSection from "@components/BenefitsSection.astro";
+import ReviewsSection from "@components/ReviewsSection.astro";
+import FeaturesSection from "@components/FeaturesSection.astro";
+import CTASection from "@components/CTASection.astro";
+
+import { t } from "i18n:astro";
+---
+
+<BaseLayout title={t("websites:layout.title")} description={t("websites:layout.description")} preloadedImage="">
+
+<!-- ============================================ -->
+<!--                    Hero                      -->
+<!-- ============================================ -->
+
+<HeroSection namespace="websites" />
+
+<!-- ============================================ -->
+<!--                  Benefits                    -->
+<!-- ============================================ -->
+
+<BenefitsSection namespace="websites" />
+
+<!-- ============================================ -->
+<!--                   Reviews                    -->
+<!-- ============================================ -->
+
+<ReviewsSection namespace="websites" />
+
+                              
+<!-- ============================================ -->
+<!--                  Features                    -->
+<!-- ============================================ -->
+
+<FeaturesSection namespace="websites" />
+
+<!-- ============================================ -->
+<!--                     CTA                      -->
+<!-- ============================================ -->
+
+<CTASection />
+
+</BaseLayout>
+

@@ -1,51 +1,158 @@
 {
-	"layout": {
-		"title": "Pixel Perfect Websites",
-		"description": "Meta description for the page"
-	},
-	"hero": {
-		"topper": "Advanced Kit",
-		"title": {
-			"1": "Advanced Astro v5",
-			"2": "i18n"
-		},
-		"p1": "This advanced kit includes a pre-configured Astro environment, which allows for repeated components, centralized data and greater room to scale as your clients grow. This kit is specially designed for customers who want a multi-language site, and is therefore configured with Astro's internationalization tools (i18n) for two languages: English and French.",
-		"p2": "This kit is powered by astrolicious/i18n, which is now unmaintained. The package, and this kit, should still work, but be extra careful when updating Astro versions.",
-		"cta1": "Explore More",
-		"cta2": "Get in touch"
-	},
-	"services": [
-		{
-			"heading": "Service 1",
-			"p": "Talk about the service with keywords people will be searching for it by. Keep it 1-2 sentences."
-		},
-		{
-			"heading": "Service 2",
-			"p": "Talk about the service with keywords people will be searching for it by. Keep it 1-2 sentences."
-		},
-		{
-			"heading": "Service 3",
-			"p": "Talk about the service with keywords people will be searching for it by. Keep it 1-2 sentences."
-		}
-	],
-	"about": {
-		"topper": "About Us",
-		"title": "About Company Title",
-		"p1": "Our company was created In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.",
-		"p2": "We believe that In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.",
-		"p3": "It's important In consequat tincidunt turpis sit amet imperdiet.",
-		"rank": "CEO-Founder",
-		"cta": "More about us"
-	},
-	"extra": {
-		"topper": "SEO Ranking",
-		"title": "Talk about a main service keyword",
-		"p1": "Our main service In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.",
-		"p2": "Research shows that In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per."
-	},
-	"portfolio": {
-		"topper": "Our Portfolio",
-		"title": "Et orci volutpat, back up generator installations",
-		"cta": "View Our Products"
-	}
+  "layout": {
+    "title": "Digital Solutions for Thai Massage & Spa Businesses | VoucherStore",
+    "description": "Complete digital solutions for Thai massage and spa businesses. Websites, online booking, gift vouchers, AI receptionist, and reputation management - all in one place."
+  },
+  "hero": {
+    "accent": "Professional",
+    "title": "Digital Solutions for Your Thai Massage & Spa Business",
+    "text": "We provide complete digital solutions for Thai massage and spa businesses across the UK and Europe. From websites to booking systems, we handle everything so you can focus on your clients.",
+    "cta1": "Get Started",
+    "cta1Link": "/contact",
+    "cta2": "View Services",
+    "cta2Link": "/services/websites"
+  },
+  "logos": {
+    "heading": "Trusted by 100s of Thai Massage & Spa Businesses"
+  },
+  "services": {
+    "topper": "Our Services",
+    "title": "Complete Digital Solutions for Your Business",
+    "text": "From beautiful websites to automated booking systems, we provide everything your Thai massage or spa business needs to thrive online. All fully managed, so you can focus on what you do best.",
+    "readMore": "Read More",
+    "items": [
+      {
+        "icon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/alloy-wheel%201.svg",
+        "title": "Custom Websites",
+        "text": "Lightning-fast, SEO-optimized websites that rank on Google and convert visitors into bookings. Mobile-optimized with unlimited edits.",
+        "link": "/services/websites"
+      },
+      {
+        "icon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/electric%201.svg",
+        "title": "Online Booking System",
+        "text": "Let customers book appointments 24/7 from any device. Automatic reminders reduce no-shows by 80%. Completely integrated with your website.",
+        "link": "/services/booking"
+      },
+      {
+        "icon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-engine.svg",
+        "title": "Gift Voucher Management",
+        "text": "Sell digital gift vouchers 24/7 with automatic delivery. Track redemptions and boost revenue with zero manual work required.",
+        "link": "/services/vouchers"
+      },
+      {
+        "icon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/alloy-wheel%201.svg",
+        "title": "AI Receptionist",
+        "text": "Never miss another call. Our AI answers every call instantly, books appointments, and sounds completely human. Works 24/7.",
+        "link": "/services/ai-receptionist"
+      },
+      {
+        "icon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/electric%201.svg",
+        "title": "Reputation Management",
+        "text": "Get more 5-star reviews automatically and respond professionally to all feedback. Build trust and attract more customers.",
+        "link": "/services/reputation"
+      },
+      {
+        "icon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-engine.svg",
+        "title": "Local SEO",
+        "text": "Rank #1 on Google Maps for 'Thai massage near me' searches. Dominate local search and get a constant stream of new customers.",
+        "link": "/services/local-seo"
+      }
+    ],
+    "bottomHeading": "All This, Fully Managed For You",
+    "bottomText": "We set everything up, train your team, and provide ongoing support. You focus on clients.",
+    "portfolioButton": "View Our Work",
+    "portfolioLink": "/portfolio"
+  },
+  "whoWeAre": {
+    "header": "We understand the unique challenges of running a Thai massage or spa business in the UK. That's why we've created an all-in-one digital solution specifically designed for businesses like yours - no technical knowledge required.",
+    "imageMobile": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/therapist1.png",
+    "imageDesktop": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/therapist1.png",
+    "imageFallback": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/therapist1.png",
+    "imageAlt": "Thai massage therapist",
+    "topper": "Who We Are",
+    "title": "Digital Solutions Built for Thai Massage Businesses",
+    "text": "We're not just another tech company - we're specialists in the Thai massage and spa industry. We understand your customers, your challenges, and what it takes to grow your business online. From websites to booking systems to reputation management, everything we build is designed specifically for businesses like yours.",
+    "list": [
+      "Complete website & booking system",
+      "Automated gift voucher sales",
+      "24/7 AI receptionist & reputation management"
+    ]
+  },
+  "cta": {
+    "title": "Ready to Transform Your Business Online?",
+    "button": "Get In Touch",
+    "link": "/contact"
+  },
+  "reviews": {
+    "topper": "Testimonials",
+    "title": "What Our Clients Say",
+    "items": [
+      {
+        "image": "https://csimages2.nyc3.digitaloceanspaces.com/Reviews/profile5.jpg",
+        "imageAlt": "Profile picture of satisfied client",
+        "text": "VoucherStore transformed our business completely. Our new website looks amazing, bookings have tripled, and the gift voucher system has become a major revenue stream. Everything is automated - we just focus on our clients now.",
+        "name": "Nong Smith",
+        "title": "Owner, Thai Serenity Spa, London"
+      },
+      {
+        "image": "https://csimages2.nyc3.digitaloceanspaces.com/Reviews/profile5.jpg",
+        "imageAlt": "Profile picture of satisfied client",
+        "text": "The AI receptionist is incredible - it answers every call perfectly in both English and Thai. We're ranking #1 on Google Maps now and getting 40+ bookings per week just from online. Best investment we ever made.",
+        "name": "Som Johnson",
+        "title": "Manager, Lotus Thai Massage, Manchester"
+      }
+    ]
+  },
+  "pricing": {
+    "topper": "Pricing",
+    "title": "It's Easy to Get Started",
+    "text": "Choose the package that's right for your business. All plans include unlimited support, regular updates, and everything you need to grow your business online.",
+    "perMonth": "/month",
+    "packageIncludes": "Package Includes",
+    "getStarted": "Get Started",
+    "plans": [
+      {
+        "name": "Essential",
+        "description": "Perfect for new businesses.",
+        "price": "£150",
+        "link": "/contact",
+        "features": [
+          "Professional website",
+          "Online booking system",
+          "Mobile optimized",
+          "SEO setup",
+          "Monthly support",
+          "Unlimited edits"
+        ]
+      },
+      {
+        "name": "Professional",
+        "description": "Most popular choice.",
+        "price": "£250",
+        "link": "/contact",
+        "features": [
+          "Everything in Essential",
+          "Gift voucher system",
+          "Reputation management",
+          "Google Maps optimization",
+          "Priority support",
+          "Advanced analytics"
+        ]
+      },
+      {
+        "name": "Complete",
+        "description": "For established businesses.",
+        "price": "£350",
+        "link": "/contact",
+        "features": [
+          "Everything in Professional",
+          "AI receptionist (24/7)",
+          "Advanced local SEO",
+          "Multi-location support",
+          "Dedicated account manager",
+          "Custom integrations"
+        ]
+      }
+    ]
+  }
 }

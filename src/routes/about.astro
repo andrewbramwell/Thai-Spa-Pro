@@ -1,6 +1,6 @@
 ---
 import BaseLayout from "@layouts/BaseLayout.astro";
-import CTA from "@components/CTA.astro";
+import CTASection from "@components/CTASection.astro";
 import Landing from "@components/Landing.astro";
 import { t } from "i18n:astro";
 
@@ -100,7 +100,7 @@ const optimizedImage = await getOptimizedImage(landingImage)
       </div>
     </div>
   </section>
-  <CTA />
+<CTASection />
 </BaseLayout>
 
 <style lang="less">

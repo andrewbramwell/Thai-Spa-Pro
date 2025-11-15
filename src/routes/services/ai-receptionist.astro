@@ -1,0 +1,45 @@
+---
+import BaseLayout from "@layouts/BaseLayout.astro";
+import HeroSection from "@components/HeroSection.astro";
+import BenefitsSection from "@components/BenefitsSection.astro";
+import ReviewsSection from "@components/ReviewsSection.astro";
+import FeaturesSection from "@components/FeaturesSection.astro";
+import CTASection from "@components/CTASection.astro";
+
+import { t } from "i18n:astro";
+---
+
+<BaseLayout title={t("ai-receptionist:layout.title")} description={t("ai-receptionist:layout.description")} preloadedImage="">
+
+<!-- ============================================ -->
+<!--                    Hero                      -->
+<!-- ============================================ -->
+
+<HeroSection namespace="ai-receptionist" />
+
+<!-- ============================================ -->
+<!--                  Benefits                    -->
+<!-- ============================================ -->
+
+<BenefitsSection namespace="ai-receptionist" />
+
+<!-- ============================================ -->
+<!--                   Reviews                    -->
+<!-- ============================================ -->
+
+<ReviewsSection namespace="ai-receptionist" />
+
+                              
+<!-- ============================================ -->
+<!--                  Features                    -->
+<!-- ============================================ -->
+
+<FeaturesSection namespace="ai-receptionist" />
+
+<!-- ============================================ -->
+<!--                     CTA                      -->
+<!-- ============================================ -->
+
+<CTASection />
+
+</BaseLayout>

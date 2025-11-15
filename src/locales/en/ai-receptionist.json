@@ -1,0 +1,98 @@
+{
+  "layout": {
+    "title": "AI Receptionist | 24/7 Phone Answering Service",
+    "description": "Never miss a call again with our AI receptionist. Answers calls 24/7, books appointments, answers questions, and sounds completely human. Perfect for spas and massage businesses."
+  },
+  "hero": {
+    "topper": "AI Receptionist",
+    "title": "Never Miss Another Call Again",
+    "text": "Our AI receptionist answers every call in seconds, books appointments, answers questions, and sounds completely human. Available 24/7, even when you're fully booked or closed. No training required, no sick days, no holidays.",
+    "cta1": "Get Started",
+    "cta1Link": "/contact",
+    "cta2": "Hear Demo",
+    "cta2Link": "/demo",
+    "imageMobileWebp": "/assets/images/ai-receptionist-mobile.webp",
+    "imageDesktopWebp": "/assets/images/ai-receptionist-desktop.webp",
+    "imageFallbackJpg": "/assets/images/ai-receptionist-desktop.jpg",
+    "imageAlt": "AI receptionist answering phone calls"
+  },
+  "services": {
+    "topper": "Why AI Receptionist",
+    "title": "Your Customers Don't Care That You're Busy",
+    "text": "When someone calls and gets voicemail, they hang up and call your competitor. Our AI receptionist answers every single call instantly, books them in, and keeps your calendar full - even at 2am on a Sunday.",
+    "items": [
+      {
+        "icon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/alloy-wheel%201.svg",
+        "title": "Answers Every Call Instantly",
+        "text": "No more voicemail, no more missed calls. Every caller gets a human-sounding response in seconds, whether it's 3pm on Tuesday or 11pm on Saturday."
+      },
+      {
+        "icon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/electric%201.svg",
+        "title": "Books Appointments While You Sleep",
+        "text": "Callers can book appointments directly over the phone. The AI checks your real-time availability, books them in, and sends confirmations - all automatically."
+      },
+      {
+        "icon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-engine.svg",
+        "title": "Sounds Completely Human",
+        "text": "Natural conversation, proper pronunciation, understanding of context. Your callers won't know they're talking to AI - they'll just think you have amazing customer service."
+      }
+    ]
+  },
+  "reviews": {
+    "topper": "Real Results",
+    "title": "How AI Receptionist Changed These Businesses",
+    "items": [
+      {
+        "image": "https://csimages2.nyc3.digitaloceanspaces.com/Reviews/profile5.jpg",
+        "imageAlt": "Profile picture of satisfied client",
+        "text": "We were losing 30-40 calls per week to voicemail. Now every single call is answered instantly, and we're booking 20+ extra appointments per month. The AI sounds so natural, clients are amazed when I tell them it's not a real person.",
+        "name": "Rachel Stevens",
+        "title": "Owner, Bliss Thai Massage"
+      },
+      {
+        "image": "https://csimages2.nyc3.digitaloceanspaces.com/Reviews/profile5.jpg",
+        "imageAlt": "Profile picture of satisfied client",
+        "text": "Best investment we've ever made. The AI handles all our calls professionally, books appointments accurately, and works 24/7. Our revenue has increased by 25% just from not missing calls anymore. It's like having a perfect receptionist who never takes a break.",
+        "name": "Tom Williams",
+        "title": "Manager, Harmony Spa & Wellness"
+      }
+    ]
+  },
+  "features": {
+    "imageMobile": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/people10.jpg",
+    "imageDesktop": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/people10.jpg",
+    "imageFallback": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/people10.jpg",
+    "imageAlt": "AI receptionist system in action",
+    "boxIcon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/gear-white.svg",
+    "boxText": "Answering 100,000+ Calls Monthly",
+    "topper": "Intelligent Features",
+    "title": "More Than Just Answering - It's Your Perfect Receptionist",
+    "text": "Our AI receptionist doesn't just pick up the phone - it understands your business, knows your services, and handles conversations like a trained professional who's worked with you for years.",
+    "items": [
+      {
+        "title": "24/7 Availability",
+        "text": "Never miss a call again. Answers instantly at 2am, during holidays, when you're with clients, or when all your lines are busy."
+      },
+      {
+        "title": "Appointment Booking",
+        "text": "Books appointments directly over the phone by checking your real-time availability. Customers don't need to call back or go online."
+      },
+      {
+        "title": "Answers Common Questions",
+        "text": "Trained on your services, prices, location, and hours. Answers customer questions accurately and professionally without bothering your staff."
+      },
+      {
+        "title": "Natural Conversations",
+        "text": "Understands context, accents, and natural speech patterns. Handles interruptions, clarifications, and complex requests just like a human would."
+      },
+      {
+        "title": "Instant Call Summaries",
+        "text": "Every call is transcribed and summarised. You get notifications with what was discussed and any actions needed - no more scribbled notes."
+      },
+      {
+        "title": "Multiple Languages",
+        "text": "Can speak English, Thai, and other languages fluently. Automatically detects the caller's language and responds appropriately."
+      }
+    ]
+  }
+}

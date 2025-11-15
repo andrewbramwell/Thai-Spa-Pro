@@ -1,458 +1,469 @@
 ---
 import BaseLayout from "@layouts/BaseLayout.astro";
-import client from "@data/client.json";
 import Landing from "@components/Landing.astro";
 import { t } from "i18n:astro";
-
-// Optimize our landing image and pass it as props to the BaseLayout (for preloading) and Landing (for rendering)
-import {getOptimizedImage} from "@utils/utils"
-import landingImage from "@assets/images/landing.jpg" // <-- THE PATH TO THE ASSET YOU WANT TO PRELOAD - The asset must live in src
-const optimizedImage = await getOptimizedImage(landingImage)
 ---
 
 <BaseLayout
-  title={t("contact:landing")}
-  description="Meta description for the page"
-  preloadedImage = {optimizedImage}
+  title={t("contact:layout.title")}
+  description={t("contact:layout.description")}
+  preloadedImage=""
 >
   <!-- ============================================ -->
   <!--                    LANDING                   -->
   <!-- ============================================ -->
 
-  <Landing title={t("contact:landing")} image={optimizedImage}/>
+  <Landing title={t("contact:landing.title")} />
 
   <!-- ============================================ -->
-  <!--                Contact Form                  -->
+  <!--                   Contact                    -->
   <!-- ============================================ -->
-
-  <section id="cs-contact">
+  <section id="contact-1388">
     <div class="cs-container">
-      <form id="cs-form" name="Contact Form" method="post">
         <div class="cs-content">
-          <span class="cs-topper">{t("contact:topper")}</span>
-          <h2 class="cs-title">{t("contact:title")}</h2>
-          <p class="cs-text">
-            {t("contact:p-1")}
-          </p>
+            <span class="cs-topper">{t("contact:section.topper")}</span>
+            <h2 class="cs-title">{t("contact:section.title")}</h2>
+            <p class="cs-text">
+                {t("contact:section.text")}
+            </p>
+            <ul class="cs-ul">
+                <li class="cs-li">
+                    <picture class="cs-icon-wrapper">
+                        <img aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/phone-76.svg" alt="phone icon" class="cs-icon" width="40" height="40" decoding="async">
+                    </picture>
+                    <div class="cs-flex-group">
+                        <span class="cs-header">{t("contact:section.phone.label")}</span>
+                        <a href={`tel:${t("contact:section.phone.number")}`} class="cs-link">{t("contact:section.phone.display")}</a>
+                    </div>
+                </li>
+                <li class="cs-li">
+                    <picture class="cs-icon-wrapper">
+                        <img aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/phone-76.svg" alt="whatsapp icon" class="cs-icon" width="40" height="40" decoding="async">
+                    </picture>
+                    <div class="cs-flex-group">
+                        <span class="cs-header">{t("contact:section.whatsapp.label")}</span>
+                        <a href={t("contact:section.whatsapp.link")} target="_blank" rel="noopener noreferrer" class="cs-link">{t("contact:section.whatsapp.display")}</a>
+                    </div>
+                </li>
+                <li class="cs-li">
+                    <picture class="cs-icon-wrapper">
+                        <img aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mail-76.svg" alt="messenger icon" class="cs-icon" width="40" height="40" decoding="async">
+                    </picture>
+                    <div class="cs-flex-group">
+                        <span class="cs-header">{t("contact:section.messenger.label")}</span>
+                        <a href={t("contact:section.messenger.link")} target="_blank" rel="noopener noreferrer" class="cs-link">{t("contact:section.messenger.display")}</a>
+                    </div>
+                </li>
+            </ul>
         </div>
-        <label>
-          {t("contact:form.name")}
-          <input
-            required
-            type="text"
-            id="name"
-            name="name"
-            placeholder={t("contact:form.name")}
-          />
-        </label>
-        <label>
-          {t("contact:form.email")}
-          <input
-            required
-            type="text"
-            id="email"
-            name="email"
-            placeholder={t("contact:form.email")}
-          />
-        </label>
-        <label>
-          {t("contact:form.phone")}
-          <input
-            required
-            type="text"
-            id="phone"
-            name="phone"
-            placeholder={t("contact:form.phone")}
-          />
-        </label>
-        <label>
-          {t("contact:form.how")}
-          <input
-            type="text"
-            id="find"
-            name="find-us"
-            placeholder={t("contact:form.how")}
-          />
-        </label>
-        <label class="cs-label-message">
-          {t("contact:form.message")}
-          <textarea
-            required
-            name="Message"
-            id="message"
-            placeholder={t("contact:form.message-placeholder")}></textarea>
-        </label>
-        <button class="cs-button-solid" type="submit">{t("contact:cta")}</button
+        <!--Form-->
+        <form 
+            class="cs-form" 
+            id="cs-form-1388" 
+            name="Contact Form" 
+            method="POST"
+            data-netlify="true"
+            netlify-honeypot="bot-field"
         >
-      </form>
-      <div class="cs-right-section">
-        <!--Email-->
-        <span class="cs-header">{t("contact:form.email")}</span>
-        <a class="cs-link" href={`mailto:${client.email}`}>{client.email}</a>
-        <!--Phone-->
-        <span class="cs-header">{t("contact:form.phone")}</span>
-        <a class="cs-link" href={`tel:${client.phoneForTel}`}
-          >{client.phoneFormatted}</a
-        >
-        <!--Address-->
-        <span class="cs-header">{t("contact:form.address")}</span>
-        <a class="cs-link" href={client.address.mapLink}>
-          {client.address.lineOne},
-          <br />
-          {client.address.lineTwo},
-          <br />
-          <span class="cs-block">
-            {client.address.city}
-            {client.address.state}
-            {client.address.zip}
-          </span>
-        </a>
+            <!-- Hidden fields for Netlify -->
+            <input type="hidden" name="form-name" value="Contact Form" />
+            
+            <!-- Honeypot field for spam protection -->
+            <p class="hidden">
+                <label>
+                    Don't fill this out if you're human: <input name="bot-field" />
+                </label>
+            </p>
 
-        <!-- Background Image-->
-        <picture class="cs-bg-picture">
-          <source
-            media="(min-width: 601px)"
-            srcset="/assets/images/skyscraper.jpg"
-          />
-          <img
-            aria-hidden="true"
-            decoding="async"
-            src="/assets/images/skyscraper.jpg"
-            alt="building"
-            loading="lazy"
-            width="2500"
-            height="1667"
-          />
-        </picture>
-      </div>
+            <h3 class="cs-h3">{t("contact:form.title")}</h3>
+            
+            <label class="cs-label">
+                {t("contact:form.name.label")}
+                <input 
+                    class="cs-input" 
+                    required 
+                    type="text" 
+                    id="name-1388" 
+                    name="name" 
+                    placeholder={t("contact:form.name.placeholder")}
+                >
+            </label>
+            
+            <label class="cs-label cs-email">
+                {t("contact:form.email.label")}
+                <input 
+                    class="cs-input" 
+                    required 
+                    type="email" 
+                    id="email-1388" 
+                    name="email" 
+                    placeholder={t("contact:form.email.placeholder")}
+                >
+            </label>
+            
+            <label class="cs-label cs-phone">
+                {t("contact:form.phone.label")}
+                <input 
+                    class="cs-input" 
+                    required 
+                    type="tel" 
+                    id="phone-1388" 
+                    name="phone" 
+                    placeholder={t("contact:form.phone.placeholder")}
+                >
+            </label>
+            
+            <label class="cs-label">
+                {t("contact:form.message.label")}
+                <textarea 
+                    class="cs-input cs-textarea" 
+                    required 
+                    name="message" 
+                    id="message-1388" 
+                    placeholder={t("contact:form.message.placeholder")}
+                ></textarea>
+            </label>
+            
+            <button class="cs-button-solid cs-submit" type="submit">
+                {t("contact:form.submit")}
+            </button>
+        </form>
     </div>
   </section>
+
 </BaseLayout>
 
 <style lang="less">
-  /* PAGE-SPECIFIC STYLES FOR THE CONTACT PAGE */
 
-  /*-- -------------------------- -->
+/* Hide honeypot field */
+    .hidden {
+        display: none;
+    }
+
+/*-- -------------------------- -->
 <---          Contact           -->
 <--- -------------------------- -*/
 
-  /* Mobile - 360px */
-  @media only screen and (min-width: 0em) {
-    :root {
-      /* 13px - 16px */
-      --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
-      /* 31px - 49px */
-      --headerFontSize: clamp(1.9375rem, 4.5vw, 3.0625rem);
-      --bodyFontSize: 1rem;
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    #contact-1388 {
+        padding: var(--sectionPadding);
+        background-color: #fff;
+        position: relative;
+        z-index: 1;
 
-      /* 60px - 100px top and bottom */
-      --sectionPadding: clamp(3.75em, 7.82vw, 6.25em) 1rem;
-    }
-
-    #cs-contact {
-      font-family: "Roboto", "Arial", sans-serif;
-      padding: var(--sectionPadding);
-
-      .cs-container {
-        width: 100%;
-        /* changes to 1280px at desktop */
-        max-width: (800/16rem);
-        margin: auto;
-      }
-
-      .cs-content {
-        width: 100%;
-      }
-
-      .cs-topper {
-        text-align: left;
-        /* 8px - 12px */
-        margin-bottom: clamp(0.5rem, 1.4vw, 0.75rem);
-      }
-
-      .cs-title {
-        text-align: left;
-        max-width: (800/16rem);
-      }
-
-      .cs-text {
-        text-align: left;
-        /* 404px - 522px */
-        max-width: clamp(25.25rem, 30vw, 32.625rem);
-        margin: 0 auto 0 0;
-        /* 40px - 48px */
-        margin-bottom: clamp(2.5rem, 6.3vw, 3rem);
-      }
-
-      #cs-form {
-        margin-bottom: (40/16rem);
-        label {
-          font-size: (16/16rem);
-          font-weight: 700;
-          line-height: 1.5em;
-          /* 12px - 20px */
-          margin-bottom: clamp(0.75rem, 1.3em, 1.25rem);
-          color: var(--headerColor);
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: flex-start;
+        .cs-container {
+            width: 100%;
+            /* changes to 1280px at tablet */
+            max-width: (584/16rem);
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: stretch;
+            flex-direction: column;
+            column-gap: auto;
+            /* 48px - 64px */
+            gap: clamp(2rem, 3vw, 3rem);
+            position: relative;
         }
 
-        .cs-label-message {
-          /* 32px - 48px */
-          margin-bottom: clamp(2rem, 6.3vw, 3rem);
+        .cs-content {
+            /* set text align to left if content needs to be left aligned */
+            text-align: left;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            /* centers content horizontally, set to flex-start to left align */
+            align-items: flex-start;
         }
 
-        input,
-        textarea {
-          font-size: (16/16rem);
-          width: 100%;
-          height: (64/16rem);
-          margin-top: (4/16rem);
-          /* prevents border & padding from affecting height */
-          box-sizing: border-box;
-          padding-left: (20/16rem);
-          border: 1px solid #b4b2c7;
-          border-radius: (8/16rem);
-          transition: border 0.3s;
+        .cs-title {
+            max-width: 23ch;
+            text-align: left;
+            margin: 0 0 1rem 0; /* Change auto to 0 */
+        }
 
-          &:hover {
+        .cs-text {
+            margin-bottom: (16/16rem);
+            &:last-of-type {
+                margin-bottom: (32/16rem);
+            }
+        }
+
+        .cs-ul {
+            text-align: left;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: (24/16rem);
+            position: relative;
+        }
+
+        .cs-li {
+            list-style: none;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            gap: (20/16rem);
+
+            &:hover {
+                .cs-icon-wrapper {
+                    transform: scale(1.1);
+                }
+            }
+        }
+
+        .cs-header {
+            font-size: (20/16rem);
+            font-weight: 700;
+            line-height: 1.2em;
+            margin-bottom: (12/16rem);
+            color: var(--headerColor);
+            display: block;
+        }
+
+        .cs-link {
+            font-size: (16/16rem);
+            line-height: 1.5em;
+            text-decoration: none;
+            color: #767676;
+            display: block;
+            position: relative;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+
+        .cs-icon-wrapper {
+            width: (60/16rem);
+            height: (60/16rem);
+            margin: 0;
+            border-radius: 50%;
+            border: 1px solid #bababa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* prevents flexbox from squishing it */
+            flex: none;
+            transition: transform 0.3s;
+        }
+
+        .cs-icon {
+            width: (24/16rem);
+            height: auto;
+            display: block;
+        }
+
+        .cs-form {
+            width: 100%;
+            max-width: (630/16rem);
+            /* 24px - 48px top and bottom */
+            /* 16px - 48px left and right */
+            padding: clamp(1.5rem, 5.18vw, 3rem) clamp(1rem, 4vw, 3rem);
+            /* prevents flexbox from affecting height and width */
+            box-sizing: border-box;
+            background-color: #fff;
+            border-radius: (16/16rem);
             border: 1px solid var(--primary);
-          }
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: (12/16rem);
         }
 
-        textarea {
-          font-family: inherit;
-          min-height: (120/16rem);
-          padding-top: (20/16rem);
+        .cs-h3 {
+            /* 20px - 39px */
+            font-size: clamp(1.25rem, 3vw, 2.4375rem);
+            line-height: 1.2em;
+            font-weight: 700;
+            margin: 0 0 (4/16rem) 0;
+            color: var(--headerColor);
+        }
+
+        .cs-label {
+            /* 14px - 16px */
+            font-size: clamp(0.875rem, 1.5vw, 1rem);
+            width: 100%;
+            color: var(--headerColor);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            gap: (4/16rem);
+        }
+
+        .cs-input {
+            font-size: (16/16rem);
+            width: 100%;
+            height: (56/16rem);
+            padding: 0;
+            padding-left: (24/16rem);
+            color: var(--headerColor);
+            background-color: var(--sectionColor);
+            border-radius: (8/16rem);
+            border: none;
+            /* prevents padding from adding to height and width */
+            box-sizing: border-box;
+            &::placeholder {
+                color: #7d799c;
+                opacity: 0.6;
+            }
+        }
+
+        .cs-textarea {
+            min-height: (120/16rem);
+            padding-top: (24/16rem);
+            margin-bottom: (12/16rem);
+            font-family: inherit;
         }
 
         .cs-button-solid {
-          width: 100%;
-          border: none;
-        }
-      }
+            font-size: (16/16rem);
+            line-height: (56/16rem);
+            text-decoration: none;
+            font-weight: 700;
+            overflow: hidden;
+            margin: 0;
+            color: #fff;
+            padding: 0 (48/16rem);
+            border-radius: (30/16rem);
+            background-color: var(--primary);
+            display: inline-block;
+            position: relative;
+            z-index: 1;
+            transition: color 0.3s;
 
-      .cs-right-section {
-        height: (320/16rem);
-        /* 24px - 40px top & bottom */
-        /* 20px - 40px left & right */
-        padding: clamp(1.5rem, 3vw, 2.5rem) clamp(1.25rem, 3vw, 2.5rem);
-        border-radius: (8/16rem);
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        align-items: flex-start;
-        position: relative;
-        /* cuts off corners on img tag */
-        overflow: hidden;
-      }
-
-      .cs-header {
-        /* 16px - 20px */
-        font-size: clamp(1rem, 3vw, 1.25rem);
-        font-weight: 700;
-        line-height: 1.2em;
-        margin-bottom: (8/16rem);
-        color: var(--bodyTextColorWhite);
-        display: block;
-      }
-
-      .cs-link {
-        /* 16px - 20px */
-        font-size: clamp(1rem, 3vw, 1.25rem);
-        line-height: 1.2em;
-        text-decoration: none;
-        margin-bottom: (20/16rem);
-        color: var(--bodyTextColorWhite);
-        display: block;
-        position: relative;
-
-        &:before {
-          /* Animated underline */
-          content: "";
-          width: 0%;
-          height: 2px;
-          /* current color of the parent */
-          background: currentColor;
-          opacity: 1;
-          display: block;
-          position: absolute;
-          bottom: (-2/16rem);
-          left: 0;
-          transition: width 0.3s;
-        }
-
-        &:hover {
-          &:before {
-            width: 100%;
-          }
-        }
-
-        &:last-of-type {
-          margin-bottom: 0;
-        }
-      }
-
-      .cs-block {
-        /* sends second address line to the bottom on its own line */
-        display: block;
-      }
-
-      .cs-bg-picture {
-        width: 100%;
-        height: 100%;
-        display: block;
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: -1;
-        transition: transform 0.6s;
-
-        &:before {
-          /* background color overlay */
-          content: "";
-          width: 100%;
-          height: 100%;
-          background: linear-gradient(
-            180deg,
-            rgba(0, 0, 0, 0) 0%,
-            rgba(0, 0, 0, 0.8) 100%
-          );
-          display: block;
-          position: absolute;
-          top: 0;
-          left: 0;
-          z-index: 1;
-        }
-
-        img {
-          width: 100%;
-          height: 100%;
-          /* Makes img tag act as a background image */
-          object-fit: cover;
-          position: absolute;
-          top: 0;
-          left: 0;
-        }
-      }
-    }
-  }
-
-  /* Tablet - 700px */
-  @media only screen and (min-width: 43.75em) {
-    #cs-contact {
-      #cs-form {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-        flex-wrap: wrap;
-
-        label {
-          width: 48%;
-        }
-
-        .cs-label-message {
-          width: 100%;
-        }
-      }
-    }
-  }
-
-  /* Small Desktop - 1024px */
-  @media only screen and (min-width: 64em) {
-    #cs-contact {
-      .cs-container {
-        max-width: (1280/16rem);
-        display: flex;
-        justify-content: flex-end;
-        align-items: flex-start;
-        gap: (80/16rem);
-      }
-
-      #cs-form {
-        max-width: (630/16rem);
-        label {
-          width: 100%;
-        }
-      }
-
-      .cs-right-section {
-        width: 40%;
-        max-width: (542/16rem);
-        /* changes to 578px at 1300px wide */
-        height: (686/16rem);
-        /* prevents flexbox from squishing it */
-        flex: none;
-
-        &:hover {
-          .cs-bg-picture {
-            transform: scale(1.1);
-          }
-        }
-      }
-
-      .cs-block {
-        /* goes back to inline so it stays "in line" with the rest of the text */
-        display: inline-block;
-      }
-    }
-  }
-
-  /* Small Desktop - 1300px */
-  @media only screen and (min-width: 81.25em) {
-    #cs-contact {
-      #cs-form {
-        column-gap: (0/16rem);
-        label {
-          width: 48%;
-          max-width: (305/16rem);
-        }
-
-        .cs-label-message {
-          max-width: 100%;
-        }
-      }
-
-      .cs-right-section {
-        height: (578/16rem);
-      }
-    }
-  }
-
-  /* Dark Mode */
-  @media only screen and (min-width: 0em) {
-    body.dark-mode {
-      #cs-contact {
-        .cs-text,
-        .cs-title {
-          color: var(--bodyTextColorWhite);
-        }
-
-        #cs-form {
-          label,
-          input,
-          textarea {
-            color: var(--bodyTextColorWhite);
-            background-color: transparent;
-
-            &::placeholder {
-              /* lighten up the color of the text by 40%*/
-              filter: brightness(1.4);
+            &:before {
+                content: "";
+                position: absolute;
+                display: block;
+                height: 100%;
+                width: 0%;
+                background: #1a1a1a;
+                opacity: 1;
+                top: 0;
+                left: 0;
+                z-index: -1;
+                transition: width 0.3s;
             }
-          }
+
+            &:hover {
+                color: var(--primary);
+                &:before {
+                    width: 100%;
+                }
+            }
         }
 
-        .cs-bg-picture {
-          background-color: #000;
+        .cs-submit {
+            width: 100%;
+            min-width: (200/16rem);
+            border: none;
 
-          img {
-            /* lets parent background-color bleed through and darken it */
-            opacity: 0.5;
-          }
+            &:hover {
+                color: #fff;
+                cursor: pointer;
+            }
         }
-      }
     }
-  }
+}
+
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+    #contact-1388 {
+        .cs-container {
+            max-width: (1280/16rem);
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .cs-content {
+            width: 47%;
+            /* prevents flexbox from squishing it */
+            flex: none;
+        }
+
+        .cs-submit {
+            width: auto;
+        }
+    }
+}
+
+/* Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+    #contact-1388 {
+        .cs-form {
+            width: 46%;
+            max-width: (578/16rem);
+        }
+
+        .cs-submit {
+            width: auto;
+        }
+    }
+}
+
+/* Large Desktop - 1500px */
+@media only screen and (min-width: 93.75rem) {
+    #contact-1388 {
+        .cs-graphic {
+            display: block;
+        }
+    }
+}
+
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+    body.dark-mode {
+        #contact-1388 {
+            background-color: rgba(0, 0, 0, 0.2);
+            .cs-title,
+            .cs-text,
+            .cs-header,
+            .cs-link,
+            .cs-label,
+            .cs-h3 {
+                color: var(--bodyTextColorWhite);
+            }
+
+            .cs-contact-text,
+            .cs-link {
+                opacity: 0.8;
+            }
+
+            .cs-icon-wrapper {
+                border-color: #fff;
+            }
+
+            .cs-icon {
+                /* makes it white */
+                filter: grayscale(1) brightness(1000%);
+            }
+
+            .cs-form {
+                background-color: var(--medium);
+            }
+
+            .cs-input {
+                background-color: rgba(255, 255, 255, 0.2);
+                color: #fff;
+                &::placeholder {
+                    color: #fff;
+                    opacity: 0.8;
+                }
+            }
+
+            .cs-graphic {
+                opacity: 0.4;
+            }
+        }
+    }
+}
+
 </style>

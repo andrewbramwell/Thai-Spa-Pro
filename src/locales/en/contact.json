@@ -1,16 +1,49 @@
 {
-    "landing": "Contact",
-    "topper": "Contact",
-    "title": "Get in touch",
-    "p-1": "Tell us Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ridiculus elementum ullamcorper ipsum porttitor aliquam. Id magna urna ultrices odio pulvinar. Sed ut.",
-    "form": {
-        "name": "Name",
-        "email": "Email",
-        "phone": "Phone",
-        "how": "How did you find us?",
-        "message": "Message",
-        "message-placeholder": "I'd be interested in...",
-        "address": "Address"
+  "layout": {
+    "title": "Contact Us | Get in Touch with VoucherStore",
+    "description": "Get in touch with VoucherStore via phone, WhatsApp, or Facebook Messenger. We're here to help your Thai massage or spa business succeed online."
+  },
+  "landing": {
+    "title": "Contact Us"
+  },
+  "section": {
+    "topper": "Contact Us",
+    "title": "Get in Touch",
+    "text": "We're here to help your Thai massage or spa business thrive online. Reach out via phone, WhatsApp, or Facebook Messenger - whatever works best for you. We speak both English and Thai!",
+    "phone": {
+      "label": "Phone",
+      "number": "+447123456789",
+      "display": "+44 7123 456789"
     },
-    "cta": "Submit message"
+    "whatsapp": {
+      "label": "WhatsApp",
+      "link": "https://wa.me/447123456789",
+      "display": "Message us on WhatsApp"
+    },
+    "messenger": {
+      "label": "Facebook Messenger",
+      "link": "https://m.me/voucherstore",
+      "display": "Chat on Messenger"
+    }
+  },
+  "form": {
+    "title": "Send Us a Message",
+    "name": {
+      "label": "Name",
+      "placeholder": "Your Name"
+    },
+    "email": {
+      "label": "Email",
+      "placeholder": "your@email.com"
+    },
+    "phone": {
+      "label": "Phone",
+      "placeholder": "Your Phone Number"
+    },
+    "message": {
+      "label": "Message",
+      "placeholder": "Tell us about your business and how we can help..."
+    },
+    "submit": "Send Message"
+  }
 }

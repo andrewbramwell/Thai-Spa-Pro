@@ -1,0 +1,98 @@
+{
+  "layout": {
+    "title": "Custom Website Development | Fast, SEO-Optimized Websites",
+    "description": "Professional custom website development with lightning-fast performance, SEO optimization, mobile responsiveness, and unlimited edits. We manage everything for you."
+  },
+  "hero": {
+    "topper": "Custom Website Development",
+    "title": "Lightning-Fast Websites That Rank & Convert",
+    "text": "We build super-fast, SEO-optimized websites tailored to your business. Mobile-optimized, unlimited edits, and we manage everything for you. Focus on your business while we handle your digital presence.",
+    "cta1": "Get Started",
+    "cta1Link": "/contact",
+    "cta2": "View Pricing",
+    "cta2Link": "/pricing",
+    "imageMobileWebp": "/assets/images/rep-man.png",
+    "imageDesktopWebp": "/assets/images/rep-man.png",
+    "imageFallbackJpg": "/assets/images/rep-man.png",
+    "imageAlt": "Professional web developer working on custom website"
+  },
+  "services": {
+    "topper": "Why Work With Us",
+    "title": "Premium Websites, Not Premium Prices",
+    "text": "Remember that first website you built? It was full of hope, but maybe not so great at delivering results. We're here to change that. We offer high-impact custom web designs that are sales-focused and super affordable for businesses just like yours.",
+    "items": [
+      {
+        "icon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/alloy-wheel%201.svg",
+        "title": "From Clicks to Customers",
+        "text": "Think of your website as an investment, not just an expense. We'll build it with a focus on search engine visibility and a user experience that encourages buying decisions."
+      },
+      {
+        "icon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/electric%201.svg",
+        "title": "Relax, We've Got This",
+        "text": "Website maintenance can be a major time suck. So, leave it to us! We'll handle updates, security, and hosting, giving you precious hours back to grow your business."
+      },
+      {
+        "icon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-engine.svg",
+        "title": "Big Website Impact, Small Monthly Budget",
+        "text": "Hand-coded quality, built to perform. We offer custom web designs that deliver real results with budget-friendly monthly plans starting at just £75 per month."
+      }
+    ]
+  },
+  "reviews": {
+    "topper": "Client Success Stories",
+    "title": "What Our Clients Say About Their Websites",
+    "items": [
+      {
+        "image": "https://csimages2.nyc3.digitaloceanspaces.com/Reviews/profile5.jpg",
+        "imageAlt": "Profile picture of satisfied client",
+        "text": "Our new website is incredibly fast and looks amazing on all devices. We've seen a 40% increase in enquiries since launching. The team manages everything for us - it's completely hassle-free. Best investment we've made for our business.",
+        "name": "Sarah Thompson",
+        "title": "Owner, Thai Wellness Spa"
+      },
+      {
+        "image": "https://csimages2.nyc3.digitaloceanspaces.com/Reviews/profile5.jpg",
+        "imageAlt": "Profile picture of satisfied client",
+        "text": "Finally ranking on the first page of Google! The website is beautiful, super fast, and I can request unlimited changes whenever I need them. They truly manage everything - I don't have to think about the technical stuff at all.",
+        "name": "James Martinez",
+        "title": "Director, Serenity Massage Clinic"
+      }
+    ]
+  },
+  "features": {
+    "imageMobile": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/people10.jpg",
+    "imageDesktop": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/people10.jpg",
+    "imageFallback": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/people10.jpg",
+    "imageAlt": "Professional web development team at work",
+    "boxIcon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/gear-white.svg",
+    "boxText": "Trusted by 100+ Businesses Across the UK",
+    "topper": "Why Choose Us",
+    "title": "Why Businesses Choose Our Custom Website Development",
+    "text": "We don't just build websites - we create powerful digital assets that drive real business results. From blazing-fast performance to top search rankings, we deliver websites that work as hard as you do.",
+    "items": [
+      {
+        "title": "Super-Fast Loading Speed",
+        "text": "Your website will load in under 2 seconds, guaranteed. Fast websites rank better and convert more visitors into customers."
+      },
+      {
+        "title": "Mobile-Optimized Design",
+        "text": "Perfect on every device - phones, tablets, and desktops. Over 70% of web traffic is mobile, so your site needs to look flawless everywhere."
+      },
+      {
+        "title": "SEO-Optimized From Day One",
+        "text": "Built with search engine optimization at its core. Your website will rank well on Google and bring in organic traffic automatically."
+      },
+      {
+        "title": "Unlimited Edits Forever",
+        "text": "Need changes? No problem. Make unlimited updates and edits to your website content whenever you need - no extra charges, ever."
+      },
+      {
+        "title": "Fully Managed & Maintained",
+        "text": "We handle everything: hosting, security, backups, updates, and technical support. You focus on your business, we handle the tech."
+      },
+      {
+        "title": "Custom Built For You",
+        "text": "No templates, no shortcuts. Every website is custom-designed and developed specifically for your business and your customers."
+      }
+    ]
+  }
+}

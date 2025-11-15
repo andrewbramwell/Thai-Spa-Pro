@@ -1,0 +1,185 @@
+{
+  "layout": {
+    "title": "Pricing & FAQ | Digital Solutions for Thai Massage Businesses",
+    "description": "Transparent pricing for our complete digital solutions. Websites, booking systems, gift vouchers, AI receptionist, and more. Find answers to common questions."
+  },
+  "landing": {
+    "title": "Pricing & FAQ"
+  },
+  "pricing": {
+    "topper": "Pricing",
+    "title": "Simple, Transparent Pricing",
+    "text": "Choose the package that's right for your business. All plans include unlimited support, regular updates, and everything you need to grow your business online. No hidden fees, no surprises.",
+    "perMonth": "/month",
+    "packageIncludes": "Package Includes",
+    "getStarted": "Get Started",
+    "plans": [
+      {
+        "name": "Essential",
+        "description": "Perfect for new businesses.",
+        "price": "£150",
+        "link": "/contact",
+        "features": [
+          "Professional website",
+          "Online booking system",
+          "Mobile optimized",
+          "SEO setup",
+          "Monthly support",
+          "Unlimited edits"
+        ]
+      },
+      {
+        "name": "Professional",
+        "description": "Most popular choice.",
+        "price": "£250",
+        "link": "/contact",
+        "features": [
+          "Everything in Essential",
+          "Gift voucher system",
+          "Reputation management",
+          "Google Maps optimization",
+          "Priority support",
+          "Advanced analytics"
+        ]
+      },
+      {
+        "name": "Complete",
+        "description": "For established businesses.",
+        "price": "£350",
+        "link": "/contact",
+        "features": [
+          "Everything in Professional",
+          "AI receptionist (24/7)",
+          "Advanced local SEO",
+          "Multi-location support",
+          "Dedicated account manager",
+          "Custom integrations"
+        ]
+      }
+    ]
+  },
+  "faq": {
+    "topper": "Frequently Asked Questions",
+    "title": "Common Questions About Our Services",
+    "text": "Find answers to the most common questions about our digital solutions for Thai massage and spa businesses. Can't find what you're looking for? Get in touch and we'll be happy to help.",
+    "categories": [
+      "Getting Started",
+      "Websites & Booking",
+      "Gift Vouchers",
+      "AI & Automation",
+      "Support & Training"
+    ],
+    "questions": {
+      "one": [
+        {
+          "question": "How long does it take to get everything set up?",
+          "answer": "Most businesses are fully live within 2-4 weeks. We handle everything - website design, booking system setup, and training your team. You'll be taking online bookings before you know it."
+        },
+        {
+          "question": "Do I need any technical knowledge?",
+          "answer": "Not at all! We handle all the technical setup and provide simple training for you and your staff. If you can send an email, you can manage your new system."
+        },
+        {
+          "question": "What if I already have a website?",
+          "answer": "We can work with your existing website or build you a brand new one. Many clients prefer to start fresh with our optimized, mobile-friendly designs that are built specifically for Thai massage businesses."
+        },
+        {
+          "question": "Can I try before I commit?",
+          "answer": "Yes! We offer a free demo and consultation. We'll show you exactly how everything works and answer all your questions before you make any commitment."
+        },
+        {
+          "question": "What's included in the monthly price?",
+          "answer": "Everything! Your monthly fee includes hosting, security, updates, unlimited edits, ongoing support, and all the features in your chosen package. No hidden costs or surprise fees."
+        }
+      ],
+      "two": [
+        {
+          "question": "Will my website work on mobile phones?",
+          "answer": "Absolutely! All our websites are mobile-first, meaning they're designed specifically to look perfect on phones and tablets. Over 70% of bookings come from mobile, so this is crucial."
+        },
+        {
+          "question": "Can customers book appointments 24/7?",
+          "answer": "Yes! Your online booking system works 24/7, even when you're closed. Customers can book any time, and you'll get automatic notifications for new appointments."
+        },
+        {
+          "question": "How do I prevent double bookings?",
+          "answer": "Our system syncs in real-time, so it's impossible to double-book. When a slot is taken online, it's immediately blocked for other customers."
+        },
+        {
+          "question": "Can I block out holidays and days off?",
+          "answer": "Absolutely! You have full control over your availability. Block out holidays, set different hours for different days, or close specific time slots whenever you need."
+        },
+        {
+          "question": "What if a customer doesn't show up?",
+          "answer": "Our automatic SMS and email reminders reduce no-shows by up to 80%. Customers get reminders 24 hours before their appointment and can confirm with one click."
+        }
+      ],
+      "three": [
+        {
+          "question": "How do customers receive their gift vouchers?",
+          "answer": "Vouchers are sent automatically via email immediately after purchase. Customers can forward them as gifts or print them - completely automated with no work from you."
+        },
+        {
+          "question": "Can vouchers be used for any service?",
+          "answer": "Yes! You can offer both monetary vouchers (£50, £100, etc.) and specific treatment vouchers. You have complete flexibility in what you offer."
+        },
+        {
+          "question": "How do I redeem vouchers?",
+          "answer": "Super simple! Just scan the QR code or enter the voucher code. The system automatically tracks what's been used and updates your reports in real-time."
+        },
+        {
+          "question": "What happens if a voucher expires?",
+          "answer": "You set the expiry dates, and customers get automatic reminder emails before expiry. You can also easily extend vouchers if needed with one click."
+        },
+        {
+          "question": "Can I see how many vouchers have been sold?",
+          "answer": "Yes! Your dashboard shows total sales, what's been redeemed, and what's still outstanding. You get complete visibility of your voucher revenue."
+        }
+      ],
+      "four": [
+        {
+          "question": "Does the AI receptionist sound robotic?",
+          "answer": "Not at all! Our AI sounds completely human with natural conversation flow. Most callers don't realize they're speaking to AI - they just think you have excellent phone service."
+        },
+        {
+          "question": "What languages can the AI speak?",
+          "answer": "The AI speaks both English and Thai fluently, and automatically detects which language the caller is using. Perfect for businesses serving both English and Thai-speaking customers."
+        },
+        {
+          "question": "What if the AI can't answer a question?",
+          "answer": "The AI handles 95% of calls perfectly. For complex questions, it takes a message and notifies you immediately, so you can call the customer back when convenient."
+        },
+        {
+          "question": "Can the AI book appointments?",
+          "answer": "Yes! It checks your real-time availability, books appointments, sends confirmations, and updates your calendar - all while talking to the customer on the phone."
+        },
+        {
+          "question": "How do I know what was discussed on calls?",
+          "answer": "Every call is transcribed and summarized. You get instant notifications with what was discussed, any actions needed, and a full transcript if you want it."
+        }
+      ],
+      "five": [
+        {
+          "question": "What support do I get?",
+          "answer": "Unlimited support via email, phone, and WhatsApp. We respond within 4 hours on business days, often much faster. You're never left stuck with a problem."
+        },
+        {
+          "question": "Do you train my staff?",
+          "answer": "Yes! We provide complete training for you and your team on everything - managing bookings, updating your website, handling vouchers, and using all features."
+        },
+        {
+          "question": "What if I need changes to my website?",
+          "answer": "Unlimited changes are included in your monthly fee! Just email us what you need changed, and we'll have it done within 1-2 business days."
+        },
+        {
+          "question": "Can I cancel anytime?",
+          "answer": "Yes, there are no long-term contracts. Cancel anytime with 30 days notice. We're confident you'll love the service, so we don't need to lock you in."
+        },
+        {
+          "question": "What if something breaks?",
+          "answer": "We monitor everything 24/7 and usually fix issues before you even notice them. If something does go wrong, we fix it immediately at no extra cost - it's all included."
+        }
+      ]
+    }
+  }
+}

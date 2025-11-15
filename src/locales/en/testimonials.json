@@ -1,0 +1,68 @@
+{
+  "layout": {
+    "title": "Success Stories | Real Results from Thai Massage Businesses",
+    "description": "See how VoucherStore has transformed Thai massage and spa businesses across the UK. Real stories, real results from business owners just like you."
+  },
+  "landing": {
+    "title": "Success Stories"
+  },
+  "section": {
+    "topper": "Success Stories",
+    "title": "Real Results from Real Businesses",
+    "text": "Don't just take our word for it - hear directly from Thai massage and spa business owners who have transformed their businesses with our digital solutions. These are real stories from real people who were exactly where you are now."
+  },
+  "viewWebsite": "View Website",
+  "stories": [
+    {
+      "title": "From 5 Bookings to 40+ Per Week",
+      "text": "When Nong opened her Thai massage business in Edinburgh, she was struggling to get bookings. Relying on walk-ins and word-of-mouth wasn't enough. Within 3 months of launching her new website and booking system, she went from 5 bookings per week to over 40.",
+      "points": [
+        "Website now ranks #1 on Google Maps for 'Thai massage Edinburgh'",
+        "Online bookings increased revenue by 300% in first 6 months"
+      ],
+      "customer": {
+        "image": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/profile1.jpg",
+        "name": "Nong Mitchell",
+        "business": "Thai Serenity Spa, Edinburgh"
+      },
+      "videoUrl": "#",
+      "videoThumbnail": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/people3.jpg",
+      "videoAlt": "Thai Serenity Spa testimonial",
+      "website": "https://example.com"
+    },
+    {
+      "title": "Gift Vouchers Became Our Biggest Revenue Stream",
+      "text": "Som was skeptical about selling gift vouchers online, but the results speak for themselves. The automated voucher system now generates £3,000+ monthly in additional revenue - completely passive income that requires zero work from her team.",
+      "points": [
+        "Gift voucher sales increased by 400% in first year",
+        "Vouchers now account for 30% of total monthly revenue"
+      ],
+      "customer": {
+        "image": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/profile1.jpg",
+        "name": "Som Johnson",
+        "business": "Lotus Thai Massage, Manchester"
+      },
+      "videoUrl": "#",
+      "videoThumbnail": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/people3.jpg",
+      "videoAlt": "Lotus Thai Massage testimonial",
+      "website": "https://example.com"
+    },
+    {
+      "title": "No More Missed Calls or No-Shows",
+      "text": "Before implementing our AI receptionist and booking system, Ploy was losing 20-30 calls per week and dealing with constant no-shows. Now every call is answered instantly, appointments are confirmed automatically, and no-shows have dropped by 80%.",
+      "points": [
+        "AI receptionist answers 100% of calls in English and Thai",
+        "Automatic reminders reduced no-shows from 25% to just 5%"
+      ],
+      "customer": {
+        "image": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/profile1.jpg",
+        "name": "Ploy Williams",
+        "business": "Bliss Thai Spa, London"
+      },
+      "videoUrl": "#",
+      "videoThumbnail": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/people3.jpg",
+      "videoAlt": "Bliss Thai Spa testimonial",
+      "website": "https://example.com"
+    }
+  ]
+}
