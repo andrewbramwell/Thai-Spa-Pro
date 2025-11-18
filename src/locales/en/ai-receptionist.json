@@ -5,36 +5,36 @@
   },
   "hero": {
     "topper": "AI Receptionist",
-    "title": "Never Miss Another Call Again",
-    "text": "Our AI receptionist answers every call in seconds, books appointments, answers questions, and sounds completely human. Available 24/7, even when you're fully booked or closed. No training required, no sick days, no holidays.",
+    "title": "24/7 AI Receptionist For Your Thai Massage Business",
+    "text": "An AI receptionist answers every call in seconds, handles customer inquiries, provides service information, and sounds completely human. Available 24/7, even when you're closed. No training required, no sick days, no holidays.",
     "cta1": "Get Started",
     "cta1Link": "/contact",
     "cta2": "Hear Demo",
     "cta2Link": "/demo",
-    "imageMobileWebp": "/assets/images/ai-receptionist-mobile.webp",
-    "imageDesktopWebp": "/assets/images/ai-receptionist-desktop.webp",
-    "imageFallbackJpg": "/assets/images/ai-receptionist-desktop.jpg",
+    "imageMobileWebp": "/assets/images/service-hero.png",
+    "imageDesktopWebp": "/assets/images/service-hero.png",
+    "imageFallbackJpg": "/assets/images/service-hero.png",
     "imageAlt": "AI receptionist answering phone calls"
   },
   "services": {
     "topper": "Why AI Receptionist",
-    "title": "Your Customers Don't Care That You're Busy",
-    "text": "When someone calls and gets voicemail, they hang up and call your competitor. Our AI receptionist answers every single call instantly, books them in, and keeps your calendar full - even at 2am on a Sunday.",
+    "title": "Stop Losing Customers To Slow Responses. Answer Instantly.",
+    "text": "You can't be in five places at once, but your AI receptionist can. Every customer gets instant, professional responses—no matter how they reach out—while you focus on treatments.",
     "items": [
       {
         "icon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/alloy-wheel%201.svg",
-        "title": "Answers Every Call Instantly",
-        "text": "No more voicemail, no more missed calls. Every caller gets a human-sounding response in seconds, whether it's 3pm on Tuesday or 11pm on Saturday."
+        "title": "Every Channel Covered. Every Customer Answered.",
+        "text": "Stop juggling multiple platforms. The AI monitors and responds to calls, Facebook, Google, SMS, and your website chatbot—all at once. Every inquiry gets an instant, professional response."
       },
       {
         "icon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/electric%201.svg",
-        "title": "Books Appointments While You Sleep",
-        "text": "Callers can book appointments directly over the phone. The AI checks your real-time availability, books them in, and sends confirmations - all automatically."
+        "title": "Always Available. Never Busy. Never Asleep.",
+        "text": "No more missed calls during treatments, busy signals, or after-hours voicemail. The AI handles multiple calls and messages simultaneously—any time, day or night. Every customer gets answered instantly, nobody waits."
       },
       {
         "icon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-engine.svg",
-        "title": "Sounds Completely Human",
-        "text": "Natural conversation, proper pronunciation, understanding of context. Your callers won't know they're talking to AI - they'll just think you have amazing customer service."
+        "title": "Answers Questions. Guides Customers To Book.",
+        "text": "The AI handles common questions professionally—service details, pricing, availability—then guides customers to your online booking system. It qualifies leads and keeps conversations moving toward appointments."
       }
     ]
   },

@@ -5,8 +5,8 @@
   },
   "hero": {
     "topper": "Online Booking System",
-    "title": "Let Customers Book Anytime, Anywhere",
-    "text": "Give your customers the freedom to book appointments 24/7 from any device. Our online booking system works while you sleep, reduces no-shows with automatic reminders, and frees your staff from endless phone calls.",
+    "title": "24/7 Online Booking For Your Thai Massage Business",
+    "text": "Let customers book themselves 24/7 from any device. Our system captures bookings while you're with clients, sends automatic reminders to reduce no-shows, and frees you from constant phone interruptions.",
     "cta1": "Get Started",
     "cta1Link": "/contact",
     "cta2": "View Demo",
@@ -18,23 +18,23 @@
   },
   "services": {
     "topper": "Why Online Booking",
-    "title": "Stop Losing Bookings to Phone Tag",
-    "text": "How many potential customers have you lost because they called after hours? Or gave up when your line was busy? Online booking means you never miss another opportunity, and your customers get instant confirmation.",
+    "title": "Stop Missing Bookings. Let Clients Book Themselves.",
+    "text": "Today's customers expect to book online—instantly, on their schedule. A phone-only booking system means lost revenue every time you can't answer. Our system never misses an opportunity.",
     "items": [
       {
         "icon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/alloy-wheel%201.svg",
-        "title": "Book 24/7, Even When You're Closed",
-        "text": "Customers can book appointments at 11pm on a Sunday or 6am on Monday morning. Your calendar fills up automatically while you focus on providing great treatments."
+        "title": "Never Miss Another Booking Again",
+        "text": "Your phone doesn't answer at 11pm. Our booking system does. Customers schedule appointments whenever it's convenient for them—mornings, evenings, weekends. Your calendar fills automatically around the clock."
       },
       {
         "icon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/electric%201.svg",
-        "title": "Automatic Reminders Reduce No-Shows",
-        "text": "SMS and email reminders sent automatically before appointments. Customers can confirm or reschedule with one click. Reduce no-shows by up to 80%."
+        "title": "Your Perfect Calendar. Managed Automatically.",
+        "text": "Set your hours, break times, and treatment durations once. The system handles everything else—blocking appointments properly, managing buffer time, and keeping your schedule running smoothly without your constant attention."
       },
       {
         "icon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-engine.svg",
-        "title": "Free Your Staff from Phone Calls",
-        "text": "Stop interrupting treatments to answer booking calls. Your team can focus on the customers in front of them while new bookings come in automatically online."
+        "title": "Fewer No-Shows. More Actual Bookings.",
+        "text": "Reduce no-shows by up to 80% with automatic text and email reminders. Customers appreciate the convenience, you get reliable bookings, and your time is respected. Everyone wins."
       }
     ]
   },

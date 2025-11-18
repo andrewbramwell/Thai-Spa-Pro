@@ -290,10 +290,20 @@ const { namespace } = Astro.props;
         }
 
         .cs-image-group {
-            font-size: ~"min(1.4vw, 1em)";
+            font-size: ~"min(1vw, 0.8em)"; /* Smaller size */
             position: absolute;
             bottom: (-150/16em);
-            right: (-217/16em);
+            right: (-50/16em); /* Much less negative - keeps it on screen */
+        }
+    }
+}
+
+/* Large Desktop - 1700px - Scale back up and push right */
+@media only screen and (min-width: 106.25rem) {
+    #hero-358 {
+        .cs-image-group {
+            font-size: ~"min(1.4vw, 1em)"; /* Original size */
+            right: (-217/16em); /* Original position */
         }
     }
 }

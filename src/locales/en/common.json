@@ -1,61 +1,56 @@
 {
     "home": "Home",
-    "about": "About",
-    "services": "Services",
-    "project-1": "Websites",
-    "project-2": "Project 2",
     "blog": "Blog",
     "contact": "Contact",
-    "theme-label": "Choisissez le thème",
-    "language-label": "Choisissez la langue",
+    "Services": "Services",
+    "Websites": "Websites",
+    "Online Booking": "Online Booking",
+    "Gift Vouchers": "Gift Voucher Management",
+    "AI Receptionist": "AI Receptionist",
+    "Reputation Management": "Review Automation",
+    "Local SEO": "Local SEO",
+    "Pricing & FAQ": "Pricing/FAQs",
+    "Testimonials": "Testimonial Videos",
+    "theme-label": "Select theme",
+    "language-label": "Select language",
     "languageSelect": {
         "en": "English",
-        "fr": "French"
+        "th": "ไทย"
     },
     "themeSelect": {
-        "accessibleLabel": "Select Theme",
+        "accessibleLabel": "Choose theme",
         "light": "Light",
         "dark": "Dark",
         "auto": "Auto"
     },
     "quote": "Get Free Quote",
-    "estimate": "Get an estimate now",
+    "estimate": "Get an Estimate",
     "ctaComponent": {
-        "title": "Get it done",
-        "subtitle": "With us today",
-        "message": "Say something catchy, informative, and encouraging to click the button to go to the contact page. I like to add these to the bottom of all pages.",
-        "cta": "Get an estimate now",
-        "alt": ""
-    },
-    "about-page": {
-        "landing": "About",
-        "topper": "About",
-        "title": "About Company Title",
-        "p-1": "Our company was created In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.",
-        "p-2": "We believe that In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.",
-        "p-3": "It's important In consequat tincidunt turpis sit amet imperdiet.",
-        "rank": "CEO-Founder",
-        "cta": "Our projects"
+        "title": "Entrust your project",
+        "subtitle": "to our experts",
+        "message": "Say something catchy, informative, and encouraging to click the button to go to the contact page. I like to add this banner at the bottom of each page.",
+        "cta": "Get a Quote",
+        "alt": " "
     },
     "cta": {
-        "topper": "Subscribe Us",
-        "title": "Subscribe Your Email for Newsletter & Promotion",
-        "text": "We're not just photographers, we're dream weavers, transforming your visions into tangible memories you'll cherish forever.",
+        "topper": "Newsletter",
+        "title": "Subscribe to Newsletter and Promotions",
+        "text": "Sample text for the CTA section. This content is for example only and will be replaced with actual content later.",
         "buttonText": "Subscribe"
     },
     "footer": {
         "information": "Information",
         "services": "Services",
         "contact": "Contact",
-        "click": "Click to email",
-        "p": "Extra content if you need it, if not you can delete this whole p tag. I usually do.",
-        "credit": "Designed and Hand Coded by "
+        "click": "Send us an email",
+        "p": "Additional content if you need it, otherwise you can delete this entire <p> tag. This is what I usually do.",
+        "credit": "Designed and coded by "
     },
     "notFound": {
-        "pageNotFound": "404 - The page you're looking for does not exist.",
-        "linkText": "Back to homepage"
+        "pageNotFound": "404 - The page you're looking for doesn't exist.",
+        "linkText": "Return to homepage"
     },
-    "skipLink": "Click To Skip To Main Content",
+    "skipLink": "Click to access main content",
     "pagination": {
         "previous": "Prev",
         "next": "Next"

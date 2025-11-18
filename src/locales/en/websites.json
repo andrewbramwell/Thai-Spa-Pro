@@ -5,8 +5,8 @@
   },
   "hero": {
     "topper": "Custom Website Development",
-    "title": "Lightning-Fast Websites That Rank & Convert",
-    "text": "We build super-fast, SEO-optimized websites tailored to your business. Mobile-optimized, unlimited edits, and we manage everything for you. Focus on your business while we handle your digital presence.",
+    "title": "The Website Your Thai Massage Business Deserves",
+    "text": "Your website is often the first impression customers get. Make it count. We create professional, fast-loading websites built specifically for Thai massage businesses. Everything managed for you, from launch to forever.",
     "cta1": "Get Started",
     "cta1Link": "/contact",
     "cta2": "View Pricing",
@@ -18,23 +18,23 @@
   },
   "services": {
     "topper": "Why Work With Us",
-    "title": "Premium Websites, Not Premium Prices",
-    "text": "Remember that first website you built? It was full of hope, but maybe not so great at delivering results. We're here to change that. We offer high-impact custom web designs that are sales-focused and super affordable for businesses just like yours.",
+    "title": "More Than Pretty. Built To Bring You Bookings.",
+    "text": "A website means nothing if it doesn't bring you customers. That's why we focus on speed, mobile experience, and conversion—making sure every visitor can easily find and book you.",
     "items": [
       {
         "icon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/alloy-wheel%201.svg",
-        "title": "From Clicks to Customers",
-        "text": "Think of your website as an investment, not just an expense. We'll build it with a focus on search engine visibility and a user experience that encourages buying decisions."
+        "title": "Stand Out From Your Competitors",
+        "text": "Customers judge your business in seconds. A professional, modern website builds instant trust and credibility. Stand out from competitors still using outdated sites or just Facebook pages."
       },
       {
         "icon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/electric%201.svg",
-        "title": "Relax, We've Got This",
-        "text": "Website maintenance can be a major time suck. So, leave it to us! We'll handle updates, security, and hosting, giving you precious hours back to grow your business."
+        "title": "Google Loves Our Websites. Customers Too.",
+        "text": "Our websites score 95+ on Google PageSpeed—meaning customers get instant results and Google ranks you higher. Fast sites keep visitors engaged and convert more browsers into bookings. Simple."
       },
       {
         "icon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-engine.svg",
-        "title": "Big Website Impact, Small Monthly Budget",
-        "text": "Hand-coded quality, built to perform. We offer custom web designs that deliver real results with budget-friendly monthly plans starting at just £75 per month."
+        "title": "Always Updated. Always Secure. Always Working.",
+        "text": "No technical skills needed. We handle hosting, security updates, backups, and maintenance forever. Your website stays fast, secure, and current—while you focus on running your business."
       }
     ]
   },

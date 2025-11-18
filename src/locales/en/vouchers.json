@@ -5,8 +5,8 @@
   },
   "hero": {
     "topper": "Gift Voucher Management",
-    "title": "Sell More Gift Vouchers, Effortlessly",
-    "text": "Complete digital gift voucher system for your spa or massage business. Sell online 24/7, track redemptions automatically, and increase revenue with minimal effort. We handle everything from design to delivery.",
+    "title": "Online Gift Vouchers For Your Thai Massage Business ",
+    "text": "Customers want to buy gift vouchers. Make it easy. Our automated system lets them purchase online anytime, delivers instantly, and tracks everything. Extra revenue without any extra work.",
     "cta1": "Get Started",
     "cta1Link": "/contact",
     "cta2": "View Demo",
@@ -18,23 +18,23 @@
   },
   "services": {
     "topper": "Key Benefits",
-    "title": "Why Your Business Needs Digital Gift Vouchers",
-    "text": "Gift vouchers are pure profit - paid upfront with no immediate costs. Our system makes selling vouchers as easy as clicking a button, while you watch the revenue roll in.",
+    "title": "Sell More Vouchers. Spend Less Time Managing Them.",
+    "text": "Most Thai massage businesses miss out on gift voucher sales because managing them manually feels overwhelming. Our system handles everything, capturing a new revenue stream automatically.",
     "items": [
       {
         "icon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/alloy-wheel%201.svg",
-        "title": "Instant Online Sales",
-        "text": "Customers can purchase gift vouchers from your website 24/7. Automatic email delivery means you make money even while you sleep - no manual processing required."
+        "title": "Sell Gift Vouchers While You Sleep",
+        "text": "No more handwritten vouchers or manual tracking. Customers buy online 24/7, the system generates beautiful digital vouchers instantly, and payment goes directly to you. Completely automated."
       },
       {
         "icon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/electric%201.svg",
-        "title": "Automatic Tracking & Redemption",
-        "text": "Every voucher is tracked automatically. See real-time reports on sales, redemptions, and outstanding balances. No more spreadsheets or manual tracking."
+        "title": "Perfect For Last-Minute Gift Givers",
+        "text": "Someone forgot a birthday gift? Your online vouchers are the perfect solution—purchased in minutes, delivered instantly. Christmas, Mother's Day, Valentine's—every gift occasion becomes revenue for your business."
       },
       {
         "icon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-engine.svg",
-        "title": "Beautiful Branded Vouchers",
-        "text": "Your vouchers look professional and match your brand perfectly. Customers can print them or send them digitally - perfect for last-minute gifts."
+        "title": "Track Everything. Prevent Fraud. Stay Organized.",
+        "text": "The system tracks every voucher automatically—who bought it, when it expires, whether it's been redeemed. No duplicates, no fraud, no expired vouchers accepted. Everything organized and secure."
       }
     ]
   },
