@@ -115,58 +115,6 @@
       }
     ]
   },
-  "pricing": {
-    "topper": "Pricing",
-    "title": "Find The Right Plan For You",
-    "text": "All plans include complete setup, hosting, support, and unlimited edits. Choose what fits your business now, upgrade later as you grow. We handle all the technical work. You focus on your clients.",
-    "perMonth": "/month",
-    "packageIncludes": "Package Includes",
-    "getStarted": "Get Started",
-    "plans": [
-      {
-        "name": "Essential",
-        "description": "Perfect for new businesses.",
-        "price": "£150",
-        "link": "/contact",
-        "features": [
-          "Professional website",
-          "Online booking system",
-          "Mobile optimized",
-          "SEO setup",
-          "Monthly support",
-          "Unlimited edits"
-        ]
-      },
-      {
-        "name": "Professional",
-        "description": "Most popular choice.",
-        "price": "£250",
-        "link": "/contact",
-        "features": [
-          "Everything in Essential",
-          "Gift voucher system",
-          "Reputation management",
-          "Google Maps optimization",
-          "Priority support",
-          "Advanced analytics"
-        ]
-      },
-      {
-        "name": "Complete",
-        "description": "For established businesses.",
-        "price": "£350",
-        "link": "/contact",
-        "features": [
-          "Everything in Professional",
-          "AI receptionist (24/7)",
-          "Advanced local SEO",
-          "Multi-location support",
-          "Dedicated account manager",
-          "Custom integrations"
-        ]
-      }
-    ]
-  },
   "cta2": {
     "title": "Ready To Grow Your Business Together?",
     "button": "Get in Touch",
