@@ -3,9 +3,10 @@ import { t } from "i18n:astro";
 
 interface Props {
   namespace: string;
+  itemCount?: number;
 }
 
-const { namespace } = Astro.props;
+const { namespace, itemCount = 6 } = Astro.props;
 ---
 
 <section id="sbs-1362">
@@ -87,6 +88,7 @@ const { namespace } = Astro.props;
                         {t(`${namespace}:features.items.4.text`)}
                     </p>
                 </li>
+                {itemCount === 6 ? (
                 <li class="cs-item">
                     <h3 class="cs-h3">
                         <img class="cs-h3-icon" aria-hidden="true" loading="lazy" decoding="async" 
@@ -97,6 +99,7 @@ const { namespace } = Astro.props;
                         {t(`${namespace}:features.items.5.text`)}
                     </p>
                 </li>
+            ) : null}
             </ul>
         </div>
     </div>
@@ -167,7 +170,7 @@ const { namespace } = Astro.props;
         .cs-item {
             list-style: none;
             /* 16px - 24px */
-            padding: clamp(1rem, 3vw, 1.5rem);
+            padding: clamp(1rem, 1rem, 1rem) 0;
             /* prevents padding from affecting height and width */
             box-sizing: border-box;
             background-color: #fff;

@@ -8,178 +8,192 @@
   },
   "pricing": {
     "topper": "Pricing",
-    "title": "Simple, Transparent Pricing",
-    "text": "Choose the package that's right for your business. All plans include unlimited support, regular updates, and everything you need to grow your business online. No hidden fees, no surprises.",
+    "title": "Plans That Grow With Your Business",
+    "text": "Professional online presence, fully managed, starting at £75/month. All plans include complete setup, unlimited support, and regular updates. Plus and Pro add usage-based communication and AI services.",
     "perMonth": "/month",
-    "packageIncludes": "Package Includes",
+    "packageIncludes": "What's Included",
     "getStarted": "Get Started",
     "plans": [
       {
         "name": "Essential",
-        "description": "Perfect for new businesses.",
+        "description": "Get online and start taking bookings.",
+        "price": "£75",
+        "link": "/contact",
+        "features": [
+          "Professional Website",
+          "Online Booking System",
+          "Review Automation",
+          "Gift Voucher System",
+          "AI Receptionist (24/7)"
+        ]
+      },
+      {
+        "name": "Plus",
+        "description": "Build your 5-star reputation.",
+        "price": "£110",
+        "usage": "+ SMS & AI usage",
+        "link": "/contact",
+        "features": [
+          "Professional Website",
+          "Online Booking System",
+          "Review Automation",
+          "Gift Voucher System",
+          "AI Receptionist (24/7)"
+        ]
+      },
+      {
+        "name": "Pro",
+        "description": "Complete online presence, fully managed.",
         "price": "£150",
+        "usage": "+ Calls, SMS & AI usage",
         "link": "/contact",
         "features": [
-          "Professional website",
-          "Online booking system",
-          "Mobile optimized",
-          "SEO setup",
-          "Monthly support",
-          "Unlimited edits"
-        ]
-      },
-      {
-        "name": "Professional",
-        "description": "Most popular choice.",
-        "price": "£250",
-        "link": "/contact",
-        "features": [
-          "Everything in Essential",
-          "Gift voucher system",
-          "Reputation management",
-          "Google Maps optimization",
-          "Priority support",
-          "Advanced analytics"
-        ]
-      },
-      {
-        "name": "Complete",
-        "description": "For established businesses.",
-        "price": "£350",
-        "link": "/contact",
-        "features": [
-          "Everything in Professional",
-          "AI receptionist (24/7)",
-          "Advanced local SEO",
-          "Multi-location support",
-          "Dedicated account manager",
-          "Custom integrations"
+          "Professional Website",
+          "Online Booking System",
+          "Review Automation",
+          "Gift Voucher System",
+          "AI Receptionist (24/7)"
         ]
       }
     ]
   },
-  "faq": {
-    "topper": "Frequently Asked Questions",
-    "title": "Common Questions About Our Services",
-    "text": "Find answers to the most common questions about our digital solutions for Thai massage and spa businesses. Can't find what you're looking for? Get in touch and we'll be happy to help.",
-    "categories": [
-      "Getting Started",
-      "Websites & Booking",
-      "Gift Vouchers",
-      "AI & Automation",
-      "Support & Training"
+  "table": {
+    "topper": "Usage Pricing",
+    "title": "Usage Pricing for Plus and Pro Plans",
+    "text": "Usage-based services for Plus and Pro plans. AI and email costs are the same worldwide. Phone and SMS rates vary by country—see your region below. You're only charged for what you actually use each month.",
+    "headers": ["Service", "USA/Canada", "UK", "Australia", "Germany"],
+    "sections": [
+      {
+        "title": "AI Services (Same Worldwide)",
+        "rows": [
+          {
+            "service": "AI Review Responses",
+            "usa": "$0.011/response",
+            "uk": "$0.011/response",
+            "australia": "$0.011/response",
+            "germany": "$0.011/response"
+          },
+          {
+            "service": "AI Message Responses",
+            "usa": "$0.022/message",
+            "uk": "$0.022/message",
+            "australia": "$0.022/message",
+            "germany": "$0.022/message"
+          },
+          {
+            "service": "AI Voice Call Handling",
+            "usa": "$0.143/min",
+            "uk": "$0.143/min",
+            "australia": "$0.143/min",
+            "germany": "$0.143/min"
+          }
+        ]
+      },
+      {
+        "title": "Phone Calls (Varies by Country)",
+        "rows": [
+          {
+            "service": "Receiving Calls",
+            "usa": "$0.009/min",
+            "uk": "$0.011/min",
+            "australia": "$0.011/min",
+            "germany": "$0.011/min"
+          },
+          {
+            "service": "Outgoing - Landline",
+            "usa": "$0.015/min",
+            "uk": "$0.017/min",
+            "australia": "$0.027/min",
+            "germany": "$0.018/min"
+          },
+          {
+            "service": "Outgoing - Mobile",
+            "usa": "$0.015/min",
+            "uk": "$0.032/min",
+            "australia": "$0.079/min",
+            "germany": "$0.044/min"
+          }
+        ]
+      },
+      {
+        "title": "SMS Messages (Varies by Country)",
+        "rows": [
+          {
+            "service": "Sending SMS",
+            "usa": "$0.009/message",
+            "uk": "$0.055/message",
+            "australia": "$0.054/message",
+            "germany": "$0.118/message"
+          },
+          {
+            "service": "Receiving SMS",
+            "usa": "$0.009/message",
+            "uk": "$0.008/message",
+            "australia": "$0.008/message",
+            "germany": "$0.008/message"
+          }
+        ]
+      },
+      {
+        "title": "Email (Same Worldwide)",
+        "rows": [
+          {
+            "service": "Sending Emails",
+            "usa": "$0.0007/email",
+            "uk": "$0.0007/email",
+            "australia": "$0.0007/email",
+            "germany": "$0.0007/email"
+          }
+        ]
+      }
     ],
-    "questions": {
-      "one": [
-        {
-          "question": "How long does it take to get everything set up?",
-          "answer": "Most businesses are fully live within 2-4 weeks. We handle everything - website design, booking system setup, and training your team. You'll be taking online bookings before you know it."
-        },
-        {
-          "question": "Do I need any technical knowledge?",
-          "answer": "Not at all! We handle all the technical setup and provide simple training for you and your staff. If you can send an email, you can manage your new system."
-        },
-        {
-          "question": "What if I already have a website?",
-          "answer": "We can work with your existing website or build you a brand new one. Many clients prefer to start fresh with our optimized, mobile-friendly designs that are built specifically for Thai massage businesses."
-        },
-        {
-          "question": "Can I try before I commit?",
-          "answer": "Yes! We offer a free demo and consultation. We'll show you exactly how everything works and answer all your questions before you make any commitment."
-        },
-        {
-          "question": "What's included in the monthly price?",
-          "answer": "Everything! Your monthly fee includes hosting, security, updates, unlimited edits, ongoing support, and all the features in your chosen package. No hidden costs or surprise fees."
-        }
-      ],
-      "two": [
-        {
-          "question": "Will my website work on mobile phones?",
-          "answer": "Absolutely! All our websites are mobile-first, meaning they're designed specifically to look perfect on phones and tablets. Over 70% of bookings come from mobile, so this is crucial."
-        },
-        {
-          "question": "Can customers book appointments 24/7?",
-          "answer": "Yes! Your online booking system works 24/7, even when you're closed. Customers can book any time, and you'll get automatic notifications for new appointments."
-        },
-        {
-          "question": "How do I prevent double bookings?",
-          "answer": "Our system syncs in real-time, so it's impossible to double-book. When a slot is taken online, it's immediately blocked for other customers."
-        },
-        {
-          "question": "Can I block out holidays and days off?",
-          "answer": "Absolutely! You have full control over your availability. Block out holidays, set different hours for different days, or close specific time slots whenever you need."
-        },
-        {
-          "question": "What if a customer doesn't show up?",
-          "answer": "Our automatic SMS and email reminders reduce no-shows by up to 80%. Customers get reminders 24 hours before their appointment and can confirm with one click."
-        }
-      ],
-      "three": [
-        {
-          "question": "How do customers receive their gift vouchers?",
-          "answer": "Vouchers are sent automatically via email immediately after purchase. Customers can forward them as gifts or print them - completely automated with no work from you."
-        },
-        {
-          "question": "Can vouchers be used for any service?",
-          "answer": "Yes! You can offer both monetary vouchers (£50, £100, etc.) and specific treatment vouchers. You have complete flexibility in what you offer."
-        },
-        {
-          "question": "How do I redeem vouchers?",
-          "answer": "Super simple! Just scan the QR code or enter the voucher code. The system automatically tracks what's been used and updates your reports in real-time."
-        },
-        {
-          "question": "What happens if a voucher expires?",
-          "answer": "You set the expiry dates, and customers get automatic reminder emails before expiry. You can also easily extend vouchers if needed with one click."
-        },
-        {
-          "question": "Can I see how many vouchers have been sold?",
-          "answer": "Yes! Your dashboard shows total sales, what's been redeemed, and what's still outstanding. You get complete visibility of your voucher revenue."
-        }
-      ],
-      "four": [
-        {
-          "question": "Does the AI receptionist sound robotic?",
-          "answer": "Not at all! Our AI sounds completely human with natural conversation flow. Most callers don't realize they're speaking to AI - they just think you have excellent phone service."
-        },
-        {
-          "question": "What languages can the AI speak?",
-          "answer": "The AI speaks both English and Thai fluently, and automatically detects which language the caller is using. Perfect for businesses serving both English and Thai-speaking customers."
-        },
-        {
-          "question": "What if the AI can't answer a question?",
-          "answer": "The AI handles 95% of calls perfectly. For complex questions, it takes a message and notifies you immediately, so you can call the customer back when convenient."
-        },
-        {
-          "question": "Can the AI book appointments?",
-          "answer": "Yes! It checks your real-time availability, books appointments, sends confirmations, and updates your calendar - all while talking to the customer on the phone."
-        },
-        {
-          "question": "How do I know what was discussed on calls?",
-          "answer": "Every call is transcribed and summarized. You get instant notifications with what was discussed, any actions needed, and a full transcript if you want it."
-        }
-      ],
-      "five": [
-        {
-          "question": "What support do I get?",
-          "answer": "Unlimited support via email, phone, and WhatsApp. We respond within 4 hours on business days, often much faster. You're never left stuck with a problem."
-        },
-        {
-          "question": "Do you train my staff?",
-          "answer": "Yes! We provide complete training for you and your team on everything - managing bookings, updating your website, handling vouchers, and using all features."
-        },
-        {
-          "question": "What if I need changes to my website?",
-          "answer": "Unlimited changes are included in your monthly fee! Just email us what you need changed, and we'll have it done within 1-2 business days."
-        },
-        {
-          "question": "Can I cancel anytime?",
-          "answer": "Yes, there are no long-term contracts. Cancel anytime with 30 days notice. We're confident you'll love the service, so we don't need to lock you in."
-        },
-        {
-          "question": "What if something breaks?",
-          "answer": "We monitor everything 24/7 and usually fix issues before you even notice them. If something does go wrong, we fix it immediately at no extra cost - it's all included."
-        }
-      ]
-    }
+    "footerText": "Typical Pro Plan usage in the UK comes to around £12–£15/month in usage fees."
+  },
+  "faq": {
+    "topper": "Pricing Questions",
+    "title": "Understanding Your Investment",
+    "text": "Common questions about pricing, commitment, and what you're actually paying for.",
+    "questions": [
+      {
+        "question": "Why are there two parts to the pricing?",
+        "answer": "Your monthly plan (£75-£150) covers your core online presence—website, systems, setup, and unlimited support. Plus and Pro plans also include AI and communication services (calls, SMS) which are charged based on actual usage, so you only pay for what you use."
+      },
+      {
+        "question": "How much will usage fees actually cost me?",
+        "answer": "It depends on your call and message volume. Most Pro plan businesses spend £12-15/month on usage. Plus plan businesses typically spend £4-6/month. Essential has no usage fees. We show detailed rates and examples on this page so you can estimate your costs."
+      },
+      {
+        "question": "Are there any hidden fees or surprise charges?",
+        "answer": "No. Your monthly plan price is fixed. Usage fees (Plus and Pro only) are charged based on actual consumption with transparent per-unit pricing shown below. No setup fees, no surprise charges, no hidden costs."
+      },
+      {
+        "question": "Why is there a 12-month commitment?",
+        "answer": "We invest significant upfront work—custom website design, system integrations, AI training (Pro), review automation setup (Plus/Pro), and comprehensive training. A 12-month commitment allows us to deliver this properly. After 12 months, it becomes rolling month-to-month."
+      },
+      {
+        "question": "Can I cancel after 12 months?",
+        "answer": "Yes! After your initial 12 months, it's rolling month-to-month. Cancel anytime with 30 days' notice. You keep your domain and business data. The website is removed as source code remains our property. With 98% retention, most clients stay long-term."
+      },
+      {
+        "question": "What's actually included in my monthly price?",
+        "answer": "Everything! Complete setup, custom website, hosting, security, unlimited content updates, unlimited support in Thai and English, regular updates, and all features in your chosen plan. The only extras are usage fees for AI and communication services (Plus and Pro)."
+      },
+      {
+        "question": "Can I upgrade or downgrade my plan?",
+        "answer": "Yes! Existing customers can upgrade anytime (month-to-month, no new commitment). Downgrades are possible after your initial 12-month period. We'll help you find the right fit as your business grows."
+      },
+      {
+        "question": "What if I'm in a different country?",
+        "answer": "Essential and Plus plans are available in most countries. The Pro plan (which includes AI receptionist phone services) is currently available in the USA, Canada, UK, Australia, and Germany due to phone system limitations."
+      },
+      {
+        "question": "Do you offer discounts for annual payment?",
+        "answer": "Not currently. Our pricing is already highly competitive for fully-managed service. All plans are billed monthly, and you get the same great service regardless of how you pay."
+      },
+      {
+        "question": "What makes this better value than doing it myself or hiring an agency?",
+        "answer": "DIY tools require your time, technical knowledge, and constant maintenance. Agencies charge £2,000-5,000+ monthly. We're the middle ground—professional, fully-managed service at £75-£150/month. You get agency-quality results without agency prices or DIY complexity."
+      }
+    ]
   }
 }

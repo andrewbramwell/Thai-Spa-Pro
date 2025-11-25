@@ -15,7 +15,6 @@ const { namespace } = Astro.props;
 <section id="hero-358">
     <div class="cs-container">
         <div class="cs-flex-group">
-            <span class="cs-topper">{t(`${namespace}:hero.topper`)}</span>
             <h1 class="cs-title">{t(`${namespace}:hero.title`)}</h1>
             <p class="cs-text">
                 {t(`${namespace}:hero.text`)}
@@ -23,14 +22,6 @@ const { namespace } = Astro.props;
             <div class="cs-button-group">
                 <a href={getLocalePath(t(`${namespace}:hero.cta1Link`))} class="cs-button-solid">
                     {t(`${namespace}:hero.cta1`)}
-                </a>
-                <a href={getLocalePath(t(`${namespace}:hero.cta2Link`))} class="cs-button-transparent">
-                    <picture class="cs-picture">
-                        <img class="cs-image" decoding="async" 
-                            src="https://csimg.nyc3.digitaloceanspaces.com/chevron-right.svg" 
-                            alt="icon" width="12" height="12" aria-hidden="true">
-                    </picture>
-                    {t(`${namespace}:hero.cta2`)}
                 </a>
             </div>
         </div>
@@ -46,6 +37,11 @@ const { namespace } = Astro.props;
             </picture>
         </div>
     </div>
+    <picture class="cs-background">
+        <source media="(max-width: 600px)" srcset="/assets/images/hero-bg-m.webp">
+        <source media="(min-width: 601px)" srcset="/assets/images/hero-bg.webp">
+        <img decoding="async" src="/assets/images/hero-bg.jpg" alt="cleaner" width="2250" height="1500" aria-hidden="true">
+    </picture>
 </section>
 
 <style lang="less">
@@ -127,8 +123,6 @@ const { namespace } = Astro.props;
         }
 
         .cs-title {
-            /* 39px - 61px */
-            font-size: clamp(2.4375rem, 6.4vw, 3.8125rem);
             font-weight: 900;
             line-height: 1.2em;
             text-align: center;
@@ -143,7 +137,6 @@ const { namespace } = Astro.props;
         }
 
         .cs-text {
-            font-size: (20/16rem);
             line-height: 1.5em;
             text-align: center;
             width: 100%;
@@ -312,14 +305,14 @@ const { namespace } = Astro.props;
 @media only screen and (min-width: 0rem) {
     body.dark-mode {
         #hero-358 {
-            background-color: rgba(0, 0, 0, .2);
             .cs-background {
+                background-color: var(--dark);
                 &:before {
-                    background-color: #000;
-                    opacity: 0.5;
+                    background-color: var(--dark);
+                    opacity: 0.8;
                 }
                 img {
-                    opacity: 0.5;
+                    opacity: 0.8;
                 }
             }
             .cs-topper {

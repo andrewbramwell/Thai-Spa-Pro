@@ -1,87 +1,99 @@
 {
   "layout": {
-    "title": "Digital Solutions for Thai Massage & Spa Businesses | VoucherStore",
+    "title": "Digital Solutions for Thai Massage & Spa Businesses ",
     "description": "Complete digital solutions for Thai massage and spa businesses. Websites, online booking, gift vouchers, AI receptionist, and reputation management - all in one place."
   },
   "hero": {
     "accent": "",
-    "title": "Your Complete Online Solution. Fully Managed For You.",
-    "text": "Missing calls during treatments? Spending evenings managing bookings? Paying for ads that don't convert? You're losing money and time every single day. There's a better way.",
-    "cta1": "Get Started",
+    "title": "Run Your Thai Massage Business. We'll Handle Everything Online.",
+    "text": "Your complete online presence—professionally built, fully managed, always working for you",
+    "cta1": "Get in Touch",
     "cta1Link": "/contact",
     "cta2": "View Services",
-    "cta2Link": "/services/websites"
+    "cta2Link": "#services-section"
   },
   "logos": {
     "heading": "Trusted by Thai Massage Businesses Worldwide"
   },
   "services": {
+    "topper": "Why ThaiSpaPro",
+    "title": "More Bookings, Less Work, Zero Language Barriers",
+    "text": "",
+    "items": [
+      {
+        "icon": "/assets/svgs/icons/wrench.svg",
+        "title": "Fully Managed Forever, Not DIY Software",
+        "text": "Focus completely on treatments while we handle everything technical—forever. No learning curves, no updates to manage, no tech stress. Professional online presence without the headaches."
+      },
+      {
+        "icon": "/assets/svgs/icons/growth.svg",
+        "title": "Build Your Foundation, Not Burn Money on Ads",
+        "text": "Systems that generate bookings 24/7—not temporary traffic spikes from expensive ads. Sustainable revenue growth through solid infrastructure that works whether you're awake or asleep."
+      },
+      {
+        "icon": "/assets/svgs/icons/happy-friends.svg",
+        "title": "Thai & English Support Throughout",
+        "text": "Communicate with us in Thai while we handle all customer-facing English. No language barriers in setup, training, or ongoing support. Built by people who understand your specific challenges."
+      }
+    ]
+  },
+  "services2": {
     "topper": "Our Services",
-    "title": "Everything Your Thai Massage Business Needs",
-    "text": "We're not a marketing agency that takes your money and runs. We're not software you struggle with alone. We're a complete, done-for-you service that gives you everything Thai massage businesses need to compete online—professionally built, fully managed, always improving. Build the foundation right, then everything else works. Here's what you get:",
+    "title": "Five Essential Services. One Complete System.",
+    "text": "Everything Thai massage businesses need to compete online—professionally built, fully managed, always working together. Here's what you get:",
     "readMore": "Read More",
     "items": [
       {
-        "icon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/alloy-wheel%201.svg",
+        "icon": "/assets/svgs/icons/website.svg",
         "title": "Professional Website",
         "text": "Beautiful, fast-loading website built for Thai massage businesses. Mobile-friendly, Google-optimised, and designed to convert visitors into bookings. Everything handled for you.",
         "link": "/services/websites"
       },
       {
-        "icon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/electric%201.svg",
-        "title": "Local SEO",
-        "text": "Show up when customers search 'Thai massage near me' on Google. We handle the optimization, you get discovered by local clients ready to book.",
-        "link": "/services/booking"
-      },
-      {
-        "icon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-engine.svg",
+        "icon": "/assets/svgs/icons/ai-assistant.svg",
         "title": "AI Receptionist",
-        "text": "Answers every call and message instantly—even when you're hands-on with clients. Available 24/7 in multiple languages. Every enquiry gets a response.",
+        "text": "Answers every call and message instantly—even when you're hands-on with clients. Available 24/7 with professional communication. Every enquiry gets a response.",
         "link": "/services/ai-receptionist"
       },
       {
-        "icon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/alloy-wheel%201.svg",
+        "icon": "/assets/svgs/icons/booking.svg",
         "title": "Online Booking System",
         "text": "Clients book themselves anytime, day or night. Your calendar fills automatically, confirmations send instantly, and double-bookings become impossible. Simple.",
         "link": "/services/booking"
       },
       {
-        "icon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/electric%201.svg",
+        "icon": "/assets/svgs/icons/gift-card.svg",
         "title": "Gift Voucher Management",
-        "text": "Customers buy gift vouchers directly from your website. The system handles payments, delivery, and tracking automatically. Pure profit, zero admin.",
+        "text": "Customers buy gift vouchers online anytime. The system handles payments, delivery, and tracking automatically. Get paid upfront, zero admin.",
         "link": "/services/vouchers"
       },
       {
-        "icon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-engine.svg",
+        "icon": "/assets/svgs/icons/review.svg",
         "title": "Review Automation",
-        "text": "Turn happy clients into 5-star Google reviews effortlessly. The system makes it easy for them to leave feedback, boosting your visibility and credibility.",
+        "text": "Turn satisfied clients into Google reviews automatically. AI handles requests, responses, and Facebook sharing—building your reputation while you focus on treatments.",
         "link": "/services/reputation"
       }
     ],
-    "bottomHeading": "Relax. We Handle Everything.",
-    "bottomText": "We set everything up, train your team, and provide ongoing support. No technical skills required, no extra work for you. You focus on clients. We handle the rest.",
+    "bottomHeading": "Complete Setup, Training & Support",
+    "bottomText": "We build everything for you, train your team to use it, and provide ongoing support in Thai and English. Updates, changes, improvements—all handled forever. You never touch the technical side.",
     "portfolioButton": "Book Free Consultation",
     "portfolioLink": "/contact"
   },
   "whoWeAre": {
-    "header": "We're on a mission to support Thai massage businesses across the West with technology that's powerful, affordable, and actually simple to use. Your success is our success. Your growth is what drives us.",
-    "imageMobile": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/therapist1.png",
-    "imageDesktop": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/therapist1.png",
-    "imageFallback": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/therapist1.png",
+    "header": "We're on a mission to give Thai massage businesses the online presence they deserve—without expensive agencies or confusing software. Professional systems that work, fully managed, at prices that make sense.",
+    "imageMobile": "/assets/images/why-us-2.png",
+    "imageDesktop": "/assets/images/why-us-2.png",
+    "imageFallback": "/assets/images/why-us-2.png",
     "imageAlt": "Thai massage therapist",
     "topper": "Who We Are",
     "title": "Built By People Who Understand You",
-    "text": "I'm Kris, originally from Thailand and now living in the UK. I've seen too many brilliant Thai massage therapists remain invisible online or waste thousands of pounds on marketing services and campaigns that simply do not yield results. That's why I built ThaiSpaPro with Andrew, my partner.",
-    "list": [
-      "UK based company",
-      "Thai and English support",
-      "Built specifically for Thai massage businesses"
-    ]
+    "text": "I'm Kris, originally from Thailand and now living in the UK. I've seen brilliant Thai therapists remain invisible online or waste money on marketing that doesn't work. Too many get trapped between DIY tools they can't manage and expensive agencies that don't deliver.",
+    "text2": "That's why I built ThaiSpaPro with Andrew, my partner. We handle your complete online presence—websites, booking, AI receptionist, reviews, gift vouchers—so you can focus entirely on what you do best."
   },
   "cta": {
-    "title": "Ready To Grow Your Business Together?",
-    "button": "Book Free Consultation",
-    "link": "/contact"
+    "title": "Find the Plan That Fits Your Business",
+    "button": "View Pricing",
+    "link": "/pricing"
   },
   "reviews": {
     "topper": "Testimonials",
@@ -90,7 +102,7 @@
       {
         "image": "https://csimages2.nyc3.digitaloceanspaces.com/Reviews/profile5.jpg",
         "imageAlt": "Profile picture of satisfied client",
-        "text": "VoucherStore transformed our business completely. Our new website looks amazing, bookings have tripled, and the gift voucher system has become a major revenue stream. Everything is automated - we just focus on our clients now.",
+        "text": "ThaiSpaPro transformed our business completely. Our new website looks amazing, bookings have tripled, and the gift voucher system has become a major revenue stream. Everything is automated - we just focus on our clients now.",
         "name": "Nong Smith",
         "title": "Owner, Thai Serenity Spa, London"
       },
@@ -154,5 +166,10 @@
         ]
       }
     ]
+  },
+  "cta2": {
+    "title": "Ready To Grow Your Business Together?",
+    "button": "Get in Touch",
+    "link": "/contact"
   }
 }

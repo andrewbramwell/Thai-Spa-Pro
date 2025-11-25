@@ -1,45 +1,43 @@
 {
   "layout": {
-    "title": "AI Receptionist | 24/7 Phone Answering Service",
+    "title": "AI Receptionist",
     "description": "Never miss a call again with our AI receptionist. Answers calls 24/7, books appointments, answers questions, and sounds completely human. Perfect for spas and massage businesses."
   },
   "hero": {
     "topper": "AI Receptionist",
     "title": "24/7 AI Receptionist For Your Thai Massage Business",
-    "text": "An AI receptionist answers every call in seconds, handles customer inquiries, provides service information, and sounds completely human. Available 24/7, even when you're closed. No training required, no sick days, no holidays.",
-    "cta1": "Get Started",
+    "text": "Never miss another booking. Your AI receptionist answers calls and messages instantly—even during treatments and after hours. Professional service, 24/7.",
+    "cta1": "Let's Talk",
     "cta1Link": "/contact",
-    "cta2": "Hear Demo",
-    "cta2Link": "/demo",
-    "imageMobileWebp": "/assets/images/service-hero.png",
-    "imageDesktopWebp": "/assets/images/service-hero.png",
-    "imageFallbackJpg": "/assets/images/service-hero.png",
+    "imageMobileWebp": "/assets/images/hero-img.png",
+    "imageDesktopWebp": "/assets/images/hero-img.png",
+    "imageFallbackJpg": "/assets/images/hero-img.png",
     "imageAlt": "AI receptionist answering phone calls"
   },
   "services": {
-    "topper": "Why AI Receptionist",
-    "title": "Stop Losing Customers To Slow Responses. Answer Instantly.",
-    "text": "You can't be in five places at once, but your AI receptionist can. Every customer gets instant, professional responses—no matter how they reach out—while you focus on treatments.",
+    "topper": "The Results You Get",
+    "title": "Perfect English Service, Zero Missed Enquiries, Massive Savings",
+    "text": "",
     "items": [
       {
-        "icon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/alloy-wheel%201.svg",
-        "title": "Every Channel Covered. Every Customer Answered.",
-        "text": "Stop juggling multiple platforms. The AI monitors and responds to calls, Facebook, Google, SMS, and your website chatbot—all at once. Every inquiry gets an instant, professional response."
+        "icon": "/assets/svgs/icons/language.svg",
+        "title": "Eliminate Language Barriers Completely",
+        "text": "Perfect English (or German, Italian, Spanish) responses across calls, messages, and chat while you manage your business in Thai. Professional customer communication without the stress of language difficulties."
       },
       {
-        "icon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/electric%201.svg",
-        "title": "Always Available. Never Busy. Never Asleep.",
-        "text": "No more missed calls during treatments, busy signals, or after-hours voicemail. The AI handles multiple calls and messages simultaneously—any time, day or night. Every customer gets answered instantly, nobody waits."
+        "icon": "/assets/svgs/icons/goals.svg",
+        "title": "Never Miss Another Enquiry",
+        "text": "Every missed call, unanswered message, or ignored chat is lost revenue. Your AI responds instantly to every enquiry—phone, Facebook, SMS, website—even during peak hours when you're busy with treatments."
       },
       {
-        "icon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-engine.svg",
-        "title": "Answers Questions. Guides Customers To Book.",
-        "text": "The AI handles common questions professionally—service details, pricing, availability—then guides customers to your online booking system. It qualifies leads and keeps conversations moving toward appointments."
+        "icon": "/assets/svgs/icons/piggy-bank.svg",
+        "title": "No Receptionist Costs or Staff Headaches",
+        "text": "Professional service across all channels without salary, taxes, holidays, sick days, or scheduling complications. Reinvest those thousands of pounds annually into growing your business instead."
       }
     ]
   },
   "reviews": {
-    "topper": "Real Results",
+    "topper": "Success Stories",
     "title": "How AI Receptionist Changed These Businesses",
     "items": [
       {
@@ -64,35 +62,41 @@
     "imageFallback": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/people10.jpg",
     "imageAlt": "AI receptionist system in action",
     "boxIcon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/gear-white.svg",
-    "boxText": "Answering 100,000+ Calls Monthly",
-    "topper": "Intelligent Features",
-    "title": "More Than Just Answering - It's Your Perfect Receptionist",
-    "text": "Our AI receptionist doesn't just pick up the phone - it understands your business, knows your services, and handles conversations like a trained professional who's worked with you for years.",
+    "boxText": "Speaks Perfect English So You Don't Have To",
+    "topper": "What's Included",
+    "title": "Professional Communication, Fully Automated",
+    "text": "Handles calls, messages, and enquiries across all platforms. Pre-trained on your business, answers customer questions accurately, and guides them to book appointments—all without your involvement.",
     "items": [
       {
-        "title": "24/7 Availability",
-        "text": "Never miss a call again. Answers instantly at 2am, during holidays, when you're with clients, or when all your lines are busy."
+        "title": "Answers Every Phone Call Instantly",
+        "text": "No more missed calls, voicemails, or busy signals. Every call gets answered professionally in seconds—even when you're treating clients, at lunch, or after closing time."
       },
       {
-        "title": "Appointment Booking",
-        "text": "Books appointments directly over the phone by checking your real-time availability. Customers don't need to call back or go online."
+        "title": "Responds to Messages Across All Platforms",
+        "text": "Handles Facebook Messenger, SMS texts, Google Business messages, and website chat simultaneously. Every message gets an instant, professional response—no customer waits for answers."
       },
       {
-        "title": "Answers Common Questions",
-        "text": "Trained on your services, prices, location, and hours. Answers customer questions accurately and professionally without bothering your staff."
+        "title": "Guides Customers to Book Appointments",
+        "text": "Provides service details, pricing, and availability information, then directs customers seamlessly to your online booking system. Turns inquiries into confirmed appointments without your involvement."
       },
       {
-        "title": "Natural Conversations",
-        "text": "Understands context, accents, and natural speech patterns. Handles interruptions, clarifications, and complex requests just like a human would."
+        "title": "Natural-Sounding AI Voice",
+        "text": "Speaks clearly and professionally with natural conversation flow. Much better than robotic phone systems—understands questions, provides helpful answers, and creates a positive first impression for your business."
       },
       {
-        "title": "Instant Call Summaries",
-        "text": "Every call is transcribed and summarised. You get notifications with what was discussed and any actions needed - no more scribbled notes."
+        "title": "Knows Your Business Inside-Out",
+        "text": "Pre-trained on your services, pricing, policies, and location details. Answers specific questions accurately—from treatment descriptions to opening hours—like an experienced staff member."
       },
       {
-        "title": "Multiple Languages",
-        "text": "Can speak English, Thai, and other languages fluently. Automatically detects the caller's language and responds appropriately."
+        "title": "Works 24/7, Never Takes a Break",
+        "text": "Answers calls and messages at midnight, on Sundays, during holidays—whenever customers reach out. Captures bookings competitors miss because they close at 5pm or take weekends off."
       }
     ]
+  },
+  "cta": {
+    "topper": "Let's Get Started",
+    "title": "Get Your AI Receptionist System",
+    "text": "Let's talk about your business and show you exactly how the AI handles customer enquiries.",
+    "buttonText": "Get in Touch"
   }
 }

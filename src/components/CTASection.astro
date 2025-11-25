@@ -1,10 +1,13 @@
 ---
+// 
 import { t } from "i18n:astro";
----
 
-<!-- ============================================ -->
-<!--                   CTA                        -->
-<!-- ============================================ -->
+interface Props {
+  namespace: string;
+}
+
+const { namespace } = Astro.props;
+---
 
 <section id="subscribe-2143">
     <div class="cs-container">
@@ -12,21 +15,25 @@ import { t } from "i18n:astro";
             <!--Main Image-->
             <picture class="cs-picture">
                 <!--Mobile Image-->
-                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/therapist1.png">
+                <source media="(max-width: 600px)" srcset="/assets/images/why-us-2.png">
                 <!--Tablet and above Image-->
-                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/therapist1.png">
-                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/therapist1.png" alt="wedding bride" width="396" height="570">
+                <source media="(min-width: 601px)" srcset="/assets/images/why-us-2.png">
+                <img loading="lazy" decoding="async" src="/assets/images/why-us-2.png" alt="kristira" width="396" height="570">
             </picture>
             <!--Color Wheel-->
-            <img class="cs-wheel" loading="lazy" decoding="async" src="/assets/svgs/color-wheel.svg" alt="color wheel" width="542" height="542" aria-hidden="true">
+            <img class="cs-wheel" loading="lazy" decoding="async" 
+                src="/assets/svgs/color-wheel.svg" 
+                alt="color wheel" width="542" height="542" aria-hidden="true">
         </div>
         <div class="cs-content">
-            <span class="cs-topper">{t("cta.topper")}</span>
-            <h2 class="cs-title">{t("cta.title")}</h2>
+            <span class="cs-topper">{t(`${namespace}:cta.topper`)}</span>
+            <h2 class="cs-title">{t(`${namespace}:cta.title`)}</h2>
             <p class="cs-text">
-                {t("cta.text")}
+                {t(`${namespace}:cta.text`)}
             </p>
-            <button class="cs-button-solid cs-submit" type="submit">{t("cta.buttonText")}</button>
+            <button class="cs-button-solid cs-submit" type="submit">
+                {t(`${namespace}:cta.buttonText`)}
+            </button>
         </div>
     </div>
 </section>

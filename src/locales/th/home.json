@@ -22,40 +22,34 @@
     "readMore": "อ่านเพิ่มเติม",
     "items": [
       {
-        "icon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/alloy-wheel%201.svg",
+        "icon": "/assets/svgs/icons/website.svg",
         "title": "เว็บไซต์แบบกำหนดเอง",
         "text": "เว็บไซต์ที่เร็วสุดๆ เพิ่มประสิทธิภาพ SEO ที่ติดอันดับบน Google และแปลงผู้เยี่ยมชมเป็นการจอง รองรับมือถือและแก้ไขได้ไม่จำกัด",
         "link": "/services/websites"
       },
       {
-        "icon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/electric%201.svg",
+        "icon": "/assets/svgs/icons/ai-assistant.svg",
         "title": "ระบบจองออนไลน์",
         "text": "ให้ลูกค้าจองนัดหมายได้ตลอด 24/7 จากอุปกรณ์ใดก็ได้ การเตือนอัตโนมัติลดการไม่มาตามนัดได้ 80% รวมเข้ากับเว็บไซต์ของคุณอย่างสมบูรณ์",
         "link": "/services/booking"
       },
       {
-        "icon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-engine.svg",
+        "icon": "/assets/svgs/icons/booking.svg",
         "title": "การจัดการบัตรกำนัล",
         "text": "ขายบัตรกำนัลดิจิทัลตลอด 24/7 ด้วยการส่งอัตโนมัติ ติดตามการใช้งานและเพิ่มรายได้โดยไม่ต้องทำงานด้วยตนเอง",
         "link": "/services/vouchers"
       },
       {
-        "icon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/alloy-wheel%201.svg",
+        "icon": "/assets/svgs/icons/gift-card.svg",
         "title": "พนักงานต้อนรับ AI",
         "text": "ไม่พลาดสายอีกต่อไป AI ของเรารับทุกสายทันที จองนัดหมาย และเสียงเหมือนคนจริง ทำงานตลอด 24/7",
         "link": "/services/ai-receptionist"
       },
       {
-        "icon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/electric%201.svg",
+        "icon": "/assets/svgs/icons/review.svg",
         "title": "การจัดการชื่อเสียง",
         "text": "รับรีวิว 5 ดาวมากขึ้นโดยอัตโนมัติและตอบกลับทุกความคิดเห็นอย่างมืออาชีพ สร้างความไว้วางใจและดึงดูดลูกค้ามากขึ้น",
         "link": "/services/reputation"
-      },
-      {
-        "icon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-engine.svg",
-        "title": "Local SEO",
-        "text": "จัดอันดับ #1 บน Google Maps สำหรับการค้นหา 'Thai massage near me' ครองการค้นหาในท้องถิ่นและรับลูกค้าใหม่อย่างต่อเนื่อง",
-        "link": "/services/local-seo"
       }
     ],
     "bottomHeading": "ทั้งหมดนี้ จัดการครบวงจรให้คุณ",

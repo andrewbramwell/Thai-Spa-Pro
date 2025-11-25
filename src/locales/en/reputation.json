@@ -1,45 +1,43 @@
 {
   "layout": {
-    "title": "Reputation Management | Get More 5-Star Reviews",
+    "title": "Review Automation",
     "description": "Complete reputation management for spas and massage businesses. Get more reviews, respond professionally, and monitor your online reputation across all platforms automatically."
   },
   "hero": {
     "topper": "Reputation Management",
     "title": "Get The Reviews Your Thai Massage Business Deserves",
-    "text": "More 5-star reviews mean more customers finding you on Google. Our system automatically requests reviews from happy clients, sends reminders, and builds your online reputation.",
-    "cta1": "Get Started",
+    "text": "Our system automatically requests reviews from happy clients, sends reminders, and builds your online reputation. More 5-star reviews mean more customers finding you.",
+    "cta1": "Let's Talk",
     "cta1Link": "/contact",
-    "cta2": "See Results",
-    "cta2Link": "/case-studies",
-    "imageMobileWebp": "/assets/images/reputation-mobile.webp",
-    "imageDesktopWebp": "/assets/images/reputation-desktop.webp",
-    "imageFallbackJpg": "/assets/images/reputation-desktop.jpg",
+    "imageMobileWebp": "/assets/images/hero-img.png",
+    "imageDesktopWebp": "/assets/images/hero-img.png",
+    "imageFallbackJpg": "/assets/images/hero-img.png",
     "imageAlt": "Five-star reviews on mobile device"
   },
   "services": {
-    "topper": "Build Trust",
-    "title": "Happy Clients Don't Always Leave Reviews. We Fix That.",
-    "text": "Every happy client is a potential 5-star review—but most never follow through. Our system automates everything, sending perfectly timed requests and gentle reminders that turn satisfied customers into your best marketing.",
+    "topper": "The Results You Get",
+    "title": "More Customers, Higher Rankings, Zero Manual Work",
+    "text": "",
     "items": [
       {
-        "icon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/alloy-wheel%201.svg",
-        "title": "Win More Customers With Strong Reviews",
-        "text": "People trust businesses with strong reviews. The right reputation makes you the obvious choice over competitors. More 5-star reviews mean more customers choosing you—simple as that."
+        "icon": "/assets/svgs/icons/five-stars.svg",
+        "title": "Win More Customers Through Social Proof",
+        "text": "People trust businesses with dozens of 5-star reviews—making you the obvious choice over competitors with fewer or older reviews. Strong reviews convert website visitors into booked appointments automatically."
       },
       {
-        "icon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/electric%201.svg",
-        "title": "Get Found More Often On Google",
-        "text": "Reviews help your business climb Google search results, putting you in front of more local customers. The more reviews you have, the higher you rank—and Google rewards consistency."
+        "icon": "/assets/svgs/icons/seo.svg",
+        "title": "Rank Higher on Google Search Results",
+        "text": "More reviews boost your local search rankings dramatically. When customers search \"Thai massage near me,\" you appear at the top—capturing customers before they even see your competitors."
       },
       {
-        "icon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-engine.svg",
-        "title": "Completely Automated. Absolutely Effortless.",
-        "text": "No awkward conversations. No manual follow-ups. No remembering to ask. The system handles everything automatically—requesting reviews, sending reminders, and building your Google presence without your involvement."
+        "icon": "/assets/svgs/icons/24-hour-cog.svg",
+        "title": "Stop Manually Chasing Reviews",
+        "text": "No more awkward \"please leave a review\" conversations after every appointment. The system handles everything automatically—you focus on treatments while your reputation builds itself."
       }
     ]
   },
   "reviews": {
-    "topper": "Proven Results",
+    "topper": "Success Stories",
     "title": "How Reputation Management Transformed These Businesses",
     "items": [
       {
@@ -64,35 +62,37 @@
     "imageFallback": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/people10.jpg",
     "imageAlt": "Reputation management dashboard showing reviews",
     "boxIcon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/gear-white.svg",
-    "boxText": "Managing 50,000+ Reviews Across Our Client Base",
-    "topper": "Complete System",
+    "boxText": "Build 100+ Reviews in Months",
+    "topper": "What's Included",
     "title": "Everything You Need to Build an Unbeatable Reputation",
     "text": "Our reputation management system doesn't just collect reviews - it actively builds your reputation, protects your business from negative feedback, and turns your satisfied customers into your best marketing channel.",
     "items": [
       {
-        "title": "Automatic Review Requests",
-        "text": "Send review requests automatically via SMS or email after appointments. Perfectly timed for maximum response rates. Customers can leave reviews in seconds."
+        "title": "Automated Review Request Sequences",
+        "text": "Sends perfectly timed review requests via SMS and email after appointments, with smart follow-up reminders. Proven timing and multi-channel delivery get 5-10x more reviews than asking once."
       },
       {
-        "title": "Smart Review Filtering",
-        "text": "Happy customers go straight to public review sites. Unhappy customers get a private feedback form first, so you can resolve issues before they become public reviews."
+        "title": "AI-Powered Positive Review Responses",
+        "text": "Every positive review gets a personalized, professional response within hours. AI crafts genuine thank-you messages using the reviewer's name and specific details—building loyalty and showing you care."
       },
       {
-        "title": "Professional Response Writing",
-        "text": "Every review gets a professional, personalised response. We handle the writing so responses are always appropriate, grateful, and build trust with potential customers reading them."
+        "title": "Automatic Facebook Review Sharing",
+        "text": "New 5-star Google reviews automatically post to your Facebook page as social proof. Amplify positive feedback across platforms—reaching more potential customers without any manual posting work."
       },
       {
-        "title": "Multi-Platform Monitoring",
-        "text": "Track reviews from Google, Facebook, Trustpilot, Yelp, and more from one dashboard. Never miss a review on any platform again."
+        "title": "Review Filtering & Feedback System",
+        "text": "Checks customer satisfaction before directing them to Google. Unhappy customers provide private feedback instead—protecting your public rating while giving you opportunities to resolve issues before they go public."
       },
       {
-        "title": "Instant Notifications",
-        "text": "Get notified immediately when new reviews arrive. Respond quickly to show you care and boost your reputation even further."
-      },
-      {
-        "title": "Review Analytics & Insights",
-        "text": "See trends in your reviews, track your average rating over time, and identify areas for improvement. Make data-driven decisions to improve your service."
+        "title": "Expert Negative Review Response Help",
+        "text": "Professional guidance on crafting responses to negative reviews that address concerns and demonstrate care. We help you turn difficult situations into opportunities—showing potential customers how well you handle issues."
       }
     ]
+  },
+  "cta": {
+    "topper": "Let's Get Started",
+    "title": "Start Building Your 5-Star Reputation",
+    "text": "Let's talk about growing your Google reviews and show you exactly how the system works.",
+    "buttonText": "Get in Touch"
   }
 }

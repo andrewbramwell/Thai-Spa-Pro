@@ -44,23 +44,17 @@ const currentYear = getCurrentYear();
           <li>
             <h2>{t("footer.services")}</h2>
           </li>
-          <li>Service1</li>
-          <li>Service2</li>
-          <li>Service4</li>
-          <li>Service5</li>
+          {
+            navData.find((entry: any) => entry.key === "Services")?.children.map((service: any) => (
+              <li>
+                <a href={getLocalePath(service.url)}>{t(service.key)}</a>
+              </li>
+            ))
+          }
         </ul>
         <ul>
           <li>
             <h2>{t("footer.contact")}</h2>
-          </li>
-          <li>
-            <a href={getLocalePath("/contact")}>
-              {client.address.lineOne}<br />
-              {client.address.lineTwo}<br />
-              {client.address.city}
-              {client.address.state}
-              {client.address.zip}
-            </a>
           </li>
           <li>
             <a href={`tel:${client.phoneForTel}`}>
@@ -69,7 +63,10 @@ const currentYear = getCurrentYear();
             </a>
           </li>
           <li>
-            <a href={`mailto:${client.email}`}>{t("footer.click")}</a>
+            <a href={t("contact:section.whatsapp.link")} target="_blank" rel="noopener noreferrer" class="cs-link">{t("contact:section.whatsapp.display")}</a>
+          </li>
+          <li>
+            <a href={t("contact:section.messenger.link")} target="_blank" rel="noopener noreferrer" class="cs-link">{t("contact:section.messenger.display")}</a>
           </li>
         </ul>
       </div>
@@ -77,9 +74,7 @@ const currentYear = getCurrentYear();
   </div>
 
   <section class="credit">
-    <span>{t("footer.credit")}</span>
-    <a href={getLocalePath("/")} target="_blank" rel="noopener">Your Company Name</a>
-    <span class="copyright"> Copyright {currentYear}</span>
+    <span class="copyright">© {currentYear} ThaiSpaPro. All Rights Reserved.</span>
   </section>
 </footer>
 

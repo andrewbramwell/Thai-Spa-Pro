@@ -1,0 +1,273 @@
+---
+// Table.astro
+import { t } from "i18n:astro";
+
+interface Props {
+  namespace: string;
+}
+
+const { namespace } = Astro.props;
+---
+
+<section id="table-1669">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">{t(`${namespace}:table.topper`)}</span>
+            <h2 class="cs-title">{t(`${namespace}:table.title`)}</h2>
+            <p class="cs-text">
+                {t(`${namespace}:table.text`)}
+            </p>
+        </div>
+        <table class="cs-table">
+            <thead>
+                <tr class="cs-color">
+                    <th class="cs-th">{t(`${namespace}:table.headers.0`)}</th>
+                    <th class="cs-th">{t(`${namespace}:table.headers.1`)}</th>
+                    <th class="cs-th">{t(`${namespace}:table.headers.2`)}</th>
+                    <th class="cs-th">{t(`${namespace}:table.headers.3`)}</th>
+                    <th class="cs-th">{t(`${namespace}:table.headers.4`)}</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr class="cs-tr">
+                    <td class="cs-td">{t(`${namespace}:table.sections.0.rows.0.service`)}</td>
+                    <td class="cs-td">{t(`${namespace}:table.sections.0.rows.0.usa`)}</td>
+                    <td class="cs-td">{t(`${namespace}:table.sections.0.rows.0.uk`)}</td>
+                    <td class="cs-td">{t(`${namespace}:table.sections.0.rows.0.australia`)}</td>
+                    <td class="cs-td">{t(`${namespace}:table.sections.0.rows.0.germany`)}</td>
+                </tr>
+                <tr class="cs-tr">
+                    <td class="cs-td">{t(`${namespace}:table.sections.0.rows.1.service`)}</td>
+                    <td class="cs-td">{t(`${namespace}:table.sections.0.rows.1.usa`)}</td>
+                    <td class="cs-td">{t(`${namespace}:table.sections.0.rows.1.uk`)}</td>
+                    <td class="cs-td">{t(`${namespace}:table.sections.0.rows.1.australia`)}</td>
+                    <td class="cs-td">{t(`${namespace}:table.sections.0.rows.1.germany`)}</td>
+                </tr>
+                <tr class="cs-tr">
+                    <td class="cs-td">{t(`${namespace}:table.sections.0.rows.2.service`)}</td>
+                    <td class="cs-td">{t(`${namespace}:table.sections.0.rows.2.usa`)}</td>
+                    <td class="cs-td">{t(`${namespace}:table.sections.0.rows.2.uk`)}</td>
+                    <td class="cs-td">{t(`${namespace}:table.sections.0.rows.2.australia`)}</td>
+                    <td class="cs-td">{t(`${namespace}:table.sections.0.rows.2.germany`)}</td>
+                </tr>
+                <tr class="cs-tr">
+                    <td class="cs-td">{t(`${namespace}:table.sections.3.rows.0.service`)}</td>
+                    <td class="cs-td">{t(`${namespace}:table.sections.3.rows.0.usa`)}</td>
+                    <td class="cs-td">{t(`${namespace}:table.sections.3.rows.0.uk`)}</td>
+                    <td class="cs-td">{t(`${namespace}:table.sections.3.rows.0.australia`)}</td>
+                    <td class="cs-td">{t(`${namespace}:table.sections.3.rows.0.germany`)}</td>
+                </tr>
+                
+                
+                <tr class="cs-tr">
+                    <td class="cs-td">{t(`${namespace}:table.sections.1.rows.0.service`)}</td>
+                    <td class="cs-td">{t(`${namespace}:table.sections.1.rows.0.usa`)}</td>
+                    <td class="cs-td">{t(`${namespace}:table.sections.1.rows.0.uk`)}</td>
+                    <td class="cs-td">{t(`${namespace}:table.sections.1.rows.0.australia`)}</td>
+                    <td class="cs-td">{t(`${namespace}:table.sections.1.rows.0.germany`)}</td>
+                </tr>
+                <tr class="cs-tr">
+                    <td class="cs-td">{t(`${namespace}:table.sections.1.rows.1.service`)}</td>
+                    <td class="cs-td">{t(`${namespace}:table.sections.1.rows.1.usa`)}</td>
+                    <td class="cs-td">{t(`${namespace}:table.sections.1.rows.1.uk`)}</td>
+                    <td class="cs-td">{t(`${namespace}:table.sections.1.rows.1.australia`)}</td>
+                    <td class="cs-td">{t(`${namespace}:table.sections.1.rows.1.germany`)}</td>
+                </tr>
+                <tr class="cs-tr">
+                    <td class="cs-td">{t(`${namespace}:table.sections.1.rows.2.service`)}</td>
+                    <td class="cs-td">{t(`${namespace}:table.sections.1.rows.2.usa`)}</td>
+                    <td class="cs-td">{t(`${namespace}:table.sections.1.rows.2.uk`)}</td>
+                    <td class="cs-td">{t(`${namespace}:table.sections.1.rows.2.australia`)}</td>
+                    <td class="cs-td">{t(`${namespace}:table.sections.1.rows.2.germany`)}</td>
+                </tr>
+                <tr class="cs-tr">
+                    <td class="cs-td">{t(`${namespace}:table.sections.2.rows.0.service`)}</td>
+                    <td class="cs-td">{t(`${namespace}:table.sections.2.rows.0.usa`)}</td>
+                    <td class="cs-td">{t(`${namespace}:table.sections.2.rows.0.uk`)}</td>
+                    <td class="cs-td">{t(`${namespace}:table.sections.2.rows.0.australia`)}</td>
+                    <td class="cs-td">{t(`${namespace}:table.sections.2.rows.0.germany`)}</td>
+                </tr>
+                <tr class="cs-tr">
+                    <td class="cs-td">{t(`${namespace}:table.sections.2.rows.1.service`)}</td>
+                    <td class="cs-td">{t(`${namespace}:table.sections.2.rows.1.usa`)}</td>
+                    <td class="cs-td">{t(`${namespace}:table.sections.2.rows.1.uk`)}</td>
+                    <td class="cs-td">{t(`${namespace}:table.sections.2.rows.1.australia`)}</td>
+                    <td class="cs-td">{t(`${namespace}:table.sections.2.rows.1.germany`)}</td>
+                </tr>
+            </tbody>
+        </table>
+         <div class="cs-content">
+        </div>
+    </div>
+</section>
+
+<style lang="less">
+
+/*-- -------------------------- -->
+<---           Table            -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    #table-1669 {
+        padding: var(--sectionPadding);
+    
+        .cs-container {
+            width: 100%;
+            max-width: (1280/16rem);
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            /* 48px - 64px */
+            gap: clamp(3rem, 6vw, 4rem);
+        }
+
+        .cs-content {
+            /* set text align to left if content needs to be left aligned */
+            text-align: center;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            /* centers content horizontally, set to flex-start to left align */
+            align-items: center;
+        }
+    
+        .cs-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .cs-th {
+            padding: (12/16rem) (16/16rem);
+            box-sizing: border-box;
+        }
+
+        .cs-td {
+            padding: (8/16rem) (16/16rem);
+            box-sizing: border-box;
+        }
+      
+        .cs-th, .cs-td {
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+    
+        .cs-color {
+            .cs-th {
+                &:first-child {
+                    color: #fff;
+                    background-color: var(--primary);
+                }
+            }
+        }
+    
+        .cs-th:first-child, .cs-td:first-child {
+            position: sticky;
+            left: 0;
+            z-index: 100; /* Make sure it sits above the other cells */
+            background-color: #f2f2f2;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+      
+        .cs-th {
+           background-color: #f2f2f2;
+        }
+
+        .cs-tr {
+            color: var(--bodyTextColor);
+        }
+
+        /* Section Header Styling */
+        .cs-section-header {
+            .cs-td {
+                background-color: var(--primary);
+                color: #fff;
+                font-weight: 700;
+                text-align: left;
+                padding: (8/16rem) (16/16rem);
+                border: 1px solid var(--primary);
+                
+                &:first-child {
+                    position: sticky;
+                    left: 0;
+                    z-index: 100;
+                    background-color: var(--primary);
+                }
+            }
+        }
+
+        .cs-icon {
+            height: (16/16rem);
+            width: auto;
+        }
+
+    }
+}
+
+/* Tablet - 600px */
+@media screen and (max-width: 37.5rem) {
+    #table-1669 {
+        .cs-table {
+            display: block;
+            overflow-x: auto;
+        }
+    }
+}
+
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+    body.dark-mode {
+        #table-1669 {
+            background-color: var(--dark);
+            .cs-th {
+                background-color: rgba(0, 0, 0, .6);
+                color: var(--bodyTextColorWhite);
+            }
+
+            .cs-th:first-child, .cs-td:first-child {
+                background-color: rgba(0, 0, 0, .6);
+                border-color: rgba(255, 255, 255, .2);
+                color: var(--bodyTextColorWhite);
+            }
+
+            .cs-th, .cs-td {
+                border-color: rgba(255, 255, 255, .2);
+            }
+
+            .cs-color {
+                .cs-th {
+                    &:first-child {
+                        color: #fff;
+                        background-color: var(--secondary);
+                    }
+                }
+            }
+
+            .cs-tr {
+                color: var(--bodyTextColorWhite);
+            }
+
+            /* Section Header Dark Mode */
+            .cs-section-header {
+                .cs-td {
+                    background-color: var(--secondary);
+                    border-color: var(--secondary);
+                    
+                    &:first-child {
+                        background-color: var(--secondary);
+                    }
+                }
+            }
+
+            .cs-icon {
+                filter: grayscale(1) brightness(1000%);
+            }
+        }
+    }
+}
+
+
+</style>

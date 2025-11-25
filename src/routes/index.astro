@@ -2,6 +2,7 @@
 import BaseLayout from "@layouts/BaseLayout.astro";
 import PricingSection from "@components/PricingSection.astro";
 import { t, getLocalePath } from "i18n:astro";
+import BenefitsSection from "@components/BenefitsSection.astro";
 ---
 
 <BaseLayout title={t("home:layout.title")} description={t("home:layout.description")} preloadedImage="">
@@ -28,7 +29,7 @@ import { t, getLocalePath } from "i18n:astro";
                     <a href={getLocalePath(t("home:hero.cta1Link"))} class="cs-button-solid">{t("home:hero.cta1")}</a>
                     <a href={getLocalePath(t("home:hero.cta2Link"))} class="cs-button-transparent">
                         <picture class="cs-picture">
-                            <img class="cs-img" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/chevron-right.svg" alt="icon" width="12" height="12" aria-hidden="true">
+                            <img class="cs-img" decoding="async" src="/assets/svgs/chevron-right.svg" alt="icon" width="12" height="12" aria-hidden="true">
                         </picture>
                         {t("home:hero.cta2")}
                     </a>
@@ -61,138 +62,17 @@ import { t, getLocalePath } from "i18n:astro";
 
     <!-- Background Image for Both Sections -->
     <picture class="cs-background">
-        <source media="(max-width: 600px)" srcset="/assets/images/hero-bg-m.jpg">
-        <source media="(min-width: 601px)" srcset="/assets/images/hero-bg.jpg">
+        <source media="(max-width: 600px)" srcset="/assets/images/hero-bg-m.webp">
+        <source media="(min-width: 601px)" srcset="/assets/images/hero-bg.webp">
         <img decoding="async" src="/assets/images/hero-bg.jpg" alt="cleaner" width="2250" height="1500" aria-hidden="true">
     </picture>
 </div>
 
 <!-- ============================================ -->
-<!--                  Services                    -->
+<!--                  Benefits                    -->
 <!-- ============================================ -->
 
-<section id="services-1176">
-    <div class="cs-container">
-        <div class="cs-content">
-            <span class="cs-topper">{t("home:services.topper")}</span>
-            <h2 class="cs-title">{t("home:services.title")}</h2>
-            <p class="cs-text">
-                {t("home:services.text")}
-            </p>
-        </div>
-        <ul class="cs-card-group">
-            <li class="cs-item">
-                <picture class="cs-picture">
-                    <img class="cs-icon" loading="lazy" decoding="async"
-                        src={t("home:services.items.0.icon")} alt="icon"
-                        height="48" />
-                </picture>
-                <h3 class="cs-h3">{t("home:services.items.0.title")}</h3>
-                <p class="cs-item-text">
-                    {t("home:services.items.0.text")}
-                </p>
-                <a href={getLocalePath(t("home:services.items.0.link"))} class="cs-link">
-                    {t("home:services.readMore")}
-                    <img class="cs-arrow" loading="lazy" decoding="async"
-                        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/red-arrow-right.svg" alt="icon"
-                        width="20" height="20" aria-hidden="true" />
-                </a>
-            </li>
-            <!--<li class="cs-item">
-                <picture class="cs-picture">
-                    <img class="cs-icon" loading="lazy" decoding="async"
-                        src={t("home:services.items.1.icon")} alt="icon" width="48"
-                        height="48" />
-                </picture>
-                <h3 class="cs-h3">{t("home:services.items.1.title")}</h3>
-                <p class="cs-item-text">
-                    {t("home:services.items.1.text")}
-                </p>
-                <a href={getLocalePath(t("home:services.items.1.link"))} class="cs-link">
-                    {t("home:services.readMore")}
-                    <img class="cs-arrow" loading="lazy" decoding="async"
-                        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/red-arrow-right.svg" alt="icon"
-                        width="20" height="20" aria-hidden="true" />
-                </a>
-            </li>-->
-            <li class="cs-item">
-                <picture class="cs-picture">
-                    <img class="cs-icon" loading="lazy" decoding="async"
-                        src={t("home:services.items.2.icon")} alt="icon" width="48"
-                        height="48" />
-                </picture>
-                <h3 class="cs-h3">{t("home:services.items.2.title")}</h3>
-                <p class="cs-item-text">
-                    {t("home:services.items.2.text")}
-                </p>
-                <a href={getLocalePath(t("home:services.items.2.link"))} class="cs-link">
-                    {t("home:services.readMore")}
-                    <img class="cs-arrow" loading="lazy" decoding="async"
-                        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/red-arrow-right.svg" alt="icon"
-                        width="20" height="20" aria-hidden="true" />
-                </a>
-            </li>
-            <li class="cs-item">
-                <picture class="cs-picture">
-                    <img class="cs-icon" loading="lazy" decoding="async"
-                        src={t("home:services.items.3.icon")} alt="icon"
-                        height="48" />
-                </picture>
-                <h3 class="cs-h3">{t("home:services.items.3.title")}</h3>
-                <p class="cs-item-text">
-                    {t("home:services.items.3.text")}
-                </p>
-                <a href={getLocalePath(t("home:services.items.3.link"))} class="cs-link">
-                    {t("home:services.readMore")}
-                    <img class="cs-arrow" loading="lazy" decoding="async"
-                        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/red-arrow-right.svg" alt="icon"
-                        width="20" height="20" aria-hidden="true" />
-                </a>
-            </li>
-            <li class="cs-item">
-                <picture class="cs-picture">
-                    <img class="cs-icon" loading="lazy" decoding="async"
-                        src={t("home:services.items.4.icon")} alt="icon" width="48"
-                        height="48" />
-                </picture>
-                <h3 class="cs-h3">{t("home:services.items.4.title")}</h3>
-                <p class="cs-item-text">
-                    {t("home:services.items.4.text")}
-                </p>
-                <a href={getLocalePath(t("home:services.items.4.link"))} class="cs-link">
-                    {t("home:services.readMore")}
-                    <img class="cs-arrow" loading="lazy" decoding="async"
-                        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/red-arrow-right.svg" alt="icon"
-                        width="20" height="20" aria-hidden="true" />
-                </a>
-            </li>
-            <li class="cs-item">
-                <picture class="cs-picture">
-                    <img class="cs-icon" loading="lazy" decoding="async"
-                        src={t("home:services.items.5.icon")} alt="icon" width="48"
-                        height="48" />
-                </picture>
-                <h3 class="cs-h3">{t("home:services.items.5.title")}</h3>
-                <p class="cs-item-text">
-                    {t("home:services.items.5.text")}
-                </p>
-                <a href={getLocalePath(t("home:services.items.5.link"))} class="cs-link">
-                    {t("home:services.readMore")}
-                    <img class="cs-arrow" loading="lazy" decoding="async"
-                        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/red-arrow-right.svg" alt="icon"
-                        width="20" height="20" aria-hidden="true" />
-                </a>
-            </li>
-        </ul>
-        <div class="cs-content">
-            <h3 class="cs-h3">{t("home:services.bottomHeading")}</h3>
-            <p class="cs-text">
-                {t("home:services.bottomText")}
-            </p>
-        </div>
-        <a href={getLocalePath(t("home:services.portfolioLink"))} class="cs-button-solid">{t("home:services.portfolioButton")}</a>
-    </div>
-</section>
+<BenefitsSection namespace="home" />
 
 <!-- ============================================ -->
 <!--                  Who We Are                  -->
@@ -203,7 +83,7 @@ import { t, getLocalePath } from "i18n:astro";
         <p class="cs-header">
             {t("home:whoWeAre.header")}
         </p>
-        <img class="cs-arrow" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/curve-arrow.svg" alt="arrow graphic" width="154" height="120">
+        <img class="cs-arrow" loading="lazy" decoding="async" src="/assets/svgs/curve-arrow.svg" alt="arrow graphic" width="154" height="120">
     </div>
     <div class="cs-container">
         <div class="cs-image-group">
@@ -212,7 +92,7 @@ import { t, getLocalePath } from "i18n:astro";
                 <source media="(min-width: 601px)" srcset={t("home:whoWeAre.imageDesktop")}>
                 <img loading="lazy" decoding="async" src={t("home:whoWeAre.imageFallback")} alt={t("home:whoWeAre.imageAlt")} width="565" height="814">
             </picture>
-            <img class="cs-flower" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/flower-blur.svg" alt="flower blur" width="635" height="697">
+            <img class="cs-flower" loading="lazy" decoding="async" src="/assets/svgs/flower-blur.svg" alt="flower blur" width="635" height="697">
         </div>
         <div class="cs-content">
             <span class="cs-topper">{t("home:whoWeAre.topper")}</span>
@@ -220,20 +100,9 @@ import { t, getLocalePath } from "i18n:astro";
             <p class="cs-text">
                 {t("home:whoWeAre.text")}
             </p>
-            <ul class="cs-ul">
-                <li class="cs-li">
-                    <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/tick-small.svg" alt="checkmark" width="24" height="24">
-                    {t("home:whoWeAre.list.0")}
-                </li>
-                <li class="cs-li">
-                    <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/tick-small.svg" alt="checkmark" width="24" height="24">
-                    {t("home:whoWeAre.list.1")}
-                </li>
-                <li class="cs-li">
-                    <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/tick-small.svg" alt="checkmark" width="24" height="24">
-                    {t("home:whoWeAre.list.2")}
-                </li>
-            </ul>
+            <p class="cs-text">
+                {t("home:whoWeAre.text2")}
+            </p>
         </div>
     </div>
 </section>
@@ -249,8 +118,136 @@ import { t, getLocalePath } from "i18n:astro";
             <a href={getLocalePath(t("home:cta.link"))} class="cs-button-solid">{t("home:cta.button")}</a>
         </div>
     </div>
-    <img class="cs-background" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FGraphics%2Fwaves-3.svg" alt="wave graphic" width="1920" height="318" loading="lazy" decoding="async" aria-hidden="true">
+    <img class="cs-background" src="/assets/svgs/waves.svg" alt="wave graphic" width="1920" height="318" loading="lazy" decoding="async" aria-hidden="true">
 </section>
+
+<!-- ============================================ -->
+<!--                  Services                    -->
+<!-- ============================================ -->
+<div id="services-section">
+<section id="services-1176">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">{t("home:services2.topper")}</span>
+            <h2 class="cs-title">{t("home:services2.title")}</h2>
+            <p class="cs-text">
+                {t("home:services2.text")}
+            </p>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <img class="cs-icon" loading="lazy" decoding="async"
+                        src={t("home:services2.items.0.icon")} alt="icon"
+                        height="48" />
+                </picture>
+                <h3 class="cs-h3">{t("home:services2.items.0.title")}</h3>
+                <p class="cs-item-text">
+                    {t("home:services2.items.0.text")}
+                </p>
+                <a href={getLocalePath(t("home:services2.items.0.link"))} class="cs-link">
+                    {t("home:services2.readMore")}
+                    <img class="cs-arrow" loading="lazy" decoding="async"
+                        src="/assets/svgs/arrow-right.svg" alt="icon"
+                        width="20" height="20" aria-hidden="true" />
+                </a>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <img class="cs-icon" loading="lazy" decoding="async"
+                        src={t("home:services2.items.1.icon")} alt="icon" width="48"
+                        height="48" />
+                </picture>
+                <h3 class="cs-h3">{t("home:services2.items.1.title")}</h3>
+                <p class="cs-item-text">
+                    {t("home:services2.items.1.text")}
+                </p>
+                <a href={getLocalePath(t("home:services2.items.1.link"))} class="cs-link">
+                    {t("home:services2.readMore")}
+                    <img class="cs-arrow" loading="lazy" decoding="async"
+                        src="/assets/svgs/arrow-right.svg" alt="icon"
+                        width="20" height="20" aria-hidden="true" />
+                </a>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <img class="cs-icon" loading="lazy" decoding="async"
+                        src={t("home:services2.items.2.icon")} alt="icon" width="48"
+                        height="48" />
+                </picture>
+                <h3 class="cs-h3">{t("home:services2.items.2.title")}</h3>
+                <p class="cs-item-text">
+                    {t("home:services2.items.2.text")}
+                </p>
+                <a href={getLocalePath(t("home:services2.items.2.link"))} class="cs-link">
+                    {t("home:services2.readMore")}
+                    <img class="cs-arrow" loading="lazy" decoding="async"
+                        src="/assets/svgs/arrow-right.svg" alt="icon"
+                        width="20" height="20" aria-hidden="true" />
+                </a>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <img class="cs-icon" loading="lazy" decoding="async"
+                        src={t("home:services2.items.3.icon")} alt="icon"
+                        height="48" />
+                </picture>
+                <h3 class="cs-h3">{t("home:services2.items.3.title")}</h3>
+                <p class="cs-item-text">
+                    {t("home:services2.items.3.text")}
+                </p>
+                <a href={getLocalePath(t("home:services2.items.3.link"))} class="cs-link">
+                    {t("home:services2.readMore")}
+                    <img class="cs-arrow" loading="lazy" decoding="async"
+                        src="/assets/svgs/arrow-right.svg" alt="icon"
+                        width="20" height="20" aria-hidden="true" />
+                </a>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <img class="cs-icon" loading="lazy" decoding="async"
+                        src={t("home:services2.items.4.icon")} alt="icon" width="48"
+                        height="48" />
+                </picture>
+                <h3 class="cs-h3">{t("home:services2.items.4.title")}</h3>
+                <p class="cs-item-text">
+                    {t("home:services2.items.4.text")}
+                </p>
+                <a href={getLocalePath(t("home:services2.items.4.link"))} class="cs-link">
+                    {t("home:services2.readMore")}
+                    <img class="cs-arrow" loading="lazy" decoding="async"
+                        src="/assets/svgs/arrow-right.svg" alt="icon"
+                        width="20" height="20" aria-hidden="true" />
+                </a>
+            </li>
+            <!--<li class="cs-item">
+                <picture class="cs-picture">
+                    <img class="cs-icon" loading="lazy" decoding="async"
+                        src={t("home:services.items.5.icon")} alt="icon" width="48"
+                        height="48" />
+                </picture>
+                <h3 class="cs-h3">{t("home:services.items.5.title")}</h3>
+                <p class="cs-item-text">
+                    {t("home:services.items.5.text")}
+                </p>
+                <a href={getLocalePath(t("home:services.items.5.link"))} class="cs-link">
+                    {t("home:services.readMore")}
+                    <img class="cs-arrow" loading="lazy" decoding="async"
+                        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/red-arrow-right.svg" alt="icon"
+                        width="20" height="20" aria-hidden="true" />
+                </a>
+            </li>-->
+        </ul>
+        <div class="cs-content">
+            <h3 class="cs-h3">{t("home:services2.bottomHeading")}</h3>
+            <p class="cs-text">
+                {t("home:services2.bottomText")}
+            </p>
+        </div>
+    </div>
+</section>
+</div>
+
 
 <!-- ============================================ -->
 <!--                   Reviews                    -->
@@ -268,7 +265,7 @@ import { t, getLocalePath } from "i18n:astro";
                     <img class="cs-image" loading="lazy" decoding="async" src={t("home:reviews.items.0.image")} alt={t("home:reviews.items.0.imageAlt")} width="64" height="64">
                 </picture>
                 <div class="cs-wrapper">
-                    <img class="cs-quote" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/quote-gold.svg" alt="quote" width="48" height="40">
+                    <img class="cs-quote" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/quote.svg" alt="quote" width="48" height="40">
                     <p class="cs-item-text">
                         {t("home:reviews.items.0.text")}
                     </p>
@@ -283,7 +280,7 @@ import { t, getLocalePath } from "i18n:astro";
                     <img class="cs-image" loading="lazy" decoding="async" src={t("home:reviews.items.1.image")} alt={t("home:reviews.items.1.imageAlt")} width="64" height="64">
                 </picture>
                 <div class="cs-wrapper">
-                    <img class="cs-quote" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/quote-gold.svg" alt="quote" width="48" height="40">
+                    <img class="cs-quote" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/quote.svg" alt="quote" width="48" height="40">
                     <p class="cs-item-text">
                         {t("home:reviews.items.1.text")}
                     </p>
@@ -298,11 +295,18 @@ import { t, getLocalePath } from "i18n:astro";
 </section>
 
 <!-- ============================================ -->
-<!--                  Pricing                     -->
+<!--                     CTA                      -->
 <!-- ============================================ -->
 
-<PricingSection namespace="home" />
-
+<section id="cta-698">
+    <div class="cs-container">
+        <div class="cs-content">
+            <h2 class="cs-title">{t("home:cta2.title")}</h2>
+            <a href={getLocalePath(t("home:cta2.link"))} class="cs-button-solid">{t("home:cta2.button")}</a>
+        </div>
+    </div>
+    <img class="cs-background" src="/assets/svgs/waves.svg" alt="wave graphic" width="1920" height="318" loading="lazy" decoding="async" aria-hidden="true">
+</section>
 
 
 </BaseLayout>
@@ -367,13 +371,13 @@ import { t, getLocalePath } from "i18n:astro";
     body.dark-mode {
         .hero-logos-wrapper {
             .cs-background {
-                background-color: #000;
+                background-color: var(--dark);
                 &:before {
-                    background-color: #000;
-                    opacity: 0.5;
+                    background-color: var(--dark);
+                    opacity: 0.8;
                 }
                 img {
-                    opacity: 0.5;
+                    opacity: 0.8;
                 }
             }
         }
@@ -526,7 +530,7 @@ import { t, getLocalePath } from "i18n:astro";
 @media only screen and (min-width: 0rem) {
     body.dark-mode {
         #hero-330 {
-            background-color: rgba(0, 0, 0, .2);
+            background-color: transparent;
 
             .cs-title {
                 color: var(--bodyTextColorWhite);
@@ -701,7 +705,7 @@ import { t, getLocalePath } from "i18n:astro";
             &:hover {
                 .cs-h3,
                 .cs-link {
-                    color: var(--primary);
+                    color: var(--secondary);
                 }
 
                 .cs-arrow {
@@ -813,7 +817,7 @@ import { t, getLocalePath } from "i18n:astro";
 
                 &:hover {
                     .cs-h3 {
-                        color: var(--primary);
+                        color: var(--secondary);
                     }
                 }
             }
@@ -837,6 +841,342 @@ import { t, getLocalePath } from "i18n:astro";
             .cs-arrow {
                 filter: grayscale(1) brightness(1000%);
             }
+
+            .cs-picture {
+                filter: grayscale(100) brightness(2000%);
+            }
+        }
+    }
+}
+
+/*-- -------------------------- -->
+<---        Side By Side        -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    #sbs-2369 {
+        padding: var(--sectionPadding);
+        padding-bottom: 0;
+        background-color: var(--sectionColor);
+        /* clips anything overflowing */
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+        
+        .cs-container {
+            width: 100%;
+            /* changes to 1280px at desktop */
+            max-width: (784/16rem);
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* 48px - 64px */
+            gap: clamp(3rem, 6vw, 4rem);
+        }
+
+        .cs-wrapper {
+            width: 100%;
+            max-width: (1280/16rem);
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .cs-content {
+            /* set text align to center if content needs to be centered */
+            text-align: left;
+            width: 100%;
+            max-width: (694/16rem);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            /* left aligns content, set to center to align content horizontally */
+            align-items: flex-start;
+        }
+
+        .cs-header {
+            /* 20px - 31px */
+            font-size: clamp(1.25rem, 3vw, 1.9375rem);
+            text-align: center;
+            line-height: 1.2em;
+            font-weight: 700;
+            margin: 0 0 (32/16rem) 0;
+            color: var(--headerColor);
+        }
+
+        .cs-arrow {
+            width: (154/16rem);
+            height: auto;
+            margin-bottom: (20/16rem);
+            display: block;
+        }
+
+        .cs-topper {
+            text-align: center;
+            margin: auto;
+        }
+
+        .cs-title {
+            text-align: center;
+            max-width: 20ch;
+            margin: auto;
+            margin-bottom: (32/16rem);
+            /* 48px - 64px */
+            padding-bottom: clamp(3rem, 6vw, 4rem);
+            position: relative;
+            z-index: 1;
+
+            &:before {
+                content: '';
+                width: 100vw;
+                height: 1px;
+                background: #D2D8DF;
+                opacity: 1;
+                display: block;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+            }
+        }
+
+        .cs-text {
+            margin-bottom: (16/16rem);
+
+            &:last-of-type {
+                /* 24px - 32px */
+                margin-bottom: clamp(1.5rem, 3vw, 2rem);
+            }
+        }
+
+        .cs-ul {
+            width: 100%;
+            margin: 0 0 (32/16rem);
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: (12/16rem);
+        }
+
+        .cs-li {
+            font-size: var(--bodyFontSize);
+            list-style: none;
+            line-height: 1.5em;
+            width: 100%;
+            color: var(--bodyTextColor);
+            display: flex;
+            justify-content: flex-start;
+            /* push icon top the top so if the list item goes to two lines the icon stays at the top */
+            align-items: flex-start;
+            gap: (8/16rem);
+        }
+
+        .cs-icon {
+            width: (19/16rem);
+            height: auto;
+            /* adds extra space between the icon and top of parent so it's more centered */
+            margin-top: 3px;
+            display: block;
+            flex: none;
+        }
+
+        .cs-image-group {
+            /* scales the whole section down and ties the font size to the vw and stops at 75% of the vale of 1em, changes at desktop */
+            font-size:~"min(2.8vw, .75rem)";
+            /* everything inside this box is in ems so we can scale it all down proportionally with a font size */
+            width: (522/16em);
+            height: auto;
+            order: 2;
+            position: relative;
+            z-index: 1;
+        }
+
+        .cs-picture {
+            width: 100%;
+            height: auto;
+            display: block;
+
+            img {
+                width: 100%;
+                height: auto;
+                display: block;
+            }
+        }
+
+        .cs-flower {
+            width: (1200/16em);
+            height: auto;
+            display: block;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            z-index: -1;
+            transform: translateX(-50%);
+        }
+    }
+}
+
+/* Large Desktop - 1200px */
+@media only screen and (min-width: 75rem) {
+    #sbs-2369 {
+        padding: var(--sectionPadding);
+        padding-bottom: 0;
+
+        .cs-container {
+            max-width: (1280/16rem);
+            flex-direction: row;
+            justify-content: flex-end;
+            align-items: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        .cs-content {
+            width: 50%;
+            padding-bottom: clamp(3.75rem, 7.82vw, 6.25rem);
+            align-items: flex-start;
+        }
+
+        .cs-topper, .cs-title {
+            text-align: left;
+            margin: 0;
+        }
+
+        .cs-topper {
+            margin-bottom: (4/16rem);
+        }
+
+        .cs-title {
+            margin-bottom: (32/16rem);
+        }
+
+        .cs-image-group {
+            /* set to inherit at Large Desktop */
+            font-size:~"min(1.2vw, 1rem)";
+            height: auto;
+            order: -1;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+        }
+
+        .cs-picture {
+            height: 100%;
+            width: auto;
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+            position: relative;
+            z-index: 1;
+
+            img {
+                height: 100%;
+                width: auto;
+            }
+        }
+
+        .cs-flower {
+            width: 80vw;
+            max-width: (900/16rem);
+        }
+    }
+}
+
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+    body.dark-mode {
+        #sbs-2369 {
+            background-color: rgba(0, 0, 0, .2);
+
+            .cs-title,
+            .cs-text,
+            .cs-header, .cs-li {
+                color: var(--bodyTextColorWhite);
+            }
+
+            .cs-title {
+                &:before {
+                    opacity: .2;
+                }
+            }
+
+            .cs-text, .cs-li {
+                opacity: .8;
+            }
+
+            .cs-wheel {
+                filter: grayscale(1) brightness(1000%) opacity(.3);
+            }
+        }
+    }
+}
+
+/*-- -------------------------- -->
+<---            CTA             -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    #cta-697 {
+        padding: var(--sectionPadding);
+        background-color: #11142A;
+        position: relative;
+        z-index: 1;
+
+        .cs-container {
+            width: 100%;
+            max-width: (1280/16rem);
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* 48px - 64px */
+            gap: clamp(3rem, 6vw, 4rem);
+        }
+
+        .cs-content {
+            /* set text align to left if content needs to be left aligned */
+            text-align: center;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            /* centers content horizontally, set to flex-start to left align */
+            align-items: center;
+            /* 48px - 64px */
+            gap: clamp(3rem, 6vw, 4rem);
+        }
+
+        .cs-title {
+            color: var(--bodyTextColorWhite);
+        }
+
+        
+
+        .cs-background {
+            width: 100%;
+            height: 100%;
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            /* makes it act like a background image */
+            object-fit: cover;
+        }
+    }
+}
+
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+    #cta-697 {
+        .cs-content {
+            text-align: left;
+            flex-direction: row;
+            justify-content: space-between;
         }
     }
 }
@@ -1379,272 +1719,6 @@ import { t, getLocalePath } from "i18n:astro";
         }
     }
 }
-                                
-/*-- -------------------------- -->
-<---        Side By Side        -->
-<--- -------------------------- -*/
-
-/* Mobile - 360px */
-@media only screen and (min-width: 0rem) {
-    #sbs-2369 {
-        padding: var(--sectionPadding);
-        padding-bottom: 0;
-        background-color: var(--sectionColor);
-        /* clips anything overflowing */
-        overflow: hidden;
-        position: relative;
-        z-index: 1;
-        
-        .cs-container {
-            width: 100%;
-            /* changes to 1280px at desktop */
-            max-width: (784/16rem);
-            margin: auto;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            /* 48px - 64px */
-            gap: clamp(3rem, 6vw, 4rem);
-        }
-
-        .cs-wrapper {
-            width: 100%;
-            max-width: (1280/16rem);
-            margin: auto;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .cs-content {
-            /* set text align to center if content needs to be centered */
-            text-align: left;
-            width: 100%;
-            max-width: (694/16rem);
-            overflow: hidden;
-            display: flex;
-            flex-direction: column;
-            /* left aligns content, set to center to align content horizontally */
-            align-items: flex-start;
-        }
-
-        .cs-header {
-            /* 20px - 31px */
-            font-size: clamp(1.25rem, 3vw, 1.9375rem);
-            text-align: center;
-            line-height: 1.2em;
-            font-weight: 700;
-            margin: 0 0 (32/16rem) 0;
-            color: var(--headerColor);
-        }
-
-        .cs-arrow {
-            width: (154/16rem);
-            height: auto;
-            margin-bottom: (20/16rem);
-            display: block;
-        }
-
-        .cs-topper {
-            text-align: center;
-            margin: auto;
-        }
-
-        .cs-title {
-            text-align: center;
-            max-width: 20ch;
-            margin: auto;
-            margin-bottom: (32/16rem);
-            /* 48px - 64px */
-            padding-bottom: clamp(3rem, 6vw, 4rem);
-            position: relative;
-            z-index: 1;
-
-            &:before {
-                content: '';
-                width: 100vw;
-                height: 1px;
-                background: #D2D8DF;
-                opacity: 1;
-                display: block;
-                position: absolute;
-                bottom: 0;
-                left: 0;
-            }
-        }
-
-        .cs-text {
-            margin-bottom: (16/16rem);
-
-            &:last-of-type {
-                /* 24px - 32px */
-                margin-bottom: clamp(1.5rem, 3vw, 2rem);
-            }
-        }
-
-        .cs-ul {
-            width: 100%;
-            margin: 0 0 (32/16rem);
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            gap: (12/16rem);
-        }
-
-        .cs-li {
-            font-size: var(--bodyFontSize);
-            list-style: none;
-            line-height: 1.5em;
-            width: 100%;
-            color: var(--bodyTextColor);
-            display: flex;
-            justify-content: flex-start;
-            /* push icon top the top so if the list item goes to two lines the icon stays at the top */
-            align-items: flex-start;
-            gap: (8/16rem);
-        }
-
-        .cs-icon {
-            width: (19/16rem);
-            height: auto;
-            /* adds extra space between the icon and top of parent so it's more centered */
-            margin-top: 3px;
-            display: block;
-            flex: none;
-        }
-
-        .cs-image-group {
-            /* scales the whole section down and ties the font size to the vw and stops at 75% of the vale of 1em, changes at desktop */
-            font-size:~"min(2.8vw, .75rem)";
-            /* everything inside this box is in ems so we can scale it all down proportionally with a font size */
-            width: (522/16em);
-            height: auto;
-            order: 2;
-            position: relative;
-            z-index: 1;
-        }
-
-        .cs-picture {
-            width: 100%;
-            height: auto;
-            display: block;
-
-            img {
-                width: 100%;
-                height: auto;
-                display: block;
-            }
-        }
-
-        .cs-flower {
-            width: (1200/16em);
-            height: auto;
-            display: block;
-            position: absolute;
-            bottom: 0;
-            left: 50%;
-            z-index: -1;
-            transform: translateX(-50%);
-        }
-    }
-}
-
-/* Large Desktop - 1200px */
-@media only screen and (min-width: 75rem) {
-    #sbs-2369 {
-        padding: var(--sectionPadding);
-        padding-bottom: 0;
-
-        .cs-container {
-            max-width: (1280/16rem);
-            flex-direction: row;
-            justify-content: flex-end;
-            align-items: center;
-            position: relative;
-            z-index: 1;
-        }
-
-        .cs-content {
-            width: 50%;
-            padding-bottom: clamp(3.75rem, 7.82vw, 6.25rem);
-            align-items: flex-start;
-        }
-
-        .cs-topper, .cs-title {
-            text-align: left;
-            margin: 0;
-        }
-
-        .cs-topper {
-            margin-bottom: (4/16rem);
-        }
-
-        .cs-title {
-            margin-bottom: (32/16rem);
-        }
-
-        .cs-image-group {
-            /* set to inherit at Large Desktop */
-            font-size:~"min(1.2vw, 1rem)";
-            height: auto;
-            order: -1;
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-        }
-
-        .cs-picture {
-            height: 100%;
-            width: auto;
-            display: flex;
-            justify-content: flex-end;
-            align-items: flex-end;
-            position: relative;
-            z-index: 1;
-
-            img {
-                height: 100%;
-                width: auto;
-            }
-        }
-
-        .cs-flower {
-            width: 80vw;
-            max-width: (900/16rem);
-        }
-    }
-}
-
-/* Dark Mode */
-@media only screen and (min-width: 0rem) {
-    body.dark-mode {
-        #sbs-2369 {
-            background-color: rgba(0, 0, 0, .2);
-
-            .cs-title,
-            .cs-text,
-            .cs-header, .cs-li {
-                color: var(--bodyTextColorWhite);
-            }
-
-            .cs-title {
-                &:before {
-                    opacity: .2;
-                }
-            }
-
-            .cs-text, .cs-li {
-                opacity: .8;
-            }
-
-            .cs-wheel {
-                filter: grayscale(1) brightness(1000%) opacity(.3);
-            }
-        }
-    }
-}
 
 /*-- -------------------------- -->
 <---            CTA             -->
@@ -1652,9 +1726,9 @@ import { t, getLocalePath } from "i18n:astro";
 
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
-    #cta-697 {
+    #cta-698 {
         padding: var(--sectionPadding);
-        background-color: #11142A;
+        background-color: var(--primary);
         position: relative;
         z-index: 1;
 
@@ -1687,38 +1761,36 @@ import { t, getLocalePath } from "i18n:astro";
 
         .cs-button-solid {
             font-size: (16/16rem);
-            /* 46px - 56px */
-            line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+            line-height: (56/16rem);
             text-decoration: none;
             font-weight: 700;
-            text-align: center;
+            overflow: hidden;
             margin: 0;
-            color: var(--bodyTextColorWhite);
-            min-width: (150/16rem);
-            padding: 0 (24/16rem);
-            background-color: var(--secondary);
-            border-radius: (4/16rem);
+            color: #fff;
+            padding: 0 (48/16rem);
+            border-radius: (30/16rem);
+            background-color: var(--dark);
             display: inline-block;
             position: relative;
             z-index: 1;
-            /* prevents padding from adding to the width */
-            box-sizing: border-box;
+            transition: color 0.3s;
 
             &:before {
                 content: "";
                 position: absolute;
+                display: block;
                 height: 100%;
                 width: 0%;
-                background: #000;
+                background: var(--secondary);
                 opacity: 1;
                 top: 0;
                 left: 0;
                 z-index: -1;
-                border-radius: (4/16rem);
                 transition: width 0.3s;
             }
 
             &:hover {
+                color: #fff;
                 &:before {
                     width: 100%;
                 }
@@ -1741,7 +1813,7 @@ import { t, getLocalePath } from "i18n:astro";
 
 /* Small Desktop - 1024px */
 @media only screen and (min-width: 64rem) {
-    #cta-697 {
+    #cta-698 {
         .cs-content {
             text-align: left;
             flex-direction: row;
@@ -1750,5 +1822,4 @@ import { t, getLocalePath } from "i18n:astro";
     }
 }
                                 
-
 </style>

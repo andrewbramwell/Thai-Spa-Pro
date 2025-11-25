@@ -21,10 +21,6 @@ const navData = [
       {
         key: "Reputation Management",
         url: "/services/reputation"
-      },
-      {
-        key: "Local SEO",
-        url: "/services/local-seo"
       }
     ]
   },

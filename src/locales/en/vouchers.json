@@ -1,40 +1,38 @@
 {
   "layout": {
-    "title": "Gift Voucher Management System | Digital Voucher Sales",
+    "title": "Gift Voucher Management System",
     "description": "Complete gift voucher management system for spas and massage businesses. Sell vouchers online, track redemptions, and boost revenue with our easy-to-use platform."
   },
   "hero": {
     "topper": "Gift Voucher Management",
-    "title": "Online Gift Vouchers For Your Thai Massage Business ",
-    "text": "Customers want to buy gift vouchers. Make it easy. Our automated system lets them purchase online anytime, delivers instantly, and tracks everything. Extra revenue without any extra work.",
-    "cta1": "Get Started",
+    "title": "Online Gift Vouchers For Your Thai Massage Business",
+    "text": "Our automated system lets customers purchase gift vouchers online anytime. Instant delivery, automatic tracking, extra revenue—without the work.",
+    "cta1": "Let's talk",
     "cta1Link": "/contact",
-    "cta2": "View Demo",
-    "cta2Link": "/demo",
-    "imageMobileWebp": "/assets/images/voucher-mobile.webp",
-    "imageDesktopWebp": "/assets/images/voucher-desktop.webp",
-    "imageFallbackJpg": "/assets/images/voucher-desktop.jpg",
+    "imageMobileWebp": "/assets/images/hero-img.png",
+    "imageDesktopWebp": "/assets/images/hero-img.png",
+    "imageFallbackJpg": "/assets/images/hero-img.png",
     "imageAlt": "Digital gift voucher on mobile device"
   },
   "services": {
-    "topper": "Key Benefits",
-    "title": "Sell More Vouchers. Spend Less Time Managing Them.",
-    "text": "Most Thai massage businesses miss out on gift voucher sales because managing them manually feels overwhelming. Our system handles everything, capturing a new revenue stream automatically.",
+    "topper": "The Results You Get",
+    "title": "Sell More Vouchers, Spend Less Time Managing Them",
+    "text": "",
     "items": [
       {
-        "icon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/alloy-wheel%201.svg",
-        "title": "Sell Gift Vouchers While You Sleep",
-        "text": "No more handwritten vouchers or manual tracking. Customers buy online 24/7, the system generates beautiful digital vouchers instantly, and payment goes directly to you. Completely automated."
+        "icon": "/assets/svgs/icons/cost.svg",
+        "title": "Extra Revenue Without Extra Work",
+        "text": "Sell vouchers 24/7 automatically—no handwritten cards, no manual tracking, no admin burden. Christmas, Mother's Day, birthdays—every gift occasion becomes effortless revenue for your business."
       },
       {
-        "icon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/electric%201.svg",
-        "title": "Perfect For Last-Minute Gift Givers",
-        "text": "Someone forgot a birthday gift? Your online vouchers are the perfect solution—purchased in minutes, delivered instantly. Christmas, Mother's Day, Valentine's—every gift occasion becomes revenue for your business."
+        "icon": "/assets/svgs/icons/cashflow.svg",
+        "title": "Improve Cash Flow With Upfront Payments",
+        "text": "Get paid immediately when vouchers are purchased, long before you deliver any treatments. Boost your cash reserves, smooth out seasonal fluctuations, and invest in growth with confidence."
       },
       {
-        "icon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-engine.svg",
-        "title": "Track Everything. Prevent Fraud. Stay Organized.",
-        "text": "The system tracks every voucher automatically—who bought it, when it expires, whether it's been redeemed. No duplicates, no fraud, no expired vouchers accepted. Everything organized and secure."
+        "icon": "/assets/svgs/icons/fraud.svg",
+        "title": "Zero Risk of Fraud or Lost Revenue",
+        "text": "Automatic tracking prevents duplicate redemptions, expired vouchers, and fraud. Every penny is accounted for, every voucher secure—no manual checking, no revenue leaking through the cracks."
       }
     ]
   },
@@ -64,35 +62,41 @@
     "imageFallback": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/people10.jpg",
     "imageAlt": "Gift voucher management dashboard",
     "boxIcon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/gear-white.svg",
-    "boxText": "Processing £500,000+ in Voucher Sales Annually",
-    "topper": "Complete System",
+    "boxText": "Delivered in Under 60 Seconds",
+    "topper": "What's Included",
     "title": "Everything You Need to Sell Gift Vouchers Online",
-    "text": "Our gift voucher system isn't just software - it's a complete revenue-generating machine for your business. From online sales to redemption tracking, we've thought of everything.",
+    "text": "Everything below is included as standard. No hidden costs, no complex setup, no ongoing fees—just a complete system that generates revenue automatically.",
     "items": [
       {
-        "title": "24/7 Online Sales",
-        "text": "Sell gift vouchers directly from your website any time of day. Customers purchase, pay, and receive their voucher instantly - completely automated."
+        "title": "Instant Email Delivery",
+        "text": "Vouchers delivered to recipients' inboxes within seconds of purchase. Perfect for last-minute gifts—no printing, no posting, no waiting. Customers get instant gratification, you get instant revenue."
       },
       {
-        "title": "Automatic Email Delivery",
-        "text": "Beautiful branded vouchers delivered instantly to customers' inboxes. They can forward them as gifts or print them - no manual work from you."
+        "title": "Fully Branded & Customizable",
+        "text": "Your logo, colors, and design on every voucher. Looks professional, builds trust, reinforces your brand. Complete control over appearance—these are your vouchers, not generic templates."
       },
       {
-        "title": "Easy Redemption Tracking",
-        "text": "Scan or enter voucher codes to redeem. The system tracks everything automatically - no more manual logs or confusion about what's been used."
+        "title": "Monetary & Treatment-Based Vouchers",
+        "text": "Sell flexible £50/£100 vouchers or specific treatments like \"90-Minute Thai Massage\" or \"Couples Spa Package.\" Give customers choice while showcasing your signature services beautifully."
       },
       {
-        "title": "Custom Amounts & Packages",
-        "text": "Offer any voucher amount or pre-set treatment packages. Give customers flexibility while promoting your most popular services."
+        "title": "Automatic Expiry & Fraud Protection",
+        "text": "System tracks every voucher's expiry date, redemption status, and unique code automatically. Prevents duplicates, blocks expired vouchers, eliminates fraud—complete security without manual checking."
       },
       {
-        "title": "Expiry Date Management",
-        "text": "Set expiry dates automatically and send reminder emails before vouchers expire. Encourage redemptions and reduce breakage."
+        "title": "Part Redemption for Multiple Visits",
+        "text": "Customers can use a £100 voucher across multiple appointments—£40 today, £60 next month. Encourages return visits, builds loyalty, increases lifetime value without complicated tracking."
       },
       {
-        "title": "Complete Sales Reports",
-        "text": "See exactly how much you've sold, what's been redeemed, and what's outstanding. Make informed business decisions with real data."
+        "title": "QR Code Quick Redemption",
+        "text": "Staff scan QR codes with any smartphone to redeem vouchers instantly. No typing codes, no manual lookups, no errors. Fast, simple, foolproof redemption every single time."
       }
     ]
+  },
+  "cta": {
+    "topper": "Let's Get Started",
+    "title": "Start Selling Gift Vouchers Today",
+    "text": "Let's talk about setting up your voucher system and show you exactly how it works.",
+    "buttonText": "Get in Touch"
   }
 }

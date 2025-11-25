@@ -1,45 +1,43 @@
 {
   "layout": {
-    "title": "Online Booking System | 24/7 Appointment Scheduling",
+    "title": "Online Booking System",
     "description": "Complete online booking system for spas and massage businesses. Let customers book appointments 24/7, reduce no-shows, and free up your staff from phone calls."
   },
   "hero": {
     "topper": "Online Booking System",
     "title": "24/7 Online Booking For Your Thai Massage Business",
-    "text": "Let customers book themselves 24/7 from any device. Our system captures bookings while you're with clients, sends automatic reminders to reduce no-shows, and frees you from constant phone interruptions.",
-    "cta1": "Get Started",
+    "text": "Let customers book themselves anytime from any device. Automatic reminders reduce no-shows, and you're freed from constant phone interruptions.",
+    "cta1": "Let's Talk",
     "cta1Link": "/contact",
-    "cta2": "View Demo",
-    "cta2Link": "/demo",
-    "imageMobileWebp": "/assets/images/booking-mobile.webp",
-    "imageDesktopWebp": "/assets/images/booking-desktop.webp",
-    "imageFallbackJpg": "/assets/images/booking-desktop.jpg",
+    "imageMobileWebp": "/assets/images/hero-img.png",
+    "imageDesktopWebp": "/assets/images/hero-img.png",
+    "imageFallbackJpg": "/assets/images/hero-img.png",
     "imageAlt": "Woman booking spa appointment on mobile phone"
   },
   "services": {
-    "topper": "Why Online Booking",
-    "title": "Stop Missing Bookings. Let Clients Book Themselves.",
-    "text": "Today's customers expect to book online—instantly, on their schedule. A phone-only booking system means lost revenue every time you can't answer. Our system never misses an opportunity.",
+    "topper": "The Results You Get",
+    "title": "Fill Your Calendar, Save Time, Protect Your Income",
+    "text": "",
     "items": [
       {
-        "icon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/alloy-wheel%201.svg",
-        "title": "Never Miss Another Booking Again",
-        "text": "Your phone doesn't answer at 11pm. Our booking system does. Customers schedule appointments whenever it's convenient for them—mornings, evenings, weekends. Your calendar fills automatically around the clock."
+        "icon": "/assets/svgs/icons/24-hour-clock.svg",
+        "title": "Fill Your Calendar Automatically, Day and Night",
+        "text": "Customers book themselves at 11pm, on Sundays, while you're treating other clients. Your calendar fills 24/7 without you lifting a finger—capturing bookings you'd otherwise miss completely."
       },
       {
-        "icon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/electric%201.svg",
-        "title": "Your Perfect Calendar. Managed Automatically.",
-        "text": "Set your hours, break times, and treatment durations once. The system handles everything else—blocking appointments properly, managing buffer time, and keeping your schedule running smoothly without your constant attention."
+        "icon": "/assets/svgs/icons/management.svg",
+        "title": "Save Hours Every Week on Admin Work",
+        "text": "No more phone calls to confirm appointments, send reminders, or reschedule bookings. The system handles all the tedious admin automatically—giving you hours back every week."
       },
       {
-        "icon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-engine.svg",
-        "title": "Fewer No-Shows. More Actual Bookings.",
-        "text": "Reduce no-shows by up to 80% with automatic text and email reminders. Customers appreciate the convenience, you get reliable bookings, and your time is respected. Everyone wins."
+        "icon": "/assets/svgs/icons/shield.svg",
+        "title": "Stop Losing Money to No-Shows and Cancellations",
+        "text": "Reduce no-shows by up to 80% with automatic reminders and optional deposits. Your time is protected, your income is predictable, your schedule stays full and profitable."
       }
     ]
   },
   "reviews": {
-    "topper": "Client Results",
+    "topper": "Success Stories",
     "title": "How Online Booking Transformed These Businesses",
     "items": [
       {
@@ -64,35 +62,41 @@
     "imageFallback": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/people10.jpg",
     "imageAlt": "Online booking system dashboard",
     "boxIcon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/gear-white.svg",
-    "boxText": "Processing 50,000+ Bookings Monthly",
-    "topper": "Powerful Features",
-    "title": "Everything You Need for Seamless Booking",
-    "text": "Our booking system isn't just a calendar - it's a complete appointment management solution that makes your life easier and your customers happier.",
+    "boxText": "24/7 Automatic Booking",
+    "topper": "What's Included",
+    "title": "Everything You Need for Professional Booking",
+    "text": "Essential features included as standard. No upgrades needed, no surprise charges, no missing pieces—just everything your booking system needs to work perfectly.",
     "items": [
       {
-        "title": "Real-Time Availability",
-        "text": "Customers see your actual availability in real-time. No double bookings, no confusion. What they see is what they get."
+        "title": "Automated SMS & Email Reminders",
+        "text": "Reduce no-shows by up to 80% with automatic text and email reminders sent before every appointment. Customers get timely notifications—you get reliable bookings."
       },
       {
-        "title": "Mobile-Friendly Booking",
-        "text": "Over 80% of bookings happen on mobile. Our system is designed mobile-first, making it effortless for customers to book on any device."
+        "title": "Take Deposits & Online Payments",
+        "text": "Accept payments when customers book—reducing cancellations and securing your time. Process secure credit and debit card payments online with integrated payment processing."
       },
       {
-        "title": "Automatic Confirmations & Reminders",
-        "text": "Instant booking confirmations via email and SMS. Automatic reminders 24 hours before appointments. Customers can confirm or reschedule with one click."
+        "title": "Syncs With Your Phone Calendar",
+        "text": "Sync with Google Calendar, Apple Calendar, and Outlook. Your appointments update automatically across all devices—never miss a booking or double-book again."
       },
       {
-        "title": "Multiple Therapists & Services",
-        "text": "Manage multiple team members, treatment rooms, and services. Customers can choose their preferred therapist or let you assign automatically."
+        "title": "Manage Multiple Therapists",
+        "text": "Each therapist gets their own schedule and availability settings. Customers choose their preferred therapist when booking—perfect for growing teams and multiple locations."
       },
       {
-        "title": "Cancellation & Rescheduling",
-        "text": "Customers can cancel or reschedule online within your policy rules. Cancelled slots automatically become available for other customers."
+        "title": "Customizable Booking Rules",
+        "text": "Set minimum notice periods, maximum advance booking, buffer times, and block-out days. Complete control over when and how customers can book your time."
       },
       {
-        "title": "Integrated with Your Website",
-        "text": "Seamlessly embedded in your website design. Customers never leave your site to book - it's all branded and professional."
+        "title": "Customer History & Notes",
+        "text": "Track every client's past treatments, preferences, and special requests. See appointment history instantly—deliver personalized service that keeps regulars coming back for more."
       }
     ]
+  },
+  "cta": {
+    "topper": "Ready to Launch?",
+    "title": "Get Your Online Booking System",
+    "text": "Let's talk about your booking needs and show you exactly how the system works.",
+    "buttonText": "Get in Touch"
   }
 }

@@ -8,7 +8,6 @@
     "Gift Vouchers": "Gift Voucher Management",
     "AI Receptionist": "AI Receptionist",
     "Reputation Management": "Review Automation",
-    "Local SEO": "Local SEO",
     "Pricing & FAQ": "Pricing/FAQs",
     "Testimonials": "Testimonial Videos",
     "theme-label": "Select theme",
@@ -33,17 +32,17 @@
         "alt": " "
     },
     "cta": {
-        "topper": "Newsletter",
-        "title": "Subscribe to Newsletter and Promotions",
-        "text": "Sample text for the CTA section. This content is for example only and will be replaced with actual content later.",
-        "buttonText": "Subscribe"
+        "topper": "Let's Talk",
+        "title": "Focus on Clients. We'll Handle the Rest.",
+        "text": "See how we can transform your business with our complete, done-for-you system.",
+        "buttonText": "Get Started Today"
     },
     "footer": {
         "information": "Information",
         "services": "Services",
         "contact": "Contact",
         "click": "Send us an email",
-        "p": "Additional content if you need it, otherwise you can delete this entire <p> tag. This is what I usually do.",
+        "p": "Professional online systems for Thai massage businesses. Fully managed websites, booking, AI, reviews, and more. UK-based company with Thai and English support.",
         "credit": "Designed and coded by "
     },
     "notFound": {
