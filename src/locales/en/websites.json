@@ -9,9 +9,9 @@
     "text": "Professional, fast-loading websites built specifically for Thai massage businesses. We handle everything—design, hosting, maintenance, forever.",
     "cta1": "Let's Talk",
     "cta1Link": "/contact",
-    "imageMobileWebp": "/assets/images/hero-img.png",
-    "imageDesktopWebp": "/assets/images/hero-img.png",
-    "imageFallbackJpg": "/assets/images/hero-img.png",
+    "imageMobileWebp": "/assets/images/website.png",
+    "imageDesktopWebp": "/assets/images/website.png",
+    "imageFallbackJpg": "/assets/images/website.png",
     "imageAlt": "Professional web developer working on custom website"
   },
   "services": {

@@ -9,9 +9,9 @@
     "text": "Let customers book themselves anytime from any device. Automatic reminders reduce no-shows, and you're freed from constant phone interruptions.",
     "cta1": "Let's Talk",
     "cta1Link": "/contact",
-    "imageMobileWebp": "/assets/images/hero-img.png",
-    "imageDesktopWebp": "/assets/images/hero-img.png",
-    "imageFallbackJpg": "/assets/images/hero-img.png",
+    "imageMobileWebp": "/assets/images/online-booking.png",
+    "imageDesktopWebp": "/assets/images/online-booking.png",
+    "imageFallbackJpg": "/assets/images/online-booking.png",
     "imageAlt": "Woman booking spa appointment on mobile phone"
   },
   "services": {

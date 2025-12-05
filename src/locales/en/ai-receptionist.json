@@ -9,9 +9,9 @@
     "text": "Never miss another booking. Your AI receptionist answers calls and messages instantly—even during treatments and after hours. Professional service, 24/7.",
     "cta1": "Let's Talk",
     "cta1Link": "/contact",
-    "imageMobileWebp": "/assets/images/hero-img.png",
-    "imageDesktopWebp": "/assets/images/hero-img.png",
-    "imageFallbackJpg": "/assets/images/hero-img.png",
+    "imageMobileWebp": "/assets/images/ai-receptionist.png",
+    "imageDesktopWebp": "/assets/images/ai-receptionist.png",
+    "imageFallbackJpg": "/assets/images/ai-receptionist.png",
     "imageAlt": "AI receptionist answering phone calls"
   },
   "services": {

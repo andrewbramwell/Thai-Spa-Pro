@@ -9,9 +9,9 @@
     "text": "Our system automatically requests reviews from happy clients, sends reminders, and builds your online reputation. More 5-star reviews mean more customers finding you.",
     "cta1": "Let's Talk",
     "cta1Link": "/contact",
-    "imageMobileWebp": "/assets/images/hero-img.png",
-    "imageDesktopWebp": "/assets/images/hero-img.png",
-    "imageFallbackJpg": "/assets/images/hero-img.png",
+    "imageMobileWebp": "/assets/images/reputation.png",
+    "imageDesktopWebp": "/assets/images/reputation.png",
+    "imageFallbackJpg": "/assets/images/reputation.png",
     "imageAlt": "Five-star reviews on mobile device"
   },
   "services": {

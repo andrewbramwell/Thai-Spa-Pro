@@ -9,9 +9,9 @@
     "text": "Our automated system lets customers purchase gift vouchers online anytime. Instant delivery, automatic tracking, extra revenue—without the work.",
     "cta1": "Let's talk",
     "cta1Link": "/contact",
-    "imageMobileWebp": "/assets/images/hero-img.png",
-    "imageDesktopWebp": "/assets/images/hero-img.png",
-    "imageFallbackJpg": "/assets/images/hero-img.png",
+    "imageMobileWebp": "/assets/images/vouchers.png",
+    "imageDesktopWebp": "/assets/images/vouchers.png",
+    "imageFallbackJpg": "/assets/images/vouchers.png",
     "imageAlt": "Digital gift voucher on mobile device"
   },
   "services": {
