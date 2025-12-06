@@ -158,96 +158,22 @@ const { namespace } = Astro.props;
             gap: (24/16rem);
         }
 
-        .cs-button-transparent {
-            font-size: (16/16rem);
-            /* 46px - 56px */
-            line-height: clamp(2.875rem, 5.5vw, 3.5rem);
-            width: (180/16rem);
-            /* 46px - 56px */
-            height: clamp(2.875rem, 5.5vw, 3.5rem);
-            text-decoration: none;
-            font-weight: 700;
-            margin: 0;
-            color: var(--primaryLight);
-            padding: 0;
-            background-color: transparent;
-            box-sizing: border-box;
-            display: inline-flex;
-            justify-content: flex-start;
-            align-items: center;
-            position: relative;
-            z-index: 1;
-
-            &:before {
-                /* white hover box */
-                content: "";
-                /* 46px - 56px */
-                width: clamp(2.875rem, 5.5vw, 3.5rem);
-                background: #fff;
-                border-radius: (28/16rem);
-                opacity: 1;
-                position: absolute;
-                display: block;
-                top: 0px;
-                bottom: 0px;
-                left: 0px;
-                z-index: -1;
-                transition:
-                    width 0.3s,
-                    box-shadow 0.3s;
-            }
-
-            &:hover {
-                &:before {
-                    width: 100%;
-                    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-                }
-            }
-        }
-
-        .cs-picture {
-            /* 46px - 56px */
-            width: clamp(2.875rem, 5.5vw, 3.5rem);
-            height: clamp(2.875rem, 5.5vw, 3.5rem);
-            margin-right: (8/16rem);
-            background-color: var(--primaryLight);
-            border-radius: 50%;
-            border: 6px solid #fff;
-            box-sizing: border-box;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .cs-image {
-            width: (12/16rem);
-            height: auto;
-        }
-
         .cs-image-group {
-            font-size: ~"min(1.6vw, .7em)";
-            /* using ems so we can scale this container with a font size */
-            width: (831/16em);
-            height: (674/16em);
+            /* Full width on mobile */
+            width: 100%;
+            height: auto;
             position: relative;
-        }
-
-        .cs-splash {
-            position: absolute;
-            width: (791/16em);
-            height: (616/16em);
-            top: (20/16em);
-            right: (-40/16em);
         }
 
         .cs-person {
-            width: auto;
-            height: 100%;
+            width: 100%;
+            height: auto;
             position: relative;
 
             img {
                 width: 100%;
                 height: auto;
+                display: block;
             }
         }
     }
@@ -284,6 +210,8 @@ const { namespace } = Astro.props;
 
         .cs-image-group {
             font-size: ~"min(1vw, 0.8em)"; /* Smaller size */
+            width: (831/16em);
+            height: (674/16em);
             position: absolute;
             bottom: (-150/16em);
             right: (-50/16em); /* Much less negative - keeps it on screen */
