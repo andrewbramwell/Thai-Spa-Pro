@@ -1,13 +1,13 @@
 {
   "layout": {
-    "title": "Digital Solutions for Thai Massage & Spa Businesses ",
-    "description": "Complete digital solutions for Thai massage and spa businesses. Websites, online booking, gift vouchers, AI receptionist, and reputation management - all in one place."
+    "title": "Thai Massage Website & Online Booking System | Fully Managed | ThaiSpaPro",
+    "description": "Website, bookings, reviews, gift vouchers and an AI receptionist for Thai massage businesses. Fully managed, Thai and English support. Starting at £75/month."
   },
   "hero": {
     "accent": "",
-    "title": "Run Your Thai Massage Business. We'll Handle Everything Online.",
-    "text": "Your complete online presence—professionally built, fully managed, always working for you",
-    "cta1": "Get in Touch",
+    "title": "Everything Your Thai Massage Business Needs Online. Handled For You.",
+    "text": "Website, bookings, reviews, gift vouchers, and an AI receptionist who speaks perfect English. We build it, manage it, and support you in Thai. You stay focused on your clients.",
+    "cta1": "Let's Talk",
     "cta1Link": "/contact",
     "cta2": "View Services",
     "cta2Link": "#services-section"
@@ -17,87 +17,87 @@
   },
   "services": {
     "topper": "Why ThaiSpaPro",
-    "title": "More Bookings, Less Work, Zero Language Barriers",
-    "text": "",
+    "title": "Finally, Someone Who Gets It",
+    "text": "You're amazing at what you do. But the tech, the English, the agencies that overpromise. None of that was part of the plan. We built ThaiSpaPro for people exactly like you.",
     "items": [
       {
         "icon": "/assets/svgs/icons/wrench.svg",
-        "title": "Fully Managed Forever, Not DIY Software",
-        "text": "Focus completely on treatments while we handle everything technical—forever. No learning curves, no updates to manage, no tech stress. Professional online presence without the headaches."
+        "title": "The Tech Becomes Invisible",
+        "text": "You trained for years to heal people with your hands. Not to wrestle with websites, fight with software, or decode error messages at midnight. We take all of that off your plate. Permanently. You'll forget there's even a technical side to your business."
       },
       {
         "icon": "/assets/svgs/icons/growth.svg",
-        "title": "Build Your Foundation, Not Burn Money on Ads",
-        "text": "Systems that generate bookings 24/7—not temporary traffic spikes from expensive ads. Sustainable revenue growth through solid infrastructure that works whether you're awake or asleep."
+        "title": "Something That Keeps Working",
+        "text": "Ads rent you attention. When you stop paying, it vanishes. We build quiet systems that fill your calendar while you sleep, send reminders while you work, and collect reviews while you rest. Steady. Reliable. Totally yours."
       },
       {
         "icon": "/assets/svgs/icons/happy-friends.svg",
-        "title": "Thai & English Support Throughout",
-        "text": "Communicate with us in Thai while we handle all customer-facing English. No language barriers in setup, training, or ongoing support. Built by people who understand your specific challenges."
+        "title": "Thai When You Need It. English When They Need It.",
+        "text": "Talk to us the way you think. In Thai, about the things that mean something to your business. Your customers see perfect English. Professional. Polished. Trustworthy. You get both worlds without the stress of either."
       }
     ]
   },
   "services2": {
     "topper": "Our Services",
-    "title": "Five Essential Services. One Complete System.",
-    "text": "Everything Thai massage businesses need to compete online—professionally built, fully managed, always working together. Here's what you get:",
+    "title": "Five services, one monthly fee.",
+    "text": "We set them all up, keep them running, and they all talk to each other.",
     "readMore": "Read More",
     "items": [
       {
         "icon": "/assets/svgs/icons/website.svg",
-        "title": "Professional Website",
-        "text": "Beautiful, fast-loading website built for Thai massage businesses. Mobile-friendly, Google-optimised, and designed to convert visitors into bookings. Everything handled for you.",
+        "title": "Your Website",
+        "text": "A professional website designed specifically for Thai massage. Fast, mobile-friendly, and built to rank when someone nearby searches for your services. It'll look like your business, feel like your business, and actually bring people through the door.",
         "link": "/services/websites"
       },
       {
         "icon": "/assets/svgs/icons/ai-assistant.svg",
         "title": "AI Receptionist",
-        "text": "Answers every call and message instantly—even when you're hands-on with clients. Available 24/7 with professional communication. Every enquiry gets a response.",
+        "text": "AI answers your calls and messages in perfect English, any time of day or night. If you've ever lost a booking because you couldn't get to the phone during a treatment, this fixes that. Every enquiry handled, every time.",
         "link": "/services/ai-receptionist"
       },
       {
         "icon": "/assets/svgs/icons/booking.svg",
-        "title": "Online Booking System",
-        "text": "Clients book themselves anytime, day or night. Your calendar fills automatically, confirmations send instantly, and double-bookings become impossible. Simple.",
+        "title": "Booking System",
+        "text": "Customers see your availability online and book themselves in. They get a confirmation, you get a notification, and the system sends reminders automatically. Your calendar fills up without the back-and-forth.",
         "link": "/services/booking"
       },
       {
         "icon": "/assets/svgs/icons/gift-card.svg",
-        "title": "Gift Voucher Management",
-        "text": "Customers buy gift vouchers online anytime. The system handles payments, delivery, and tracking automatically. Get paid upfront, zero admin.",
+        "title": "Gift Vouchers",
+        "text": "Customers purchase vouchers directly from your website, any time. Delivery is instant, and the system tracks codes, expiry dates, and redemptions automatically. No spreadsheets, no paper trails.",
         "link": "/services/vouchers"
       },
       {
         "icon": "/assets/svgs/icons/review.svg",
-        "title": "Review Automation",
-        "text": "Turn satisfied clients into Google reviews automatically. AI handles requests, responses, and Facebook sharing—building your reputation while you focus on treatments.",
+        "title": "Review Collection",
+        "text": "After each appointment, the system sends a friendly review request on your behalf. Happy clients get directed to Google. Unhappy ones send feedback to you privately first, giving you a chance to respond before anything goes public.",
         "link": "/services/reputation"
       }
     ],
-    "bottomHeading": "Complete Setup, Training & Support",
-    "bottomText": "We build everything for you, train your team to use it, and provide ongoing support in Thai and English. Updates, changes, improvements—all handled forever. You never touch the technical side.",
-    "portfolioButton": "Book Free Consultation",
-    "portfolioLink": "/contact"
+    "bottomHeading": "We Handle Setup. Training. Support. Everything.",
+    "bottomText": "We build it all for you. We show you how it works. We answer questions in Thai or English whenever you have them. Updates, fixes, improvements. All part of the service, forever.",
+    "portfolioButton": "View Our Plans",
+    "portfolioLink": "/pricing"
   },
   "whoWeAre": {
-    "header": "We're on a mission to give Thai massage businesses the online presence they deserve—without expensive agencies or confusing software. Professional systems that work, fully managed, at prices that make sense.",
-    "imageMobile": "/assets/images/why-us-2.png",
-    "imageDesktop": "/assets/images/why-us-2.png",
-    "imageFallback": "/assets/images/why-us-2.png",
-    "imageAlt": "Thai massage therapist",
+    "header": "We set up Thai massage businesses online and keep everything running. No tech headaches, no agency nonsense, and definitely no surprises on your bill.",
+    "imageMobile": "/assets/images/who-we-are-2.png",
+    "imageDesktop": "/assets/images/who-we-are-2.png",
+    "imageFallback": "/assets/images/who-we-are-2.png",
+    "imageAlt": "Kristira Thai Spa Pro",
     "topper": "Who We Are",
-    "title": "Built By People Who Understand You",
-    "text": "I'm Kris, originally from Thailand and now living in the UK. I've seen brilliant Thai therapists remain invisible online or waste money on marketing that doesn't work. Too many get trapped between DIY tools they can't manage and expensive agencies that don't deliver.",
-    "text2": "That's why I built ThaiSpaPro with Andrew, my partner. We handle your complete online presence—websites, booking, AI receptionist, reviews, gift vouchers—so you can focus entirely on what you do best."
+    "title": "Started By Someone Who's Been in Your Shoes",
+    "text": "I'm Kris. Originally from Thailand, now living in the UK. Most Thai massage businesses I know are run by brilliant therapists who hate dealing with websites, bookings, and tech. They've either paid agencies that didn't deliver, or tried doing it themselves and gave up.",
+    "text2": "That's why Andrew and I started ThaiSpaPro. We take care of your whole online setup. Website, bookings, reviews, vouchers, and phone answering. Everything's connected, everything's managed, and you can talk to us in Thai whenever you need. You keep doing great work. We keep everything else running."
   },
   "cta": {
-    "title": "Find the Plan That Fits Your Business",
+    "title": "View Our Plans",
     "button": "View Pricing",
     "link": "/pricing"
   },
   "reviews": {
     "topper": "Testimonials",
-    "title": "What Our Clients Say",
+    "title": "Words From People Like You",
     "items": [
       {
         "image": "https://csimages2.nyc3.digitaloceanspaces.com/Reviews/profile5.jpg",
@@ -116,7 +116,7 @@
     ]
   },
   "cta2": {
-    "title": "Ready To Grow Your Business Together?",
+    "title": "Ready to Talk?",
     "button": "Get in Touch",
     "link": "/contact"
   }

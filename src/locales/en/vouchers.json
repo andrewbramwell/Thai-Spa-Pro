@@ -1,13 +1,13 @@
 {
   "layout": {
-    "title": "Gift Voucher Management System",
-    "description": "Complete gift voucher management system for spas and massage businesses. Sell vouchers online, track redemptions, and boost revenue with our easy-to-use platform."
+    "title": "Thai Massage Gift Voucher System | Sell Vouchers Online 24/7 | ThaiSpaPro",
+    "description": "Sell gift vouchers from your website 24/7. Instant delivery, automatic tracking, your branding."
   },
   "hero": {
     "topper": "Gift Voucher Management",
-    "title": "Online Gift Vouchers For Your Thai Massage Business",
-    "text": "Our automated system lets customers purchase gift vouchers online anytime. Instant delivery, automatic tracking, extra revenue—without the work.",
-    "cta1": "Let's talk",
+    "title": "Online Gift Vouchers for Your Thai Massage Business",
+    "text": "People buy them from your website, get them delivered to their inbox, and you never have to lift a finger. Works while you're busy, works while you're closed, even works while you're on holiday.",
+    "cta1": "Let's Talk",
     "cta1Link": "/contact",
     "imageMobileWebp": "/assets/images/vouchers.png",
     "imageDesktopWebp": "/assets/images/vouchers.png",
@@ -16,29 +16,29 @@
   },
   "services": {
     "topper": "The Results You Get",
-    "title": "Sell More Vouchers, Spend Less Time Managing Them",
+    "title": "Vouchers That Sell Themselves",
     "text": "",
     "items": [
       {
         "icon": "/assets/svgs/icons/cost.svg",
-        "title": "Extra Revenue Without Extra Work",
-        "text": "Sell vouchers 24/7 automatically—no handwritten cards, no manual tracking, no admin burden. Christmas, Mother's Day, birthdays—every gift occasion becomes effortless revenue for your business."
+        "title": "Money Coming In While You Rest",
+        "text": "Someone buys a voucher from your website while you're asleep, or having dinner, or just done for the day. You check your phone the next morning and there's a payment sitting there. Christmas, Mother's Day, birthdays. All those gift-giving moments where people need something last-minute. Your shop doesn't need to be open for any of it."
       },
       {
         "icon": "/assets/svgs/icons/cashflow.svg",
-        "title": "Improve Cash Flow With Upfront Payments",
-        "text": "Get paid immediately when vouchers are purchased, long before you deliver any treatments. Boost your cash reserves, smooth out seasonal fluctuations, and invest in growth with confidence."
+        "title": "Paid Now, Work Later",
+        "text": "You get the cash when they buy, but the massage might not happen for weeks. This helps a lot during the slow months."
       },
       {
         "icon": "/assets/svgs/icons/fraud.svg",
-        "title": "Zero Risk of Fraud or Lost Revenue",
-        "text": "Automatic tracking prevents duplicate redemptions, expired vouchers, and fraud. Every penny is accounted for, every voucher secure—no manual checking, no revenue leaking through the cracks."
+        "title": "No Tracking Nightmares",
+        "text": "Anyone who's done vouchers manually knows it's a mess. Who bought what, has this one been used, is that code even valid. The system keeps track of everything for you so nothing slips through."
       }
     ]
   },
   "reviews": {
     "topper": "Success Stories",
-    "title": "How Gift Vouchers Transformed These Businesses",
+    "title": "Businesses Already Using This",
     "items": [
       {
         "image": "https://csimages2.nyc3.digitaloceanspaces.com/Reviews/profile5.jpg",
@@ -64,39 +64,39 @@
     "boxIcon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/gear-white.svg",
     "boxText": "Delivered in Under 60 Seconds",
     "topper": "What's Included",
-    "title": "Everything You Need to Sell Gift Vouchers Online",
-    "text": "Everything below is included as standard. No hidden costs, no complex setup, no ongoing fees—just a complete system that generates revenue automatically.",
+    "title": "Everything's Already in There",
+    "text": "Complete system, ready to go. No setup fees, no monthly extras.",
     "items": [
       {
-        "title": "Instant Email Delivery",
-        "text": "Vouchers delivered to recipients' inboxes within seconds of purchase. Perfect for last-minute gifts—no printing, no posting, no waiting. Customers get instant gratification, you get instant revenue."
+        "title": "Instant Delivery",
+        "text": "Someone buys a voucher, it hits the recipient's inbox within seconds. Perfect for the last-minute gift buyers."
       },
       {
-        "title": "Fully Branded & Customizable",
-        "text": "Your logo, colors, and design on every voucher. Looks professional, builds trust, reinforces your brand. Complete control over appearance—these are your vouchers, not generic templates."
+        "title": "Your Branding Throughout",
+        "text": "Your logo, your colours, your design. Every voucher looks like it came from your business, because it did. Professional and polished, never some generic template."
       },
       {
-        "title": "Monetary & Treatment-Based Vouchers",
-        "text": "Sell flexible £50/£100 vouchers or specific treatments like \"90-Minute Thai Massage\" or \"Couples Spa Package.\" Give customers choice while showcasing your signature services beautifully."
+        "title": "Flexible Options",
+        "text": "Sell £50 or £100 vouchers, or tie them to specific treatments like a 90-minute massage or couples package."
       },
       {
-        "title": "Automatic Expiry & Fraud Protection",
-        "text": "System tracks every voucher's expiry date, redemption status, and unique code automatically. Prevents duplicates, blocks expired vouchers, eliminates fraud—complete security without manual checking."
+        "title": "Automatic Tracking",
+        "text": "Expiry dates, redemption status, unique codes. The system watches all of it. No duplicates getting through, no expired vouchers being accepted, no awkward conversations."
       },
       {
-        "title": "Part Redemption for Multiple Visits",
-        "text": "Customers can use a £100 voucher across multiple appointments—£40 today, £60 next month. Encourages return visits, builds loyalty, increases lifetime value without complicated tracking."
+        "title": "Split Across Visits",
+        "text": "Someone has a £100 voucher but only wants a £40 treatment today? No problem. The system keeps track of what's left and brings them back again, which is never a bad thing."
       },
       {
-        "title": "QR Code Quick Redemption",
-        "text": "Staff scan QR codes with any smartphone to redeem vouchers instantly. No typing codes, no manual lookups, no errors. Fast, simple, foolproof redemption every single time."
+        "title": "Easy Redemption",
+        "text": "Scan a QR code with any phone and it's done. You won't have to type long codes or flip through records. It takes about two seconds."
       }
     ]
   },
   "cta": {
-    "topper": "Let's Get Started",
-    "title": "Start Selling Gift Vouchers Today",
-    "text": "Let's talk about setting up your voucher system and show you exactly how it works.",
+    "topper": "Ready to Go?",
+    "title": "Start Selling Gift Vouchers",
+    "text": "We'll get you set up and show you how everything works. It's simpler than you'd think.",
     "buttonText": "Get in Touch"
   }
 }

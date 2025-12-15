@@ -1,7 +1,7 @@
 {
   "layout": {
-    "title": "Pricing & FAQ | Digital Solutions for Thai Massage Businesses",
-    "description": "Transparent pricing for our complete digital solutions. Websites, booking systems, gift vouchers, AI receptionist, and more. Find answers to common questions."
+    "title": "Thai Massage Website & Booking System Pricing | From £75/month | ThaiSpaPro",
+    "description": "Professional online presence for Thai massage businesses from £75/month. Complete setup, unlimited support in Thai and English, no hidden fees."
   },
   "landing": {
     "title": "Pricing & FAQ"
@@ -9,7 +9,7 @@
   "pricing": {
     "topper": "Pricing",
     "title": "Plans That Grow With Your Business",
-    "text": "Professional online presence, fully managed, starting at £75/month. All plans include complete setup, unlimited support, and regular updates. Plus and Pro add usage-based communication and AI services.",
+    "text": "Professional online presence, fully managed, starting at £75 a month. Every plan includes complete setup, unlimited support, and regular updates. Plus and Pro add usage-based communication and AI services on top.",
     "perMonth": "/month",
     "packageIncludes": "What's Included",
     "getStarted": "Get Started",
@@ -60,7 +60,7 @@
   "table": {
     "topper": "Usage Pricing",
     "title": "Usage Pricing for Plus and Pro Plans",
-    "text": "Usage-based services for Plus and Pro plans. AI and email costs are the same worldwide. Phone and SMS rates vary by country—see your region below. You're only charged for what you actually use each month.",
+    "text": "These are the usage-based services for Plus and Pro. AI and email costs are the same everywhere. Phone and SMS rates depend on your country, so find your region below. You only pay for what you actually use each month.",
     "headers": ["Service", "USA/Canada", "UK", "Australia", "Germany"],
     "sections": [
       {
@@ -151,49 +151,55 @@
   },
   "faq": {
     "topper": "Pricing Questions",
-    "title": "Understanding Your Investment",
+    "title": "The Stuff People Usually Ask",
     "text": "Common questions about pricing, commitment, and what you're actually paying for.",
     "questions": [
       {
         "question": "Why are there two parts to the pricing?",
-        "answer": "Your monthly plan (£75-£150) covers your core online presence—website, systems, setup, and unlimited support. Plus and Pro plans also include AI and communication services (calls, SMS) which are charged based on actual usage, so you only pay for what you use."
+        "answer": "Your monthly plan covers the core stuff. Website, systems, setup, unlimited support. The Plus and Pro plans also include AI and communication services like calls and SMS. Those get charged based on what you actually use, so you're not paying for things you don't need."
       },
       {
         "question": "How much will usage fees actually cost me?",
-        "answer": "It depends on your call and message volume. Most Pro plan businesses spend £12-15/month on usage. Plus plan businesses typically spend £4-6/month. Essential has no usage fees. We show detailed rates and examples on this page so you can estimate your costs."
+        "answer": "Honestly, less than most people expect. Pro plan businesses typically spend around £12-15 a month on usage. Plus plan is usually £4-6. Essential has no usage fees at all. We've got detailed rates further down this page if you want to work out a rough estimate."
       },
       {
         "question": "Are there any hidden fees or surprise charges?",
-        "answer": "No. Your monthly plan price is fixed. Usage fees (Plus and Pro only) are charged based on actual consumption with transparent per-unit pricing shown below. No setup fees, no surprise charges, no hidden costs."
+        "answer": "None. Your monthly plan price is fixed. Usage fees on Plus and Pro are charged based on what you actually use, with clear per-unit pricing. No setup fees tucked away somewhere, no surprises on your bill three months in."
       },
       {
         "question": "Why is there a 12-month commitment?",
-        "answer": "We invest significant upfront work—custom website design, system integrations, AI training (Pro), review automation setup (Plus/Pro), and comprehensive training. A 12-month commitment allows us to deliver this properly. After 12 months, it becomes rolling month-to-month."
+        "answer": "There's a lot of work upfront on our end. Custom website design, getting all the systems talking to each other, training the AI if you're on Pro, setting up review automation. A 12-month commitment gives us the space to do all of that properly. After the first year, it switches to rolling month-to-month."
       },
       {
         "question": "Can I cancel after 12 months?",
-        "answer": "Yes! After your initial 12 months, it's rolling month-to-month. Cancel anytime with 30 days' notice. You keep your domain and business data. The website is removed as source code remains our property. With 98% retention, most clients stay long-term."
+        "answer": "Absolutely. Once your first year is done, you're free to leave anytime with 30 days notice. You keep your domain and your business data. The website itself gets taken down since the source code stays with us. That said, most people stick around. Our retention rate is somewhere around 98%."
       },
       {
         "question": "What's actually included in my monthly price?",
-        "answer": "Everything! Complete setup, custom website, hosting, security, unlimited content updates, unlimited support in Thai and English, regular updates, and all features in your chosen plan. The only extras are usage fees for AI and communication services (Plus and Pro)."
+        "answer": "Everything you need. Complete setup, custom website, hosting, security, unlimited content updates, unlimited support in Thai and English, regular system updates, and all the features in your chosen plan. The only extras are usage fees for AI and communication services if you're on Plus or Pro."
       },
       {
         "question": "Can I upgrade or downgrade my plan?",
-        "answer": "Yes! Existing customers can upgrade anytime (month-to-month, no new commitment). Downgrades are possible after your initial 12-month period. We'll help you find the right fit as your business grows."
+        "answer": "You can upgrade whenever you like, no new commitment required. Downgrades are possible once you've finished your initial 12 months. We're happy to help you figure out what makes sense as your business changes."
       },
       {
         "question": "What if I'm in a different country?",
-        "answer": "Essential and Plus plans are available in most countries. The Pro plan (which includes AI receptionist phone services) is currently available in the USA, Canada, UK, Australia, and Germany due to phone system limitations."
+        "answer": "Essential and Plus work pretty much everywhere. Pro is a bit more limited because of the phone system side of things. Right now it's available in the USA, Canada, UK, Australia, and Germany. We're working on expanding that."
       },
       {
         "question": "Do you offer discounts for annual payment?",
-        "answer": "Not currently. Our pricing is already highly competitive for fully-managed service. All plans are billed monthly, and you get the same great service regardless of how you pay."
+        "answer": "Not at the moment. The pricing is already pretty competitive for a fully managed service like this. Everything bills monthly and you get the same level of support either way."
       },
       {
         "question": "What makes this better value than doing it myself or hiring an agency?",
-        "answer": "Thai massage businesses need reliable systems—not expensive agency marketing. DIY means buying and learning separate tools: website builder, booking software, review platform, voucher system, AI receptionist. That's 5+ different logins, 5+ monthly bills, countless hours learning and troubleshooting. We built one integrated system that does everything, managed completely by us. You focus on treatments, we handle the systems."
+        "answer": "Going the DIY route means buying and learning a bunch of separate tools. Website builder, booking software, review platform, voucher system, AI receptionist. That's five different logins, five monthly bills, and a lot of hours spent figuring things out when they break. Agencies are expensive and most of them are focused on running ads, not building systems. We built one thing that does everything, and we manage it completely. You focus on your clients, we handle the rest."
       }
     ]
+  },
+  "cta": {
+    "topper": "Let's Get Started",
+    "title": "Ready to Get This Sorted?",
+    "text": "We'd love to have a chat about your business and show you how everything fits together. Website, booking, reviews, AI receptionist. All of it. No pressure, just a conversation.",
+    "buttonText": "Get in Touch"
   }
 }

@@ -81,9 +81,9 @@
   },
   "whoWeAre": {
     "header": "เรามีภารกิจให้ธุรกิจนวดไทยมีธุรกิจออนไลน์ที่ดีที่สุด โดยไม่ต้องจ้างเอเจนซี่แพง หรือใช้โปรแกรมที่งง ระบบมืออาชีพที่ทำงานได้จริง เราดูแลให้หมด ราคาสมเหตุสมผล",
-    "imageMobile": "/assets/images/why-us-2.png",
-    "imageDesktop": "/assets/images/why-us-2.png",
-    "imageFallback": "/assets/images/why-us-2.png",
+    "imageMobile": "/assets/images/who-we-are-2.png",
+    "imageDesktop": "/assets/images/who-we-are-2.png",
+    "imageFallback": "/assets/images/who-we-are-2.png",
     "imageAlt": "นักนวดไทย",
     "topper": "เราคือใคร",
     "title": "สร้างโดยคนที่เข้าใจคุณ",
