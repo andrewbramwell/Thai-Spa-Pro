@@ -30,12 +30,93 @@ import { t } from "i18n:astro";
 
 <ReviewsSection namespace="websites" />
 
+<!-- ============================================ -->
+<!--                   Features                   -->
+<!-- ============================================ -->
+
+<FeaturesSection namespace="websites" />
+
+
+<section id="services-1188">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">What's Included</span>
+            <h2 class="cs-title">Everything's Already in There</h2>
+            <p class="cs-text">
+                Everything listed below comes standard. No premium tiers or unlocking features later.
+            </p>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <img class="cs-icon"
+                            src="/assets/svgs/tick-small.svg"
+                            loading="lazy" decoding="async" alt="icon" width="33" height="38" aria-hidden="true">
+                </picture>
+                <!-- Text Grouped For Flexbox-->
+                <div class="cs-text-group">
+                    <h3 class="cs-h3">Automatic Reminders</h3>
+                    <p class="cs-item-text">Text and email reminders go out before every appointment without you doing anything. People forget they booked things all the time. This fixes that.</p>
+                </div>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <img class="cs-icon" src="/assets/svgs/tick-small.svg"
+                            loading="lazy" decoding="async" alt="icon" width="33" height="38" aria-hidden="true">
+                </picture>
+                <!-- Text Grouped For Flexbox-->
+                <div class="cs-text-group">
+                    <h3 class="cs-h3">Deposits and Payments</h3>
+                    <p class="cs-item-text">If you want to take payment upfront, you can. Card payments are processed securely. People are much less likely to cancel when they've already paid something.</p>
+                </div>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <img class="cs-icon"
+                            src="/assets/svgs/tick-small.svg"
+                            loading="lazy" decoding="async" alt="icon" width="33" height="38" aria-hidden="true">
+                </picture>
+                <!-- Text Grouped For Flexbox-->
+                <div class="cs-text-group">
+                    <h3 class="cs-h3">Syncs With Your Calendar</h3>
+                    <p class="cs-item-text">Works with Google Calendar, Apple, Outlook - whatever you already use. New bookings show up on your phone automatically. You don't have to check two different places or accidentally double-book yourself.</p>
+                </div>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <img class="cs-icon"
+                            src="/assets/svgs/tick-small.svg" loading="lazy"
+                            decoding="async" alt="icon" width="33" height="38" aria-hidden="true">
+                </picture>
+                <!-- Text Grouped For Flexbox-->
+                <div class="cs-text-group">
+                    <h3 class="cs-h3">Multiple Therapists</h3>
+                    <p class="cs-item-text">If you've got a team, each person gets their own schedule. Customers can pick who they want when they book. This keeps everything organised as you grow.</p>
+                </div>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <img class="cs-icon"
+                            src="/assets/svgs/tick-small.svg" loading="lazy"
+                            decoding="async" alt="icon" width="33" height="38" aria-hidden="true">
+                </picture>
+                <!-- Text Grouped For Flexbox-->
+                <div class="cs-text-group">
+                    <h3 class="cs-h3">Your Rules</h3>
+                    <p class="cs-item-text">You set the boundaries. How much notice you need, gaps between appointments, days you don't work. The system follows whatever rules make sense for how you run things.</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+                                
+
                               
 <!-- ============================================ -->
 <!--                  Features                    -->
 <!-- ============================================ -->
 
-<FeaturesSection namespace="websites" />
+<!--<FeaturesSection namespace="websites" />-->
 
 <!-- ============================================ -->
 <!--                     CTA                      -->
@@ -44,4 +125,162 @@ import { t } from "i18n:astro";
 <CTASection namespace="websites" />
 
 </BaseLayout>
+
+<style lang="less">
+/*-- -------------------------- -->
+<---          Services          -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    #services-1188 {
+        padding: var(--sectionPadding);
+
+        .cs-container {
+            max-width: (1280/16rem);
+            width: 100%;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* 48px - 64px */
+            gap: clamp(3rem, 6vw, 4rem);
+        }
+
+        .cs-content {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            /* centers content horizontally, set to flex-start to left align */
+            align-items: center;
+            /* set text align to left if content needs to be left aligned */
+            text-align: center;
+        }
+
+        .cs-card-group {
+            /* changes to 1280px at desktop */
+            max-width: (900/16rem);
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: stretch;
+            flex-direction: column;
+            gap: (16/16rem);
+        }
+
+        .cs-item {
+            list-style: none;
+            max-width: (368/16rem);
+            width: 100%;
+            margin: 0;
+            box-sizing: border-box;
+            padding: (16/16rem);
+            
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: left;
+        }
+
+        .cs-picture {
+            width: (50/16rem);
+            height: (50/16rem);
+            box-sizing: border-box;
+            /* prevents border from affecting height and width */
+            background-color: #fff;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            /* prevents flexbox from squishing it */
+            flex: none;
+        }
+
+        .cs-icon {
+            width: (30/16rem);
+            height: auto;
+            display: block;
+        }
+
+        .cs-h3 {
+            font-size: (20/16rem);
+            line-height: 1.5em;
+            margin: 0;
+            margin-bottom: (8/16rem);
+            color: var(--headerColor);
+            text-align: center;
+        }
+
+        .cs-item-text {
+            /* 14px - 16px */
+            font-size: clamp(0.875rem, 1.5vw, 1rem);
+            line-height: 1.5em;
+            margin: 0;
+            color: var(--bodyTextColor);
+            text-align: center;
+        }
+    }
+}
+
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+    #services-1188 {
+        .cs-card-group {
+            flex-direction: row;
+            flex-wrap: wrap;
+            /* 16px - 20px */
+            gap: clamp(1rem, 1.5vw, 1.25rem);
+        }
+
+        .cs-item {
+            width: 31.85%;
+            margin: 0;
+        }
+    }
+}
+
+/* Large Desktop - 1300px */
+@media only screen and (min-width: 81.25rem) {
+    #services-1188 {
+        .cs-card-group {
+            max-width: (1280/16rem);
+        }
+
+        .cs-item {
+            max-width: none;
+        }
+    }
+}
+
+/* Dark Mode */
+@media only screen and (min-width: 0rem) {
+    body.dark-mode {
+        #services-1188 {
+            .cs-topper {
+                color: var(--primaryLight);
+            }
+
+            .cs-text,
+            .cs-item-text {
+                opacity: 0.8;
+            }
+
+            .cs-picture {
+                background-color: var(--dark);
+            }
+
+            .cs-title,
+            .cs-text,
+            .cs-h3,
+            .cs-item-text {
+                color: var(--bodyTextColorWhite);
+            }
+        }
+    }
+}
+
+</style>
 
