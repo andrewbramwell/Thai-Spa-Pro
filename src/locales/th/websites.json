@@ -9,8 +9,8 @@
     "text": "เว็บไซต์มืออาชีพ โหลดเร็ว สร้างเฉพาะสำหรับธุรกิจนวดไทย เราจัดการทุกอย่าง—ออกแบบ โฮสติ้ง ดูแลรักษา ตลอดไป",
     "cta1": "คุยกับเรา",
     "cta1Link": "/contact",
-    "imageMobileWebp": "/assets/images/website.png",
-    "imageDesktopWebp": "/assets/images/website.png",
+    "imageMobileWebp": "/assets/images/website.webp",
+    "imageDesktopWebp": "/assets/images/website.webp",
     "imageFallbackJpg": "/assets/images/website.png",
     "imageAlt": "นักพัฒนาเว็บมืออาชีพทำงานสร้างเว็บไซต์"
   },

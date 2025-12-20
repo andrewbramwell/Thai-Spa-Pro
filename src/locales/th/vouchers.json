@@ -9,8 +9,8 @@
     "text": "ระบบอัตโนมัติให้ลูกค้าซื้อบัตรกำนัลออนไลน์ได้ทุกเวลา ส่งทันที ติดตามอัตโนมัติ รายได้เพิ่ม ไม่มีงาน",
     "cta1": "คุยกับเรา",
     "cta1Link": "/contact",
-    "imageMobileWebp": "/assets/images/vouchers.png",
-    "imageDesktopWebp": "/assets/images/vouchers.png",
+    "imageMobileWebp": "/assets/images/vouchers.webp",
+    "imageDesktopWebp": "/assets/images/vouchers.webp",
     "imageFallbackJpg": "/assets/images/vouchers.png",
     "imageAlt": "บัตรกำนัลดิจิทัลบนมือถือ"
   },

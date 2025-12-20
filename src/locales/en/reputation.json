@@ -9,8 +9,8 @@
     "text": "Our system asks happy clients to leave reviews, sends reminders, and builds your reputation while you focus on treatments. More 5-star reviews means more people finding you.",
     "cta1": "Get in Touch",
     "cta1Link": "/contact",
-    "imageMobileWebp": "/assets/images/reputation.png",
-    "imageDesktopWebp": "/assets/images/reputation.png",
+    "imageMobileWebp": "/assets/images/reputation.webp",
+    "imageDesktopWebp": "/assets/images/reputation.webp",
     "imageFallbackJpg": "/assets/images/reputation.png",
     "imageAlt": "Five-star reviews on mobile device"
   },

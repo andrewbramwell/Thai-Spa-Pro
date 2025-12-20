@@ -9,8 +9,8 @@
     "text": "People buy them from your website, get them delivered to their inbox, and you never have to lift a finger. Works while you're busy, works while you're closed, even works while you're on holiday.",
     "cta1": "Let's Talk",
     "cta1Link": "/contact",
-    "imageMobileWebp": "/assets/images/vouchers.png",
-    "imageDesktopWebp": "/assets/images/vouchers.png",
+    "imageMobileWebp": "/assets/images/vouchers.webp",
+    "imageDesktopWebp": "/assets/images/vouchers.webp",
     "imageFallbackJpg": "/assets/images/vouchers.png",
     "imageAlt": "Digital gift voucher on mobile device"
   },
@@ -27,12 +27,12 @@
       {
         "icon": "/assets/svgs/icons/cashflow.svg",
         "title": "Paid Now, Work Later",
-        "text": "You get the cash when they buy, but the massage might not happen for weeks. This helps a lot during the slow months."
+        "text": "You get the cash when they buy, but the massage might not happen for weeks. Maybe even months. That money sits in your account right now, covering rent during January when nobody wants to leave the house, or keeping things steady through those random quiet patches every business gets. Bills don't wait for customers to show up. Having voucher money already banked takes a lot of the stress out of slower periods."
       },
       {
         "icon": "/assets/svgs/icons/fraud.svg",
         "title": "No Tracking Nightmares",
-        "text": "Anyone who's done vouchers manually knows it's a mess. Who bought what, has this one been used, is that code even valid. The system keeps track of everything for you so nothing slips through."
+        "text": "Anyone who's done vouchers manually knows it's a mess. Who bought what? Has this one been used? Is that code even valid? You're digging through notebooks or old emails trying to piece it together. The system handles all of that for you automatically, so nothing slips through and you're not second-guessing yourself every time someone walks in with a piece of paper."
       }
     ]
   },

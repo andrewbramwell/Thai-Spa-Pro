@@ -9,8 +9,8 @@
     "text": "Never miss another booking. Your AI receptionist answers calls and messages instantly, even when you're with a client or closed for the day. Professional service, around the clock.",
     "cta1": "Get in Touch",
     "cta1Link": "/contact",
-    "imageMobileWebp": "/assets/images/ai-receptionist.png",
-    "imageDesktopWebp": "/assets/images/ai-receptionist.png",
+    "imageMobileWebp": "/assets/images/ai-receptionist.webp",
+    "imageDesktopWebp": "/assets/images/ai-receptionist.webp",
     "imageFallbackJpg": "/assets/images/ai-receptionist.png",
     "imageAlt": "AI receptionist answering phone calls"
   },

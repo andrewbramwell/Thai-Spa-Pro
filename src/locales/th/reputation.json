@@ -9,8 +9,8 @@
     "text": "ระบบของเราขอรีวิวจากลูกค้าที่พอใจอัตโนมัติ ส่งการแจ้งเตือน สร้างชื่อเสียงออนไลน์ รีวิว 5 ดาวเยอะ หมายถึงลูกค้าเจอคุณมากขึ้น",
     "cta1": "คุยกับเรา",
     "cta1Link": "/contact",
-    "imageMobileWebp": "/assets/images/reputation.png",
-    "imageDesktopWebp": "/assets/images/reputation.png",
+    "imageMobileWebp": "/assets/images/reputation.webp",
+    "imageDesktopWebp": "/assets/images/reputation.webp",
     "imageFallbackJpg": "/assets/images/reputation.png",
     "imageAlt": "รีวิวห้าดาวบนมือถือ"
   },

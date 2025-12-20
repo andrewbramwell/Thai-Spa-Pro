@@ -9,8 +9,8 @@
     "text": "ไม่พลาดการจองอีกต่อไป AI รับสายตอบสายและข้อความทันที แม้ขณะนวดและหลังเลิกงาน บริการมืออาชีพ 24/7",
     "cta1": "คุยกับเรา",
     "cta1Link": "/contact",
-    "imageMobileWebp": "/assets/images/ai-receptionist.png",
-    "imageDesktopWebp": "/assets/images/ai-receptionist.png",
+    "imageMobileWebp": "/assets/images/ai-receptionist.webp",
+    "imageDesktopWebp": "/assets/images/ai-receptionist.webp",
     "imageFallbackJpg": "/assets/images/ai-receptionist.png",
     "imageAlt": "AI รับสายตอบโทรศัพท์"
   },

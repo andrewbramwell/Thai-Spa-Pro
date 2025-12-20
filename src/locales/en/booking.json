@@ -9,8 +9,8 @@
     "text": "Customers book themselves in, any time, from any device. Reminders go out automatically and you stop getting interrupted mid-treatment to answer the phone.",
     "cta1": "Let's Talk",
     "cta1Link": "/contact",
-    "imageMobileWebp": "/assets/images/online-booking.png",
-    "imageDesktopWebp": "/assets/images/online-booking.png",
+    "imageMobileWebp": "/assets/images/online-booking.webp",
+    "imageDesktopWebp": "/assets/images/online-booking.webp",
     "imageFallbackJpg": "/assets/images/online-booking.png",
     "imageAlt": "Woman booking spa appointment on mobile phone"
   },

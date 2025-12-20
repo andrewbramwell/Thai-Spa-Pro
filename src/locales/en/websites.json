@@ -9,8 +9,8 @@
     "text": "We handle design, hosting, and updates. You enjoy having a site you're proud of.",
     "cta1": "Let's Talk",
     "cta1Link": "/contact",
-    "imageMobileWebp": "/assets/images/website.png",
-    "imageDesktopWebp": "/assets/images/website.png",
+    "imageMobileWebp": "/assets/images/website.webp",
+    "imageDesktopWebp": "/assets/images/website.webp",
     "imageFallbackJpg": "/assets/images/website.png",
     "imageAlt": "Professional web developer working on custom website"
   },
@@ -22,17 +22,17 @@
       {
         "icon": "/assets/svgs/icons/calendar.svg",
         "title": "People Book While You're Busy",
-        "text": "Someone finds you online at 9pm, maybe later. They're on their phone, scrolling through options, ready to book something for the weekend. If your website lets them do that right there, they will. If it doesn't, they'll move on to someone else's. A good website catches those people. The ones browsing after work, the ones who hate making phone calls, the ones who just want to tap a few buttons and be done with it. Your calendar fills up in the background while you're doing literally anything else."
+        "text": "Someone finds you online at 9pm, scrolling through options on their phone. If your website lets them book right there, they will. If it doesn't, they'll move on to someone else. A good website catches those people. The ones browsing after work, the ones who hate phone calls. Your calendar fills up in the background while you're doing literally anything else."
       },
       {
         "icon": "/assets/svgs/icons/medal-1.svg",
         "title": "You Actually Look Like the Professional You Are",
-        "text": "Most people make up their minds about a business within a few seconds of landing on their website. That's not an exaggeration. A handful of seconds. If what they see looks outdated, or confusing, or like it hasn't been touched since 2017, they're gone. Doesn't matter how good you are at what you do. They'll never find out. A clean, professional site gives people confidence before they've even met you. It says \"this person takes their business seriously\" without you having to say anything at all."
+        "text": "Most people make up their minds about a business within a few seconds of landing on their website. A handful of seconds. If what they see looks outdated or confusing, they're gone. Doesn't matter how good you are at what you do. They'll never find out. A clean, professional site gives people confidence before they've even met you. It says \"this person takes their business seriously\" without a word."
       },
       {
         "icon": "/assets/svgs/icons/maintenance.svg",
         "title": "You Don't Have to Think About Any of This",
-        "text": "Websites can be annoying. Updates, plugins, hosting renewals, random things breaking for no obvious reason. Most business owners either spend hours trying to figure it out themselves or just let it sit there gathering dust. We take that whole situation off your hands. Something needs updating? We do it. Something breaks? We fix it. You don't log into anything, you don't troubleshoot anything, you don't lose sleep over any of it. The website runs, it works, and you get on with the actual business of treating people."
+        "text": "Websites can be annoying. Updates, plugins, hosting renewals, random things breaking for no obvious reason. Most business owners either spend hours trying to figure it out themselves or just let it sit there gathering dust. We take that whole situation off your hands. Something needs updating? We do it. Something breaks? We fix it. The website runs, it works, and you get on with treating people."
       }
     ]
   },
@@ -57,39 +57,33 @@
     ]
   },
   "features": {
-    "imageMobile": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/people10.jpg",
-    "imageDesktop": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/people10.jpg",
-    "imageFallback": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/people10.jpg",
-    "imageAlt": "Professional web development team at work",
-    "boxIcon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/gear-white.svg",
-    "boxText": "95-100 Google PageSpeed Score",
     "topper": "What's Included",
     "title": "Everything's Already in There",
     "text": "Six things come standard with every website we build. No tiers, no \"premium upgrades,\" no surprises three months down the line when you realise you need something that costs extra. It's all included from day one.",
     "items": [
       {
         "title": "Change Whatever You Want, Whenever You Want",
-        "text": "Prices go up? New treatment on the menu? Better photos from that professional shoot you finally did? Just send us an email. We'll have it updated within 24 hours, usually faster. There are no extra charges, and no limits on how often you can ask. The website should reflect where your business is right now, and we make sure it does."
+        "text": "Prices go up? New treatment on the menu? Better photos? Send us an email. We'll have it updated within 24 hours, usually faster. No extra charges, no limits on requests."
       },
       {
         "title": "Built for Phones First",
-        "text": "Roughly 75% of people looking for a massage are doing it from their phone. So that's where we start when we design. Every button is easy to tap. Every form is simple to fill out. Everything loads quickly on mobile data. Because if it doesn't work smoothly on a phone, it doesn't work for most of your customers."
+        "text": "Roughly 75% of people looking for a massage are doing it from their phone. Every button is easy to tap. Every form is simple to fill out. Everything loads quickly."
       },
       {
         "title": "Properly Fast",
-        "text": "Slow websites lose people. Someone clicks a link, waits three seconds, nothing happens, and they hit the back button. Gone. Ours consistently score between 95 and 100 on Google's speed tests. Pages load almost instantly. People stay longer. And Google notices too, which helps you show up higher in search results."
+        "text": "Slow websites lose people. Three seconds of waiting and they hit the back button. Ours score between 95 and 100 on Google's speed tests. Pages load almost instantly."
       },
       {
         "title": "Clean Code, Proper SEO",
-        "text": "We don't use bloated website builders that stuff your site full of code it doesn't need. Everything is hand-coded, clean, and structured the way Google likes it. Meta tags, schema markup, all the technical bits that help you rank when someone types \"Thai massage near me\" into their phone. You don't need to understand any of it, just know we're taking care of it."
+        "text": "We don't use bloated website builders. Everything is hand-coded, clean, and structured the way Google likes it. Meta tags, schema markup, all the technical bits that help you rank."
       },
       {
         "title": "Actually Made for Thai Massage",
-        "text": "This isn't a generic template where we swap out the logo and call it done. The whole thing is designed around what Thai massage businesses need. Service pages laid out properly. Design elements that feel authentic to traditional Thai healing. It looks like a Thai massage website because it was built to be one."
+        "text": "This isn't a generic template with a logo swap. The whole thing is designed around what Thai massage businesses need. Service pages laid out properly. Design elements that feel authentic."
       },
       {
         "title": "Multiple Languages, One Website",
-        "text": "Your customers might be able to speak English. Or German. Or Italian, or Spanish, or something else, depending on where you live. We make the whole site in English and any other language you need. With just one click, visitors can switch between them."
+        "text": "Your customers might speak English, German, Italian, Spanish. We build the site in any languages you need. Visitors switch between them with one click."
       }
     ]
   },
