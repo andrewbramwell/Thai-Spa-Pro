@@ -25,7 +25,7 @@ const navData = [
     ]
   },
   {
-    key: "Pricing & FAQ",
+    key: "Pricing",
     url: "/pricing",
     children: []
   },

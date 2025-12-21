@@ -20,17 +20,17 @@
     "text": "",
     "items": [
       {
-        "icon": "/assets/svgs/icons/cost.svg",
+        "icon": "/assets/svgs/icons/easy.svg",
         "title": "Money Coming In While You Rest",
         "text": "Someone buys a voucher from your website while you're asleep, or having dinner, or just done for the day. You check your phone the next morning and there's a payment sitting there. Christmas, Mother's Day, birthdays. All those gift-giving moments where people need something last-minute. Your shop doesn't need to be open for any of it."
       },
       {
-        "icon": "/assets/svgs/icons/cashflow.svg",
+        "icon": "/assets/svgs/icons/bank.svg",
         "title": "Paid Now, Work Later",
         "text": "You get the cash when they buy, but the massage might not happen for weeks. Maybe even months. That money sits in your account right now, covering rent during January when nobody wants to leave the house, or keeping things steady through those random quiet patches every business gets. Bills don't wait for customers to show up. Having voucher money already banked takes a lot of the stress out of slower periods."
       },
       {
-        "icon": "/assets/svgs/icons/fraud.svg",
+        "icon": "/assets/svgs/icons/shield.svg",
         "title": "No Tracking Nightmares",
         "text": "Anyone who's done vouchers manually knows it's a mess. Who bought what? Has this one been used? Is that code even valid? You're digging through notebooks or old emails trying to piece it together. The system handles all of that for you automatically, so nothing slips through and you're not second-guessing yourself every time someone walks in with a piece of paper."
       }

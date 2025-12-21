@@ -64,5 +64,11 @@
       "videoAlt": "Bliss Thai Spa testimonial",
       "website": "https://example.com"
     }
-  ]
+  ],
+  "cta": {
+    "topper": "Ready to Join Them?",
+    "title": "See What We Can Do for Your Business",
+    "text": "We'd love to have a chat and show you how we can help your spa grow. No pressure, just a proper conversation about what you need.",
+    "buttonText": "Get in Touch"
+  }
 }
