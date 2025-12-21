@@ -4,7 +4,6 @@
     "description": "Sell gift vouchers from your website 24/7. Instant delivery, automatic tracking, your branding."
   },
   "hero": {
-    "topper": "Gift Voucher Management",
     "title": "Online Gift Vouchers for Your Thai Massage Business",
     "text": "People buy them from your website, get them delivered to their inbox, and you never have to lift a finger. Works while you're busy, works while you're closed, even works while you're on holiday.",
     "cta1": "Let's Talk",
@@ -57,12 +56,6 @@
     ]
   },
   "features": {
-    "imageMobile": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/people10.jpg",
-    "imageDesktop": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/people10.jpg",
-    "imageFallback": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/people10.jpg",
-    "imageAlt": "Gift voucher management dashboard",
-    "boxIcon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/gear-white.svg",
-    "boxText": "Delivered in Under 60 Seconds",
     "topper": "What's Included",
     "title": "Everything's Already in There",
     "text": "Complete system, ready to go. No setup fees, no monthly extras.",

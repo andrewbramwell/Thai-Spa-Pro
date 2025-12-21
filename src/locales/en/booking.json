@@ -4,7 +4,6 @@
     "description": "Let customers book themselves in any time. Automatic reminders, calendar sync, and deposit payments. No more phone interruptions during treatments."
   },
   "hero": {
-    "topper": "Online Booking System",
     "title": "Online Booking for Your Thai Massage Business",
     "text": "Customers book themselves in, any time, from any device. Reminders go out automatically and you stop getting interrupted mid-treatment to answer the phone.",
     "cta1": "Let's Talk",
@@ -57,12 +56,6 @@
     ]
   },
   "features": {
-    "imageMobile": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/people10.jpg",
-    "imageDesktop": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/people10.jpg",
-    "imageFallback": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/people10.jpg",
-    "imageAlt": "Online booking system dashboard",
-    "boxIcon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/gear-white.svg",
-    "boxText": "24/7 Automatic Booking",
     "topper": "What's Included",
     "title": "Everything's Already in There",
     "text": "Everything listed below comes standard. No premium tiers or unlocking features later.",

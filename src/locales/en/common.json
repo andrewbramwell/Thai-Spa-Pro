@@ -5,10 +5,10 @@
     "Services": "Services",
     "Websites": "Websites",
     "Online Booking": "Online Booking",
-    "Gift Vouchers": "Gift Voucher Management",
+    "Gift Vouchers": "Gift Vouchers",
     "AI Receptionist": "AI Receptionist",
-    "Reputation Management": "Review Automation",
-    "Pricing & FAQ": "Pricing",
+    "Reputation Management": "Review System",
+    "Pricing": "Pricing",
     "Testimonials": "Testimonials",
     "theme-label": "Select theme",
     "language-label": "Select language",
@@ -22,27 +22,12 @@
         "dark": "Dark",
         "auto": "Auto"
     },
-    "quote": "Get Free Quote",
-    "estimate": "Get an Estimate",
-    "ctaComponent": {
-        "title": "Entrust your project",
-        "subtitle": "to our experts",
-        "message": "Say something catchy, informative, and encouraging to click the button to go to the contact page. I like to add this banner at the bottom of each page.",
-        "cta": "Get a Quote",
-        "alt": " "
-    },
-    "cta": {
-        "topper": "Let's Talk",
-        "title": "Focus on Clients. We'll Handle the Rest.",
-        "text": "See how we can transform your business with our complete, done-for-you system.",
-        "buttonText": "Get Started Today"
-    },
     "footer": {
         "information": "Information",
         "services": "Services",
         "contact": "Contact",
         "click": "Send us an email",
-        "p": "Professional online systems for Thai massage businesses. Fully managed websites, booking, AI, reviews, and more. UK-based company with Thai and English support.",
+        "p": "We set up Thai massage businesses online and keep everything running. No tech headaches, no agency nonsense, and definitely no surprises on your bill.",
         "credit": "Designed and coded by "
     },
     "notFound": {

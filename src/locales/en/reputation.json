@@ -4,7 +4,6 @@
     "description": "Automatic review collection for Thai massage businesses. Get more 5-star Google reviews, respond professionally, build your reputation on autopilot."
   },
   "hero": {
-    "topper": "Reputation Management",
     "title": "Get the Reviews Your Thai Massage Business Deserves",
     "text": "Our system asks happy clients to leave reviews, sends reminders, and builds your reputation while you focus on treatments. More 5-star reviews means more people finding you.",
     "cta1": "Get in Touch",
@@ -30,7 +29,7 @@
         "text": "Google pays attention to reviews. A business with lots of recent, positive ones gets pushed up in the search results. When someone types \"Thai massage near me\" you want to be near the top of that list, not buried on page two where nobody looks. Reviews help get you there."
       },
       {
-        "icon": "/assets/svgs/icons/24-hour-cog.svg",
+        "icon": "/assets/svgs/icons/chat.svg",
         "title": "No More Awkward Asking",
         "text": "You know that slightly uncomfortable moment after a treatment where you're wondering whether to ask for a review? Most people hate doing it. It can feel pushy. The system handles it for you. Sends a friendly request automatically and follows up if needed."
       }
@@ -57,12 +56,6 @@
     ]
   },
   "features": {
-    "imageMobile": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/people10.jpg",
-    "imageDesktop": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/people10.jpg",
-    "imageFallback": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/people10.jpg",
-    "imageAlt": "Reputation management dashboard showing reviews",
-    "boxIcon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/gear-white.svg",
-    "boxText": "Build 100+ Reviews in Months",
     "topper": "What's Included",
     "title": "Everything's Already in There",
     "text": "Collects reviews, responds to them, and protects your rating when things go wrong. Your happy customers become your best marketing without you doing anything.",
@@ -73,7 +66,7 @@
       },
       {
         "title": "Replies to Positive Reviews",
-        "text": "Every 5-star review gets a proper thank-you response. The AI writes something genuine using the person's name and what they actually said. This makes people feel appreciated, and shows future customers you're paying attention."
+        "text": "Every 5-star Google review gets a proper thank-you response. The AI writes something genuine using the person's name and what they actually said. This makes people feel appreciated, and shows future customers you're paying attention."
       },
       {
         "title": "Shares to Facebook Automatically",
@@ -92,7 +85,7 @@
   "cta": {
     "topper": "Ready to Go?",
     "title": "Start Building Your Reputation",
-    "text": "Let's talk about getting more reviews. We'll show you how the whole thing works.",
+    "text": "Let's talk about getting more Google reviews. We'll show you how the whole thing works.",
     "buttonText": "Get in Touch"
   }
 }

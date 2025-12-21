@@ -4,7 +4,6 @@
     "description": "Never miss a booking. AI answers calls and messages in perfect English, any time of day. Handles enquiries while you focus on clients."
   },
   "hero": {
-    "topper": "AI Receptionist",
     "title": "AI Receptionist for Your Thai Massage Business",
     "text": "Never miss another booking. Your AI receptionist answers calls and messages instantly, even when you're with a client or closed for the day. Professional service, around the clock.",
     "cta1": "Get in Touch",
@@ -57,12 +56,6 @@
     ]
   },
   "features": {
-    "imageMobile": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/people10.jpg",
-    "imageDesktop": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/people10.jpg",
-    "imageFallback": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/people10.jpg",
-    "imageAlt": "AI receptionist system in action",
-    "boxIcon": "https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/gear-white.svg",
-    "boxText": "Speaks Perfect English, So You Don't Have To",
     "topper": "What's Included",
     "title": "Everything's Already in There",
     "text": "Handles calls, messages, and enquiries across every platform. Trained on your business, answers questions properly, and guides people toward booking. You don't have to be involved.",

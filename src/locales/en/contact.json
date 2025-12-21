@@ -1,7 +1,7 @@
 {
   "layout": {
-    "title": "Contact Us | Get in Touch with VoucherStore",
-    "description": "Get in touch with VoucherStore via phone, WhatsApp, or Facebook Messenger. We're here to help your Thai massage or spa business succeed online."
+    "title": "Contact ThaiSpaPro | Let's Talk About Your Business",
+    "description": "Reach ThaiSpaPro by phone, WhatsApp, or messenger. We speak Thai and English. Let's chat about getting your massage business set up online."
   },
   "landing": {
     "title": "Contact Us"
@@ -22,7 +22,7 @@
     },
     "messenger": {
       "label": "Facebook Messenger",
-      "link": "https://m.me/voucherstore",
+      "link": "https://m.me/thaispapro",
       "display": "Chat on Messenger"
     }
   },
