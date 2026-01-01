@@ -1,15 +1,15 @@
 {
-	"name": "Code Stitch Web Designs",
-	"email": "help@codestitch.app",
+	"name": "ThaiSpaPro",
+	"email": "help@thaispapro.com",
 	"phoneForTel": "+447123456789",
 	"phoneFormatted": "+44 7123 456789",
 	"address": {
-		"lineOne": "First Address Line",
-		"lineTwo": "Second Address Line",
-		"city": "Denver",
-		"state": "CO",
-		"zip": "80206",
-		"mapLink": "https://goo.gl/maps/UAQn4vuGDiwv7DV39"
+		"lineOne": "",
+		"lineTwo": "",
+		"city": "",
+		"state": "",
+		"zip": "",
+		"mapLink": ""
 	},
-	"domain": "www.codestitch.app"
+	"domain": "www.thaispapro.com"
 }
