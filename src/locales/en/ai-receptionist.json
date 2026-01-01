@@ -40,18 +40,18 @@
     "title": "Businesses Already Using This",
     "items": [
       {
-        "image": "https://csimages2.nyc3.digitaloceanspaces.com/Reviews/profile5.jpg",
+        "image": "/assets/images/testimonials/may.webp",
         "imageAlt": "Profile picture of satisfied client",
-        "text": "We were losing 30-40 calls per week to voicemail. Now every single call is answered instantly, and we're booking 20+ extra appointments per month. The AI sounds so natural, clients are amazed when I tell them it's not a real person.",
-        "name": "Rachel Stevens",
-        "title": "Owner, Bliss Thai Massage"
+        "text": "I used to lose bookings every day because I couldn’t answer the phone during a treatment. I hated hearing it ring while I was busy! Now the AI picks up my calls instantly and handles the customers for me. I’ve stopped missing calls completely.",
+        "name": "May",
+        "title": "Owner, Sri-Chan Thai Massage, UK"
       },
       {
-        "image": "https://csimages2.nyc3.digitaloceanspaces.com/Reviews/profile5.jpg",
+        "image": "/assets/images/testimonials/maliwan.webp",
         "imageAlt": "Profile picture of satisfied client",
-        "text": "Best investment we've ever made. The AI handles all our calls professionally, books appointments accurately, and works 24/7. Our revenue has increased by 25% just from not missing calls anymore. It's like having a perfect receptionist who never takes a break.",
-        "name": "Tom Williams",
-        "title": "Manager, Harmony Spa & Wellness"
+        "text": "Managing phone calls and Facebook messages while I’m with clients used to be so distracting. Now the AI handles everything for me. The replies are written so professionally and clearly that I don't have to worry about my phone at all.",
+        "name": "Wan",
+        "title": "Owner, Maliwan Thai Theraputic Massage, UK"
       }
     ]
   },

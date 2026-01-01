@@ -40,18 +40,18 @@
     "title": "Businesses Already Using This",
     "items": [
       {
-        "image": "https://csimages2.nyc3.digitaloceanspaces.com/Reviews/profile5.jpg",
+        "image": "/assets/images/testimonials/smile.webp",
         "imageAlt": "Profile picture of satisfied client",
-        "text": "We've sold over £15,000 in gift vouchers in the first 6 months! The system is so easy - customers buy online and everything is tracked automatically. It's become a significant revenue stream for our spa.",
-        "name": "Emma Wilson",
-        "title": "Owner, Lotus Thai Spa"
+        "text": "I never thought about selling vouchers before, but Kris showed me how easy it is. Now I see people buying them for birthdays and gifts even when I’m closed. It is a great way to make some extra money. I’m very happy I tried it.",
+        "name": "May",
+        "title": "Owner, Smile Beauty Spa, UK"
       },
       {
-        "image": "https://csimages2.nyc3.digitaloceanspaces.com/Reviews/profile5.jpg",
+        "image": "/assets/images/testimonials/nuch.webp",
         "imageAlt": "Profile picture of satisfied client",
-        "text": "The Christmas period was incredible - we sold vouchers around the clock without lifting a finger. The automatic email delivery means customers get instant gratification, and we get instant revenue. Brilliant system.",
-        "name": "David Chen",
-        "title": "Director, Serenity Wellness"
+        "text": "I used to have paper vouchers everywhere and it was a mess to track. I always worried about making a mistake with a customer. Now it’s all handled on the website and the system tracks everything for me. It’s very simple to use.",
+        "name": "Nuch",
+        "title": "Owner, True Thai Therapy, UK"
       }
     ]
   },

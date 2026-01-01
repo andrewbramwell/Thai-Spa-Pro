@@ -40,18 +40,18 @@
     "title": "Businesses Already Using This",
     "items": [
       {
-        "image": "https://csimages2.nyc3.digitaloceanspaces.com/Reviews/profile5.jpg",
+        "image": "/assets/images/testimonials/jo.webp",
         "imageAlt": "Profile picture of satisfied client",
-        "text": "We were losing so many bookings because we couldn't answer the phone during treatments. Now we get bookings 24/7 and our no-show rate dropped from 25% to less than 5%. It's paid for itself ten times over.",
-        "name": "Lisa Anderson",
-        "title": "Owner, Tranquil Touch Spa"
+        "text": "Before ThaiSpaPro, I had many missed appointments. It was a big waste of my time and I was losing a lot of money. Now that the system sends out the reminders automatically, I have seen a big reduction in no-shows. My clients are much more reliable now, and it makes my life so much easier.",
+        "name": "Jo",
+        "title": "Owner, Bamboo Thai Massage, UK"
       },
       {
-        "image": "https://csimages2.nyc3.digitaloceanspaces.com/Reviews/profile5.jpg",
+        "image": "/assets/images/testimonials/nang.webp",
         "imageAlt": "Profile picture of satisfied client",
-        "text": "Our customers love the convenience of booking online. We've seen a 35% increase in bookings since launching, and my staff are so much happier not being tied to the phone all day. Best decision we ever made.",
-        "name": "Michael Brown",
-        "title": "Manager, Thai Harmony Wellness"
+        "text": "I was worried a new system would be too complicated for us, but Kris made it so simple. Even my staff who aren't good with computers find it very easy to check the schedule and manage their day. It’s saved me so much time and we have even seen an increase in bookings.",
+        "name": "Nang",
+        "title": "Owner, The Icon Siam, UK"
       }
     ]
   },

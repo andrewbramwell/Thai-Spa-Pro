@@ -102,18 +102,18 @@
     "title": "Words From People Like You",
     "items": [
       {
-        "image": "https://csimages2.nyc3.digitaloceanspaces.com/Reviews/profile5.jpg",
+        "image": "/assets/images/testimonials/may.webp",
         "imageAlt": "Profile picture of satisfied client",
-        "text": "ThaiSpaPro transformed our business completely. Our new website looks amazing, bookings have tripled, and the gift voucher system has become a major revenue stream. Everything is automated - we just focus on our clients now.",
-        "name": "Nong Smith",
-        "title": "Owner, Thai Serenity Spa, London"
+        "text": "Kris takes care of everything for me and explains it all in Thai so I really understand. I used to be so worried about the technology, but now I feel confident. It is a big relief to have her help.",
+        "name": "May",
+        "title": "Owner, Sri-Chan Thai Massage, UK "
       },
       {
-        "image": "https://csimages2.nyc3.digitaloceanspaces.com/Reviews/profile5.jpg",
+        "image": "/assets/images/testimonials/aom.webp",
         "imageAlt": "Profile picture of satisfied client",
-        "text": "The AI receptionist is incredible - it answers every call perfectly in both English and Thai. We're ranking #1 on Google Maps now and getting 40+ bookings per week just from online. Best investment we ever made.",
-        "name": "Som Johnson",
-        "title": "Manager, Lotus Thai Massage, Manchester"
+        "text": "Kris really understood my experience and built a beautiful site that shows my work properly. I am so happy with how professional everything looks now. It feels great to have a team that truly supports my business.",
+        "name": "Kru Aom",
+        "title": "Owner, Jidapha's Spa, UK"
       }
     ]
   },

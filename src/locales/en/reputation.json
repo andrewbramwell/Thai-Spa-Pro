@@ -40,18 +40,18 @@
     "title": "Businesses Already Using This",
     "items": [
       {
-        "image": "https://csimages2.nyc3.digitaloceanspaces.com/Reviews/profile5.jpg",
+        "image": "/assets/images/testimonials/nuch.webp",
         "imageAlt": "Profile picture of satisfied client",
-        "text": "We went from 12 Google reviews to 147 in just 6 months! Our average rating went from 4.2 to 4.9 stars. New customers constantly mention they chose us because of our excellent reviews. The system makes it so easy - it's completely automated.",
-        "name": "Sophie Turner",
-        "title": "Owner, Serenity Thai Spa"
+        "text": "Before, it was hard to get people to leave feedback, but now our Google reviews are growing every week. We are showing up much higher when people search for us. I also love that the reviews are posted to Facebook automatically—it makes my page much more interesting.",
+        "name": "Nuch",
+        "title": "Owner, True Thai Therapy, UK"
       },
       {
-        "image": "https://csimages2.nyc3.digitaloceanspaces.com/Reviews/profile5.jpg",
+        "image": "/assets/images/testimonials/jay.webp",
         "imageAlt": "Profile picture of satisfied client",
-        "text": "The review responses alone are worth it. Every review gets a professional, personalised response within hours. We've turned several negative reviews into repeat customers because of how well the responses were handled. Our bookings have increased 40% since we started.",
-        "name": "Daniel Cooper",
-        "title": "Manager, Urban Wellness Centre"
+        "text": "I always felt shy asking my clients for reviews after a massage. It felt too pushy, so I just didn't do it. Now the system sends a friendly message for me and the 5-star reviews just keep coming in. It’s much better this way!",
+        "name": "Jay",
+        "title": "Owner, Ilkley Thai Massage, UK"
       }
     ]
   },
