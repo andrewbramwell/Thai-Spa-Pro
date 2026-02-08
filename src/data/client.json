@@ -12,7 +12,7 @@
 		"country": "GB",
 		"mapLink": ""
 	},
-	"domain": "www.thaispapro.com",
+	"domain": "thaispapro.com",  
 	"description": "Complete digital services for Thai massage and spa businesses. Website, bookings, reviews, gift vouchers, and AI receptionist. Fully managed, Thai and English support.",
 	"social": {
 		"facebook": "https://www.facebook.com/thaispapro",
@@ -24,8 +24,8 @@
 		"@context": "https://schema.org",
 		"@type": "Organization",
 		"name": "ThaiSpaPro",
-		"url": "https://www.thaispapro.com",
-		"logo": "https://www.thaispapro.com/assets/images/logo-small.png",
+		"url": "https://thaispapro.com",  
+		"logo": "https://thaispapro.com/assets/images/logo-small.png",  
 		"description": "Complete digital services for Thai massage and spa businesses. Website, bookings, reviews, gift vouchers, and AI receptionist. Fully managed, Thai and English support.",
 		"address": {
 			"@type": "PostalAddress",

@@ -4,7 +4,7 @@ import i18n from "@astrolicious/i18n";
 import sitemap from "@astrojs/sitemap";
 
 export default defineConfig({
-  site: "https://www.thaispapro.com",
+  site: "https://thaispapro.com",
   build: {
     inlineStylesheets: 'auto',
   },
