@@ -21,27 +21,18 @@ interface Props {
 const { description, title, preloadedImage } = Astro.props as Props;
 
 const locales = getLocales();
-// Trimming "/" from the beginning and end to handle URLs with or without trailing slashes.
 const trimmedLocales = trimArrSlashes(locales);
 const trimmedPathname = trimStringSlashes(Astro.url.pathname);
 
 const isLandingPage = Astro.url.pathname === "/" || trimmedLocales.includes(trimmedPathname);
 ---
 
-<!-- A fully fleshed-out <head>, dynamically changing based on client.json and the page front matter -->
 <html {...getHtmlAttrs()}>
-	<!-- Automatically generates attributes -->
 	<head>
-		<!-- i18n support -->
 		<I18nClient />
-
-		<!-- View Transitions support -->
 		<ClientRouter />
-
-		<!-- Preloads the image passed as a prop -->
 		<link rel="preload" href={preloadedImage.src} as="image" />
 
-		<!-- Standard meta tags -->
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -50,10 +41,8 @@ const isLandingPage = Astro.url.pathname === "/" || trimmedLocales.includes(trim
 		<link rel="canonical" href={`https://${client.domain}${Astro.url.pathname}`} />
 		<link rel="sitemap" href="/sitemap-index.xml" />
 
-		<!-- automatically generates hreflang alternate links to improve SEO -->
 		<I18nHead />
 
-		<!--Social Media Display-->
 		<meta property="og:title" content={title} />
 		<meta property="og:description" content={description} />
 		<meta property="og:type" content="website" />
@@ -61,43 +50,23 @@ const isLandingPage = Astro.url.pathname === "/" || trimmedLocales.includes(trim
 		<meta property="og:image" content="/assets/images/logo-small.png" />
 		<meta property="og:image:secure_url" content="/assets/images/logo-small.png" />
 
-		<!--Favicons-->
 		<link rel="icon" type="image/png" href="/assets/favicons/favicon-96x96.png" sizes="96x96" />
 		<link rel="icon" type="image/svg+xml" href="/assets/favicons/favicon.svg" />
 		<link rel="shortcut icon" href="/assets/favicons/favicon.ico" />
 		<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png" />
 		<link rel="manifest" href="/assets/favicons/site.webmanifest" />
 
-		<!--For home page, use service keywords for the title, including location for SEO.
-        Other pages should just include the page name.
-        
-        EXAMPLE:
-        Home page - House Painting Contractors | Painters and Co. | TestCity, WA
-        About Page - About us | Painters and Co.
-        -->
-		<title>
-			{
-				isLandingPage
-					? `${title}
-            |
-            ${client.name}
-            |
-            ${client.address.city},
-            ${client.address.state}`
-					: `${title}
-                |
-                ${client.name}`
-			}
-		</title>
+		<title>{title}</title>
 
-		<!-- Dark / Light mode component -->
+		<!-- Schema.org structured data from client.json -->
+		{client.schema && (
+			<script type="application/ld+json" set:html={JSON.stringify(client.schema)} />
+		)}
+
 		<ThemeProvider />
-
-		<!-- Navigation script -->
 		<script src="@assets/js/nav.js"></script>
 	</head>
 	<body>
-		<!--Screen reader skip main nav-->
 		<a class="skip" aria-label="skip to main content" href="#main">{t("skipLink")}</a>
 
 		<Header />
@@ -108,7 +77,6 @@ const isLandingPage = Astro.url.pathname === "/" || trimmedLocales.includes(trim
 	</body>
 </html>
 
-{/* Inlined to avoid FOUC. Uses global scope from `ThemeProvider.astro` */}
 <script is:inline>
 	StarlightThemeProvider.getPreferredColorScheme();
 	StarlightThemeProvider.updatePickers();

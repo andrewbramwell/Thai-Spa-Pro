@@ -1,15 +1,64 @@
 {
 	"name": "ThaiSpaPro",
-	"email": "help@thaispapro.com",
-	"phoneForTel": "+447123456789",
-	"phoneFormatted": "+44 7123 456789",
+	"email": "hello@thaispapro.com",
+	"phoneForTel": "+447398769843",
+	"phoneFormatted": "07398 769843",
 	"address": {
 		"lineOne": "",
 		"lineTwo": "",
 		"city": "",
 		"state": "",
 		"zip": "",
+		"country": "GB",
 		"mapLink": ""
 	},
-	"domain": "www.thaispapro.com"
+	"domain": "www.thaispapro.com",
+	"description": "Complete digital services for Thai massage and spa businesses. Website, bookings, reviews, gift vouchers, and AI receptionist. Fully managed, Thai and English support.",
+	"social": {
+		"facebook": "https://www.facebook.com/thaispapro",
+		"instagram": "",
+		"whatsapp": "https://wa.me/447398769843",
+		"messenger": "https://m.me/thaispapro"
+	},
+	"schema": {
+		"@context": "https://schema.org",
+		"@type": "Organization",
+		"name": "ThaiSpaPro",
+		"url": "https://www.thaispapro.com",
+		"logo": "https://www.thaispapro.com/assets/images/logo-small.png",
+		"description": "Complete digital services for Thai massage and spa businesses. Website, bookings, reviews, gift vouchers, and AI receptionist. Fully managed, Thai and English support.",
+		"address": {
+			"@type": "PostalAddress",
+			"addressCountry": "GB"
+		},
+		"areaServed": [
+			{"@type": "Country", "name": "GB"},
+			{"@type": "Country", "name": "IE"},
+			{"@type": "Country", "name": "AU"},
+			{"@type": "Country", "name": "NZ"},
+			{"@type": "Country", "name": "CA"},
+			{"@type": "Country", "name": "US"},
+			{"@type": "Country", "name": "NL"},
+			{"@type": "Country", "name": "DK"},
+			{"@type": "Country", "name": "SE"},
+			{"@type": "Country", "name": "NO"},
+			{"@type": "Country", "name": "CH"},
+			{"@type": "Country", "name": "BE"},
+			{"@type": "Country", "name": "DE"},
+			{"@type": "Country", "name": "ES"},
+			{"@type": "Country", "name": "IT"},
+			{"@type": "Country", "name": "FR"}
+		],
+		"contactPoint": {
+			"@type": "ContactPoint",
+			"telephone": "+447398769843",
+			"contactType": "customer service",
+			"availableLanguage": ["en", "th"]
+		},
+		"sameAs": [
+			"https://www.facebook.com/thaispapro",
+			"https://wa.me/447398769843",
+			"https://m.me/thaispapro"
+		]
+	}
 }
