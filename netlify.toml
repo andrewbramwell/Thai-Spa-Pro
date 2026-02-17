@@ -2,14 +2,17 @@
   command = "npm run build"
   publish = "dist"
 
+# Serve XML files directly, don't route through the app
 [[redirects]]
-  from = "/sitemap*.xml"
-  to = "/sitemap:splat.xml"
+  from = "/*.xml"
+  to = "/:splat.xml"
   status = 200
   force = true
+  conditions = {Role = []}
 
 [[redirects]]
-  from = "/sitemap-index.xml"
-  to = "/sitemap-index.xml"
-  status = 200
+  from = "/sitemap-*.xml"
+  to = "/sitemap-:splat.xml"
+  status = 200  
   force = true
+  conditions = {Role = []}
